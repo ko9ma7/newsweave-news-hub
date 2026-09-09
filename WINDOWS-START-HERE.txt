@@ -1,0 +1,18 @@
+NewsWeave v1.0.3 - Windows GitHub Bootstrap
+===========================================
+
+This project creates a NEW repository under your active GitHub CLI account.
+Default repository name: newsweave-news-hub
+It is NOT configured as a fork.
+
+1. Extract the full ZIP file.
+2. Open the extracted "newsweave" folder.
+3. Double-click github-bootstrap.cmd inside that folder.
+4. Complete GitHub login / 2FA if requested.
+5. Confirm the console prints your ACTIVE GitHub account.
+6. The script creates/verifies <your-account>/newsweave-news-hub first.
+7. It then builds, tests, commits, pushes, enables Pages, waits for Actions, and creates v1.0.3.
+
+To change the repository name, visibility, description, or topics, edit only the variable block near the top of github-bootstrap.cmd.
+
+If anything fails, run github-diagnose.cmd from the SAME folder and inspect github-bootstrap.log / github-bootstrap-result.txt.

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "categories": ["WORLD", "ECONOMY", "TECHNOLOGY", "SCIENCE", "HEALTH", "CLIMATE", "SPACE", "CULTURE", "SPORTS", "AI"],
+  "defaultCollections": [
+    {"name":"경제 · 시장","description":"경제, 금융, 기업과 시장 변화를 자동으로 모읍니다.","autoSync":true,"rules":{"categories":["ECONOMY"],"keywords":[],"sources":[],"mode":"any"}},
+    {"name":"기술 · AI","description":"기술 산업과 인공지능 흐름을 함께 추적합니다.","autoSync":true,"rules":{"categories":["TECHNOLOGY","AI"],"keywords":[],"sources":[],"mode":"any"}},
+    {"name":"과학 · 건강","description":"연구, 과학, 의료·바이오 뉴스를 한곳에 정리합니다.","autoSync":true,"rules":{"categories":["SCIENCE","HEALTH"],"keywords":[],"sources":[],"mode":"any"}},
+    {"name":"기후 · 우주","description":"기후·에너지와 우주·천문 분야의 장기 변화를 모읍니다.","autoSync":true,"rules":{"categories":["CLIMATE","SPACE"],"keywords":[],"sources":[],"mode":"any"}}
+  ]
+}

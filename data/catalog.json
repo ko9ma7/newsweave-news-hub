@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "product": "NewsWeave",
+  "generatedAt": "2026-09-09T22:40:01.495Z",
+  "contentVersion": "4f53cda18c2baa0c",
+  "stats": {
+    "totalItems": 0,
+    "externalItems": 0,
+    "configuredSources": 10,
+    "enabledSources": 10,
+    "categories": [
+      {
+        "name": "WORLD",
+        "count": 0
+      },
+      {
+        "name": "ECONOMY",
+        "count": 0
+      },
+      {
+        "name": "TECHNOLOGY",
+        "count": 0
+      },
+      {
+        "name": "SCIENCE",
+        "count": 0
+      },
+      {
+        "name": "HEALTH",
+        "count": 0
+      },
+      {
+        "name": "CLIMATE",
+        "count": 0
+      },
+      {
+        "name": "SPACE",
+        "count": 0
+      },
+      {
+        "name": "CULTURE",
+        "count": 0
+      },
+      {
+        "name": "SPORTS",
+        "count": 0
+      },
+      {
+        "name": "AI",
+        "count": 0
+      }
+    ],
+    "sources": []
+  },
+  "items": []
+}

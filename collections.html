@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#05060a">
+<title>NewsWeave · 뉴스 모음집</title>
+<meta name="description" content="분야별로 자동 수집한 뉴스를 카테고리·키워드·출처 기준으로 검색하고 여러 모음집에 자동 분류하여 저장하는 로컬 우선 뉴스 저장소입니다.">
+<link rel="canonical" href="https://ko9ma7.github.io/newsweave-news-hub/collections.html" data-site-meta="canonical">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:title" content="NewsWeave · 뉴스 모음집">
+<meta property="og:description" content="카테고리·키워드·출처 규칙으로 다양한 분야의 뉴스를 검색하고 여러 모음집에 자동 정리하는 로컬 우선 저장소.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NewsWeave">
+<meta property="og:url" content="https://ko9ma7.github.io/newsweave-news-hub/collections.html" data-site-meta="og-url">
+<meta property="og:image" content="https://ko9ma7.github.io/newsweave-news-hub/og-image.png" data-site-meta="og-image">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NewsWeave · 뉴스 모음집">
+<meta name="twitter:description" content="카테고리·키워드·출처 규칙으로 다양한 분야의 뉴스를 검색하고 여러 모음집에 자동 정리하는 로컬 우선 저장소.">
+<meta name="twitter:image" content="https://ko9ma7.github.io/newsweave-news-hub/og-image.png" data-site-meta="twitter-image">
+<link rel="stylesheet" href="assets/collections.css">
+<script type="application/ld+json" id="appSchema">{"@context":"https://schema.org","@type":"WebApplication","name":"NewsWeave","applicationCategory":"ProductivityApplication","operatingSystem":"Web","description":"분야별 뉴스를 검색하고 규칙 기반 모음집에 자동 정리하는 로컬 우선 웹앱","url":"https://ko9ma7.github.io/newsweave-news-hub/collections.html","inLanguage":"ko-KR"}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<div class="mesh" aria-hidden="true"></div>
+<header class="topbar">
+  <a class="brand" href="index.html" aria-label="NewsWeave 홈"><span class="brand-dot"></span>NewsWeave</a>
+  <nav class="view-tabs" aria-label="자료 저장소 화면">
+    <button class="tab is-active" type="button" data-view="explore">탐색</button>
+    <button class="tab" type="button" data-view="collections">모음집</button>
+    <button class="tab" type="button" data-view="activity">기록</button>
+  </nav>
+  <div class="top-actions">
+    <button class="btn ghost" type="button" id="addMaterialBtn">+ 자료 추가</button>
+    <button class="btn primary" type="button" id="createCollectionBtn">+ 모음집</button>
+  </div>
+</header>
+
+<main class="app-shell" id="main">
+  <aside class="sidebar" aria-label="내 모음집">
+    <div class="side-head">
+      <div>
+        <span class="micro">MY REPOSITORIES</span>
+        <h2>모음집</h2>
+      </div>
+      <button class="icon-btn" type="button" id="sideCreateBtn" aria-label="새 모음집 만들기">+</button>
+    </div>
+    <div class="side-stats" id="sideStats" aria-live="polite"></div>
+    <div class="collection-list" id="collectionList"></div>
+    <div class="side-actions">
+      <button class="btn soft full" type="button" id="syncAllBtn">자동 정리 실행</button>
+      <button class="btn ghost full" type="button" id="backupBtn">백업 / 복원</button>
+    </div>
+  </aside>
+
+  <section class="workspace">
+    <div id="loadingState" class="state-card">
+      <div class="spinner" aria-hidden="true"></div>
+      <h1>자료 카탈로그를 불러오는 중입니다.</h1>
+      <p>자동 수집 뉴스 카탈로그와 이 브라우저의 개인 모음집을 연결하고 있습니다.</p>
+    </div>
+
+    <section id="exploreView" class="view" hidden>
+      <div class="hero-row">
+        <div>
+          <span class="micro">SEARCH → TRANSFER → AUTO FILE</span>
+          <h1>원하는 기준으로 찾고,<br><span>모음집에 자동 정리합니다.</span></h1>
+          <p>GitHub Actions가 분야별로 자동 수집한 뉴스와 직접 추가한 링크를 한 번에 검색하고, 선택 저장하거나 규칙에 따라 여러 모음집으로 자동 분류할 수 있습니다.</p>
+        </div>
+        <div class="hero-metrics" id="heroMetrics"></div>
+      </div>
+
+      <form class="search-panel" id="searchForm" role="search">
+        <label class="search-box">
+          <span class="sr-only">자료 검색</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.2-4.2m1.2-5.3a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"/></svg>
+          <input id="searchInput" type="search" placeholder="예: 금리, 반도체, 우주, 기후, 축구, AI…" autocomplete="off">
+        </label>
+        <label class="field compact"><span>카테고리</span><select id="categoryFilter"><option value="">전체</option></select></label>
+        <label class="field compact"><span>정렬</span><select id="sortFilter"><option value="newest">최신순</option><option value="oldest">오래된순</option><option value="title">제목순</option></select></label>
+        <button class="btn primary search-submit" type="submit">검색</button>
+      </form>
+
+      <div class="filter-rail" id="categoryRail" aria-label="카테고리 빠른 필터"></div>
+
+      <div class="result-toolbar">
+        <div>
+          <strong id="resultCount">0개 자료</strong>
+          <span id="resultHint">검색어 없이 전체 자료를 탐색할 수 있습니다.</span>
+        </div>
+        <div class="bulk-actions">
+          <label class="check-all"><input type="checkbox" id="selectAllVisible"> 현재 목록 선택</label>
+          <select id="bulkCollection" aria-label="저장할 모음집 선택"></select>
+          <button class="btn soft" type="button" id="bulkSaveBtn" disabled>선택 저장 <span id="selectedCount">0</span></button>
+        </div>
+      </div>
+
+      <div id="resultList" class="result-list"></div>
+      <button class="btn ghost load-more" type="button" id="loadMoreBtn" hidden>더 보기</button>
+    </section>
+
+    <section id="collectionsView" class="view" hidden>
+      <div class="view-heading">
+        <div><span class="micro">COLLECTION REPOSITORIES</span><h1>모음집 저장소</h1><p>저장된 자료와 자동 분류 규칙을 모음집별로 관리합니다.</p></div>
+        <button class="btn primary" type="button" data-action="create-collection">새 모음집 만들기</button>
+      </div>
+      <div id="collectionsGrid" class="collections-grid"></div>
+    </section>
+
+    <section id="collectionDetailView" class="view" hidden>
+      <button class="back-link" type="button" id="backCollectionsBtn">← 모음집 목록</button>
+      <div id="collectionDetail"></div>
+    </section>
+
+    <section id="activityView" class="view" hidden>
+      <div class="view-heading">
+        <div><span class="micro">TRANSFER LOG</span><h1>정리 기록</h1><p>수동 저장과 규칙 기반 자동 전이 내역을 시간순으로 확인합니다.</p></div>
+        <button class="btn ghost" type="button" id="clearActivityBtn">기록 비우기</button>
+      </div>
+      <div id="activityList" class="activity-list"></div>
+    </section>
+
+    <section id="errorState" class="state-card error" hidden>
+      <h1>자료 저장소를 시작하지 못했습니다.</h1>
+      <p id="errorMessage">브라우저 저장소 또는 카탈로그 파일을 확인해주세요.</p>
+      <button class="btn primary" type="button" onclick="location.reload()">다시 시도</button>
+    </section>
+  </section>
+</main>
+
+<dialog class="modal" id="collectionDialog">
+  <form method="dialog" class="modal-card" id="collectionForm">
+    <div class="modal-head"><div><span class="micro">COLLECTION RULE</span><h2 id="collectionDialogTitle">새 모음집</h2></div><button class="icon-btn" type="button" data-close-dialog="collectionDialog" aria-label="닫기">×</button></div>
+    <input type="hidden" id="collectionId">
+    <div class="form-grid two">
+      <label class="field"><span>모음집 이름 *</span><input id="collectionName" maxlength="42" required placeholder="예: 반도체·공급망"></label>
+      <label class="field"><span>설명</span><input id="collectionDescription" maxlength="120" placeholder="무엇을 모으는 저장소인지 설명"></label>
+    </div>
+    <fieldset class="rule-block"><legend>카테고리 규칙</legend><p>선택한 카테고리에 해당하는 자료를 이 모음집의 후보로 봅니다.</p><div id="ruleCategories" class="rule-checks"></div></fieldset>
+    <div class="form-grid two">
+      <label class="field"><span>포함 키워드</span><textarea id="ruleKeywords" rows="4" placeholder="쉼표 또는 줄바꿈으로 구분&#10;예: 반도체, 공급망, 파운드리"></textarea><small>비워두면 카테고리만으로 분류합니다.</small></label>
+      <label class="field"><span>출처 키워드</span><textarea id="ruleSources" rows="4" placeholder="예: Reuters, 연합뉴스, BBC"></textarea><small>출처명 또는 도메인에 포함되면 일치합니다.</small></label>
+    </div>
+    <div class="form-grid two">
+      <label class="field"><span>키워드 판정</span><select id="ruleMode"><option value="any">하나라도 포함</option><option value="all">모두 포함</option></select></label>
+      <label class="toggle-field"><input type="checkbox" id="ruleAutoSync" checked><span><b>새 자료 자동 정리</b><small>카탈로그가 갱신되면 이 규칙을 자동 적용합니다.</small></span></label>
+    </div>
+    <div class="modal-actions"><button class="btn ghost" type="button" data-close-dialog="collectionDialog">취소</button><button class="btn primary" type="submit">저장하고 규칙 적용</button></div>
+  </form>
+</dialog>
+
+<dialog class="modal" id="materialDialog">
+  <form method="dialog" class="modal-card" id="materialForm">
+    <div class="modal-head"><div><span class="micro">MANUAL INBOX</span><h2>외부 자료 추가</h2></div><button class="icon-btn" type="button" data-close-dialog="materialDialog" aria-label="닫기">×</button></div>
+    <p class="modal-copy">웹 검색에서 찾은 링크를 직접 넣거나, config/sources.json의 정기 수집과 함께 사용하면 기존 카탈로그와 같은 방식으로 검색·자동 분류됩니다.</p>
+    <label class="field"><span>URL</span><input id="materialUrl" type="url" placeholder="https://example.com/article"></label>
+    <div class="form-grid two">
+      <label class="field"><span>제목 *</span><input id="materialTitle" required maxlength="180" placeholder="자료 제목"></label>
+      <label class="field"><span>카테고리</span><select id="materialCategory"></select></label>
+    </div>
+    <div class="form-grid two">
+      <label class="field"><span>출처</span><input id="materialSource" maxlength="80" placeholder="Reuters, 블로그명 등"></label>
+      <label class="field"><span>날짜</span><input id="materialDate" type="date"></label>
+    </div>
+    <label class="field"><span>요약 / 메모</span><textarea id="materialSummary" rows="5" maxlength="1600" placeholder="검색과 자동 분류에 사용할 핵심 내용"></textarea></label>
+    <div class="modal-actions"><button class="btn ghost" type="button" data-close-dialog="materialDialog">취소</button><button class="btn primary" type="submit">자료 추가 + 자동 정리</button></div>
+  </form>
+</dialog>
+
+<dialog class="modal" id="backupDialog">
+  <div class="modal-card narrow">
+    <div class="modal-head"><div><span class="micro">PORTABLE BACKUP</span><h2>백업 / 복원</h2></div><button class="icon-btn" type="button" data-close-dialog="backupDialog" aria-label="닫기">×</button></div>
+    <p class="modal-copy">모음집·저장 항목·직접 추가 자료·정리 기록을 하나의 JSON으로 내보내 다른 브라우저에서 복원할 수 있습니다.</p>
+    <div class="backup-actions">
+      <button class="btn primary full" type="button" id="exportBtn">JSON 백업 다운로드</button>
+      <label class="btn soft full file-btn">JSON 백업 불러오기<input type="file" id="importInput" accept="application/json,.json"></label>
+    </div>
+    <p class="warning">브라우저 데이터는 현재 기기에만 저장됩니다. 중요한 모음집은 주기적으로 백업하세요.</p>
+  </div>
+</dialog>
+
+<div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="true"></div>
+<script src="assets/collections.js" defer></script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(()=>{}));}</script>
+</body>
+</html>

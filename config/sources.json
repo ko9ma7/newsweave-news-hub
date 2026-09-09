@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "defaults": {
+    "maxItemsPerSource": 12,
+    "matchMode": "any",
+    "language": "ko",
+    "country": "KR"
+  },
+  "sources": [
+    {"id":"world-google-news","name":"세계 · Google News","enabled":true,"type":"google-news-rss","query":"국제 뉴스 OR 세계 뉴스","category":"WORLD","includeKeywords":[],"excludeKeywords":[]},
+    {"id":"economy-google-news","name":"경제 · Google News","enabled":true,"type":"google-news-rss","query":"경제 OR 금융 OR 증시 OR 기업","category":"ECONOMY","includeKeywords":[],"excludeKeywords":[]},
+    {"id":"technology-google-news","name":"기술 · Google News","enabled":true,"type":"google-news-rss","query":"기술 OR 반도체 OR 소프트웨어 OR 플랫폼","category":"TECHNOLOGY","includeKeywords":[],"excludeKeywords":[]},
+    {"id":"science-google-news","name":"과학 · Google News","enabled":true,"type":"google-news-rss","query":"과학 OR 연구 OR 발견","category":"SCIENCE","includeKeywords":[],"excludeKeywords":[]},
+    {"id":"health-google-news","name":"건강 · Google News","enabled":true,"type":"google-news-rss","query":"건강 OR 의료 OR 바이오 OR 제약","category":"HEALTH","includeKeywords":[],"excludeKeywords":[]},
+    {"id":"climate-google-news","name":"기후 · Google News","enabled":true,"type":"google-news-rss","query":"기후 OR 환경 OR 에너지 OR 탄소","category":"CLIMATE","includeKeywords":[],"excludeKeywords":[]},
+    {"id":"space-google-news","name":"우주 · Google News","enabled":true,"type":"google-news-rss","query":"우주 OR 위성 OR 발사체 OR 천문","category":"SPACE","includeKeywords":[],"excludeKeywords":[]},
+    {"id":"culture-google-news","name":"문화 · Google News","enabled":true,"type":"google-news-rss","query":"문화 OR 영화 OR 음악 OR 콘텐츠","category":"CULTURE","includeKeywords":[],"excludeKeywords":[]},
+    {"id":"sports-google-news","name":"스포츠 · Google News","enabled":true,"type":"google-news-rss","query":"스포츠 OR 축구 OR 야구 OR 농구","category":"SPORTS","includeKeywords":[],"excludeKeywords":[]},
+    {"id":"ai-google-news","name":"AI · Google News","enabled":true,"type":"google-news-rss","query":"인공지능 OR 생성형 AI OR AI","category":"AI","includeKeywords":[],"excludeKeywords":[]}
+  ]
+}

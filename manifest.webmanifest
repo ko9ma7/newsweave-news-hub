@@ -1,0 +1,14 @@
+{
+  "name": "NewsWeave · 나만의 분야별 뉴스 저장소",
+  "short_name": "NewsWeave",
+  "description": "원하는 분야의 뉴스를 자동 수집하고 규칙 기반 모음집으로 정리합니다.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07101d",
+  "theme_color": "#07101d",
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
