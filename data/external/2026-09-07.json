@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-07",
+  "updatedAt": "2026-09-09T22:40:24.797Z",
+  "items": [
+    {
+      "id": "external:a26cf7932d0e96167d99f26a",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-07",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "catClass": "",
+      "title": "생성형 AI: 작동 방식과 데이터, 컨텍스트, 제어가 중요한 이유 - Snowflake",
+      "summary": "생성형 AI: 작동 방식과 데이터, 컨텍스트, 제어가 중요한 이유 &nbsp;&nbsp; Snowflake",
+      "detail": "생성형 AI: 작동 방식과 데이터, 컨텍스트, 제어가 중요한 이유 &nbsp;&nbsp; Snowflake",
+      "source": "AI · Google News",
+      "sourceDomain": "news.google.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QWk9RZkVfV29ycElTbXl1T0dwWVBHNTJjN3BxUjdXaXRjVkpnRkY0a3F4eG1iVk9pWUVjSnhDMGo4MXJ3enZTNWptVjhQNjg3eHRhSlAyWDZiQWtYei02VXhsYU8ySDlpM1lYWWNwcV8xajlMWFE?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-09T22:40:24.788Z",
+      "searchText": "생성형 ai: 작동 방식과 데이터, 컨텍스트, 제어가 중요한 이유 - snowflake 생성형 ai: 작동 방식과 데이터, 컨텍스트, 제어가 중요한 이유 &nbsp;&nbsp; snowflake ai · google news news.google.com ai"
+    }
+  ]
+}
