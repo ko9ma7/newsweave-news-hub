@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-05",
+  "updatedAt": "2026-09-10T00:45:55.647Z",
+  "items": [
+    {
+      "id": "external:cb971d45b7725f9b1336c0d8",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-09-05",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "catClass": "",
+      "title": "\"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] - v.daum.net",
+      "summary": "\"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] &nbsp;&nbsp; v.daum.net",
+      "detail": "\"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] &nbsp;&nbsp; v.daum.net",
+      "source": "v.daum.net",
+      "sourceDomain": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XWWROOWNCNzZZUnNwMFNvVk9Dd2gzODlsNEZjWkpiUmxCVWt3MndmUTEyekZuWU9zLXdic0RveU5HcC1vbmtmN0U5ZmJOWFE?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:53.691Z",
+      "searchText": "\"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] - v.daum.net \"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] &nbsp;&nbsp; v.daum.net v.daum.net v.daum.net climate"
+    }
+  ]
+}

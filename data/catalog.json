@@ -1,25 +1,25 @@
 {
   "schemaVersion": 2,
   "product": "NewsWeave",
-  "generatedAt": "2026-09-10T00:27:39.671Z",
-  "contentVersion": "a8e270821f0e804e",
+  "generatedAt": "2026-09-10T00:45:55.921Z",
+  "contentVersion": "07df5f1f55776948",
   "stats": {
-    "totalItems": 221,
-    "externalItems": 221,
+    "totalItems": 253,
+    "externalItems": 253,
     "configuredSources": 10,
     "enabledSources": 10,
     "categories": [
       {
         "name": "WORLD",
-        "count": 16
+        "count": 19
       },
       {
         "name": "ECONOMY",
-        "count": 25
+        "count": 29
       },
       {
         "name": "TECHNOLOGY",
-        "count": 24
+        "count": 26
       },
       {
         "name": "SCIENCE",
@@ -27,27 +27,27 @@
       },
       {
         "name": "HEALTH",
-        "count": 24
+        "count": 27
       },
       {
         "name": "CLIMATE",
-        "count": 20
+        "count": 25
       },
       {
         "name": "SPACE",
-        "count": 23
+        "count": 30
       },
       {
         "name": "CULTURE",
-        "count": 28
+        "count": 29
       },
       {
         "name": "SPORTS",
-        "count": 20
+        "count": 21
       },
       {
         "name": "AI",
-        "count": 20
+        "count": 26
       }
     ],
     "sources": [
@@ -93,22 +93,34 @@
       },
       {
         "name": "v.daum.net",
-        "count": 6
+        "count": 8
+      },
+      {
+        "name": "뉴스핌",
+        "count": 5
+      },
+      {
+        "name": "아시아경제",
+        "count": 5
       },
       {
         "name": "연합인포맥스",
         "count": 5
       },
       {
-        "name": "아시아경제",
-        "count": 4
-      },
-      {
-        "name": "뉴스핌",
+        "name": "news.einfomax.co.kr",
         "count": 4
       },
       {
         "name": "연합뉴스",
+        "count": 4
+      },
+      {
+        "name": "에너지데일리",
+        "count": 3
+      },
+      {
+        "name": "히트뉴스",
         "count": 3
       },
       {
@@ -120,11 +132,35 @@
         "count": 3
       },
       {
-        "name": "hankyung.com",
+        "name": "팍스경제TV",
         "count": 2
       },
       {
-        "name": "에너지데일리",
+        "name": "mt.co.kr",
+        "count": 2
+      },
+      {
+        "name": "파이낸스스코프",
+        "count": 2
+      },
+      {
+        "name": "비즈워치",
+        "count": 2
+      },
+      {
+        "name": "아시아투데이",
+        "count": 2
+      },
+      {
+        "name": "데일리대구경북뉴스",
+        "count": 2
+      },
+      {
+        "name": "YTN",
+        "count": 2
+      },
+      {
+        "name": "hankyung.com",
         "count": 2
       },
       {
@@ -134,46 +170,442 @@
       {
         "name": "한국경제",
         "count": 2
-      },
-      {
-        "name": "신아일보",
-        "count": 2
-      },
-      {
-        "name": "joongang.co.kr",
-        "count": 2
-      },
-      {
-        "name": "Chosunbiz",
-        "count": 2
-      },
-      {
-        "name": "대한민국 정책브리핑",
-        "count": 2
-      },
-      {
-        "name": "히트뉴스",
-        "count": 2
-      },
-      {
-        "name": "kpanews.co.kr",
-        "count": 2
-      },
-      {
-        "name": "etnews.com",
-        "count": 2
-      },
-      {
-        "name": "연합뉴스TV",
-        "count": 2
-      },
-      {
-        "name": "채널A",
-        "count": 2
       }
     ]
   },
   "items": [
+    {
+      "id": "external:6333f50050345f15a3b20785",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-10",
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "title": "챗GPT 대신 '국산 AI' 키우자…日 사카나 AI 10만개사에 보급 추진 - v.daum.net",
+      "summary": "챗GPT 대신 '국산 AI' 키우자…日 사카나 AI 10만개사에 보급 추진 &nbsp;&nbsp; v.daum.net",
+      "detail": "챗GPT 대신 '국산 AI' 키우자…日 사카나 AI 10만개사에 보급 추진 &nbsp;&nbsp; v.daum.net",
+      "source": "v.daum.net",
+      "sourceDomain": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EYUljdHprdmZNMXpWeUllWHN0ZUsydnlUMkdVNW1QUkN2ZHA2SWVYOGtUZ2czQ0daUVdjTFNON1ZHaDNBbmpJZVgwQkNGQ3c?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:55.636Z",
+      "searchText": "챗gpt 대신 '국산 ai' 키우자…日 사카나 ai 10만개사에 보급 추진 - v.daum.net 챗gpt 대신 '국산 ai' 키우자…日 사카나 ai 10만개사에 보급 추진 &nbsp;&nbsp; v.daum.net 챗gpt 대신 '국산 ai' 키우자…日 사카나 ai 10만개사에 보급 추진 &nbsp;&nbsp; v.daum.net v.daum.net v.daum.net ai "
+    },
+    {
+      "id": "external:10d8880e5e82dac4b1a760e6",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-10",
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "title": "강진군, 행정업무 절반 AI 활용 목표…직원 72% 생성형 AI 쓴다 - 아주경제",
+      "summary": "강진군, 행정업무 절반 AI 활용 목표…직원 72% 생성형 AI 쓴다 &nbsp;&nbsp; 아주경제",
+      "detail": "강진군, 행정업무 절반 AI 활용 목표…직원 72% 생성형 AI 쓴다 &nbsp;&nbsp; 아주경제",
+      "source": "아주경제",
+      "sourceDomain": "ajunews.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4VXBsNzZXRlZSUi1rRVowdjlQdWNvNHF5aXhjOVN4cDNaWXdyVUZMM3h6ZFdtbE1wWnVKTVdYbi10NmJqc3JQZjdzazNCb1lwV3RYMFZDc2tBUdIBWEFVX3lxTE5hUjlxUjgwNmpfV2E5NlJKcmxuZUp4WkFzeVVIRm13UXVHXzVxek1uRUQtaEVidktEMHFfTFo2cGlZbTBaSU9QQUQtcXZlTktSdWwwVWVEejA?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:55.636Z",
+      "searchText": "강진군, 행정업무 절반 ai 활용 목표…직원 72% 생성형 ai 쓴다 - 아주경제 강진군, 행정업무 절반 ai 활용 목표…직원 72% 생성형 ai 쓴다 &nbsp;&nbsp; 아주경제 강진군, 행정업무 절반 ai 활용 목표…직원 72% 생성형 ai 쓴다 &nbsp;&nbsp; 아주경제 아주경제 ajunews.com ai "
+    },
+    {
+      "id": "external:a93ee6b74a858354f6762dc8",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-10",
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "title": "어촌어항공단, 생성형 AI 활용 어촌마을 홍보 교육 마무리 - 에너지데일리",
+      "summary": "어촌어항공단, 생성형 AI 활용 어촌마을 홍보 교육 마무리 &nbsp;&nbsp; 에너지데일리",
+      "detail": "어촌어항공단, 생성형 AI 활용 어촌마을 홍보 교육 마무리 &nbsp;&nbsp; 에너지데일리",
+      "source": "에너지데일리",
+      "sourceDomain": "energydaily.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE16T2ZnWlE2elFKeHNobjZGci01MnZZRXZYVHJ1YjJBMHlNU2JhbWlCbzFrRTNoNUFzcVU4Vlpxd0JQVmhpc1ZLQ3dGaTdFc1VoTjd2S003MzJxckxNZXRtZUlQUTBMUHkwZ05XOXRyWE5uUQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:55.635Z",
+      "searchText": "어촌어항공단, 생성형 ai 활용 어촌마을 홍보 교육 마무리 - 에너지데일리 어촌어항공단, 생성형 ai 활용 어촌마을 홍보 교육 마무리 &nbsp;&nbsp; 에너지데일리 어촌어항공단, 생성형 ai 활용 어촌마을 홍보 교육 마무리 &nbsp;&nbsp; 에너지데일리 에너지데일리 energydaily.co.kr ai "
+    },
+    {
+      "id": "external:491294a2897597c621bd50ea",
+      "origin": "external",
+      "sourceId": "culture-google-news",
+      "date": "2026-09-10",
+      "category": "CULTURE",
+      "categoryLabel": "CULTURE",
+      "topic": "",
+      "title": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” - KBS 뉴스",
+      "summary": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; KBS 뉴스",
+      "detail": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; KBS 뉴스",
+      "source": "KBS 뉴스",
+      "sourceDomain": "news.kbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TVElTM0lNVmJMMEg5Z2dwcXRzcVRuLUtEU0hTQ0VTUl83UUdsTWlDTllnaWZQUjdoc1ZucTZhOFhNamVEVmZrQmN4UmRzVnpLNGp6RE5fdE94XzQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:54.631Z",
+      "searchText": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” - kbs 뉴스 [영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; kbs 뉴스 [영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; kbs 뉴스 kbs 뉴스 news.kbs.co.kr culture "
+    },
+    {
+      "id": "external:37f7c5d1aae2ac77f828e2ee",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "위성이 보고, AI가 읽는다…한화시스템, '우주 AI 솔루션' 첫 공개 - news.einfomax.co.kr",
+      "summary": "위성이 보고, AI가 읽는다…한화시스템, '우주 AI 솔루션' 첫 공개 &nbsp;&nbsp; news.einfomax.co.kr",
+      "detail": "위성이 보고, AI가 읽는다…한화시스템, '우주 AI 솔루션' 첫 공개 &nbsp;&nbsp; news.einfomax.co.kr",
+      "source": "news.einfomax.co.kr",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80ckY5SlljR0kzajI1VWttckFRTXl3VzF0RzE0RTU4N1oyWmdsb1ZNb29lWkpNQTUySjNEM0M0bUIyMXNLYkNSR3dPVUZ6SjhnODFsaG9teWRUWU1uUUMzaENkZEhydk5Hc29jb3VuNW8?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:54.199Z",
+      "searchText": "위성이 보고, ai가 읽는다…한화시스템, '우주 ai 솔루션' 첫 공개 - news.einfomax.co.kr 위성이 보고, ai가 읽는다…한화시스템, '우주 ai 솔루션' 첫 공개 &nbsp;&nbsp; news.einfomax.co.kr 위성이 보고, ai가 읽는다…한화시스템, '우주 ai 솔루션' 첫 공개 &nbsp;&nbsp; news.einfomax.co.kr news.einfomax.co.kr news.einfomax.co.kr space "
+    },
+    {
+      "id": "external:04da92006719dc20f894dfbe",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "한화시스템, 폴란드서 '우주 AI 솔루션' 첫 공개 - 뉴스핌",
+      "summary": "한화시스템, 폴란드서 '우주 AI 솔루션' 첫 공개 &nbsp;&nbsp; 뉴스핌",
+      "detail": "한화시스템, 폴란드서 '우주 AI 솔루션' 첫 공개 &nbsp;&nbsp; 뉴스핌",
+      "source": "뉴스핌",
+      "sourceDomain": "newspim.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KOHVvTFB1RndrbDlDUmpfMUwwdGJRNGtRSEk0N2JfTE9Qbmt1TjhhZnpSY2hzQmVwbU5Qdm8tbExfVEl3U0JRVnpJdkJZRnJsd1UzMFJJZTl5ZlJK?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:54.199Z",
+      "searchText": "한화시스템, 폴란드서 '우주 ai 솔루션' 첫 공개 - 뉴스핌 한화시스템, 폴란드서 '우주 ai 솔루션' 첫 공개 &nbsp;&nbsp; 뉴스핌 한화시스템, 폴란드서 '우주 ai 솔루션' 첫 공개 &nbsp;&nbsp; 뉴스핌 뉴스핌 newspim.com space "
+    },
+    {
+      "id": "external:dac4c1a5a3fa712c9bc4e2a4",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "[파워인터뷰 예고] 컨텍, GSaaS·AP위성·TX스페이스 삼각축...\"글로벌 성장 노린다\" - 팍스경제TV",
+      "summary": "[파워인터뷰 예고] 컨텍, GSaaS·AP위성·TX스페이스 삼각축...\"글로벌 성장 노린다\" &nbsp;&nbsp; 팍스경제TV",
+      "detail": "[파워인터뷰 예고] 컨텍, GSaaS·AP위성·TX스페이스 삼각축...\"글로벌 성장 노린다\" &nbsp;&nbsp; 팍스경제TV",
+      "source": "팍스경제TV",
+      "sourceDomain": "paxetv.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMOTBKYTRzNkRwWXBlbGJjNVpDSzl0ZjlzQ0hOeGszVXBSMDdvTnZjVVlfNzJ4b0ZjTnRJTFVuVW5KYU9RMzkxOU5hYWJCY3BvRVd4NFJnbUc2UkVuUTVrRFdfS0VGMjRL?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:54.199Z",
+      "searchText": "[파워인터뷰 예고] 컨텍, gsaas·ap위성·tx스페이스 삼각축...\"글로벌 성장 노린다\" - 팍스경제tv [파워인터뷰 예고] 컨텍, gsaas·ap위성·tx스페이스 삼각축...\"글로벌 성장 노린다\" &nbsp;&nbsp; 팍스경제tv [파워인터뷰 예고] 컨텍, gsaas·ap위성·tx스페이스 삼각축...\"글로벌 성장 노린다\" &nbsp;&nbsp; 팍스경제tv 팍스경제tv paxetv.com space "
+    },
+    {
+      "id": "external:ba8f154a004bbe9b34bfb821",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "한화시스템, 위성영상 AI 분석해 K9·천무 연동…글로벌 방산 공략 - shinailbo.co.kr",
+      "summary": "한화시스템, 위성영상 AI 분석해 K9·천무 연동…글로벌 방산 공략 &nbsp;&nbsp; shinailbo.co.kr",
+      "detail": "한화시스템, 위성영상 AI 분석해 K9·천무 연동…글로벌 방산 공략 &nbsp;&nbsp; shinailbo.co.kr",
+      "source": "shinailbo.co.kr",
+      "sourceDomain": "shinailbo.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjMWFlYmhSeG1vb2hCMUZYb2M1NmEteFlYbkFyTUZ1NHlBZ09WMUtwdjVjdHdoTWJ5MWhqUmFkQk0yd2pvSFNIVl9SRTlwaHlhSHlCREVxQmZHNF80amIwekJyamU1ZG1tUkpMYTkwWGQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:54.199Z",
+      "searchText": "한화시스템, 위성영상 ai 분석해 k9·천무 연동…글로벌 방산 공략 - shinailbo.co.kr 한화시스템, 위성영상 ai 분석해 k9·천무 연동…글로벌 방산 공략 &nbsp;&nbsp; shinailbo.co.kr 한화시스템, 위성영상 ai 분석해 k9·천무 연동…글로벌 방산 공략 &nbsp;&nbsp; shinailbo.co.kr shinailbo.co.kr shinailbo.co.kr space "
+    },
+    {
+      "id": "external:325e1ce5f43ad490a93557c3",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "이노스페이스, 국방벤처 협약기업 선정…발사체 기술 방산으로 확장 - 뉴시스",
+      "summary": "이노스페이스, 국방벤처 협약기업 선정…발사체 기술 방산으로 확장 &nbsp;&nbsp; 뉴시스",
+      "detail": "이노스페이스, 국방벤처 협약기업 선정…발사체 기술 방산으로 확장 &nbsp;&nbsp; 뉴시스",
+      "source": "뉴시스",
+      "sourceDomain": "newsis.com",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rVHpyNmFNdU4yMnAyYS0zYnBOVHF1dVdULTNNakdIcG8xMU1IdXFVTVExeGZpdlFQT2taSUt4Tk1aVTZRek83S2FRZ09uN3pURkJmUTg2LVdFUVppTTVsS9IBeEFVX3lxTFBJMllsVktiblB0ZjR0R0VnRE9rQS1OUWVyZk9ZemFFWEFySWktYzZHMi11LTNsVDJweXZwTzQyQ3Z3ZDlRVnR2emxJWm1aNFI1cGYtVGhjeWs5TEpJXy1iVTJiQ0Nic0tLbEp6ZTlJQ19UdUF5RnVPUg?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:54.199Z",
+      "searchText": "이노스페이스, 국방벤처 협약기업 선정…발사체 기술 방산으로 확장 - 뉴시스 이노스페이스, 국방벤처 협약기업 선정…발사체 기술 방산으로 확장 &nbsp;&nbsp; 뉴시스 이노스페이스, 국방벤처 협약기업 선정…발사체 기술 방산으로 확장 &nbsp;&nbsp; 뉴시스 뉴시스 newsis.com space "
+    },
+    {
+      "id": "external:80dc551d2d2f1ad727845124",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "위성이 보고 AI가 읽는다…한화시스템, '우주 AI 솔루션' 첫 공개 - 머니투데이 - mt.co.kr",
+      "summary": "위성이 보고 AI가 읽는다…한화시스템, '우주 AI 솔루션' 첫 공개 - 머니투데이 &nbsp;&nbsp; mt.co.kr",
+      "detail": "위성이 보고 AI가 읽는다…한화시스템, '우주 AI 솔루션' 첫 공개 - 머니투데이 &nbsp;&nbsp; mt.co.kr",
+      "source": "mt.co.kr",
+      "sourceDomain": "mt.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSbXFlRGlZQll0ZVNFUWQzdkdaVDRQa3R0V1VhakZ4TXA2UFIwSW9QbDdEN29Vb19mM0d5aFVWZmM1UDlleWQwLUZDRTFoVDlfM3BMZHJsZ043TEpRQTFjY05hN0lPUlhHc0FZS9IBckFVX3lxTE91V0QtRTBJdmtmSjNHcm9wZ2kxTDc2UUFfNWtzZ1R1SWhfM0RweDRMLVlfYTVsbFVNajRTRkpGZHBCaUo0eS1PbjRTelVuaDA5RDhNaE1LMnYxenpYRzVVYVhES0kzdzN2czRxeWlfUXlMUQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:54.199Z",
+      "searchText": "위성이 보고 ai가 읽는다…한화시스템, '우주 ai 솔루션' 첫 공개 - 머니투데이 - mt.co.kr 위성이 보고 ai가 읽는다…한화시스템, '우주 ai 솔루션' 첫 공개 - 머니투데이 &nbsp;&nbsp; mt.co.kr 위성이 보고 ai가 읽는다…한화시스템, '우주 ai 솔루션' 첫 공개 - 머니투데이 &nbsp;&nbsp; mt.co.kr mt.co.kr mt.co.kr space "
+    },
+    {
+      "id": "external:e1fba41a994081044a63878e",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "한화시스템, 폴란드 'MSPO 2026'서 차세대 '우주 AI 솔루션' 최초 공개 - 파이낸스스코프",
+      "summary": "한화시스템, 폴란드 'MSPO 2026'서 차세대 '우주 AI 솔루션' 최초 공개 &nbsp;&nbsp; 파이낸스스코프",
+      "detail": "한화시스템, 폴란드 'MSPO 2026'서 차세대 '우주 AI 솔루션' 최초 공개 &nbsp;&nbsp; 파이낸스스코프",
+      "source": "파이낸스스코프",
+      "sourceDomain": "finance-scope.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WSUk5cXpCcXJic09zdTZFdDMzcE85NFFmeWhNUHpsaVBidkxYUC03N252MDJNLTI1V2NGX0hmWFBxalNiYVJBTzhCQjBGclJWd2xRTmwzT0cxODZOWXJ3SjN4a2cxZjQ4S3c?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:54.199Z",
+      "searchText": "한화시스템, 폴란드 'mspo 2026'서 차세대 '우주 ai 솔루션' 최초 공개 - 파이낸스스코프 한화시스템, 폴란드 'mspo 2026'서 차세대 '우주 ai 솔루션' 최초 공개 &nbsp;&nbsp; 파이낸스스코프 한화시스템, 폴란드 'mspo 2026'서 차세대 '우주 ai 솔루션' 최초 공개 &nbsp;&nbsp; 파이낸스스코프 파이낸스스코프 finance-scope.com space "
+    },
+    {
+      "id": "external:8f30510cf4cb95fb1a16b588",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-09-10",
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "title": "넷제로 2050 기후재단, 2026 국제기후포럼 성료 - 비즈워치",
+      "summary": "넷제로 2050 기후재단, 2026 국제기후포럼 성료 &nbsp;&nbsp; 비즈워치",
+      "detail": "넷제로 2050 기후재단, 2026 국제기후포럼 성료 &nbsp;&nbsp; 비즈워치",
+      "source": "비즈워치",
+      "sourceDomain": "news.bizwatch.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SY3BCR3hnbi0tX09LQmdZMi1PcnVILVhYWGpiVktZZnRHa0poQnc3RTFRMlliam16UE41dHB1UW1IaTFiRFRQZHFBcFRIRjlSeFV6Q0xVa01qUUV1OWM0ZkI0Rl95WXk5SUFYbg?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:53.691Z",
+      "searchText": "넷제로 2050 기후재단, 2026 국제기후포럼 성료 - 비즈워치 넷제로 2050 기후재단, 2026 국제기후포럼 성료 &nbsp;&nbsp; 비즈워치 넷제로 2050 기후재단, 2026 국제기후포럼 성료 &nbsp;&nbsp; 비즈워치 비즈워치 news.bizwatch.co.kr climate "
+    },
+    {
+      "id": "external:480d0e647d6e86998a8338e9",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-09-10",
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "title": "부산서 국내외 기후·환경 전문가 눈길 끈 ‘탄소중립 스마트도시 광명’ - 아시아투데이",
+      "summary": "부산서 국내외 기후·환경 전문가 눈길 끈 ‘탄소중립 스마트도시 광명’ &nbsp;&nbsp; 아시아투데이",
+      "detail": "부산서 국내외 기후·환경 전문가 눈길 끈 ‘탄소중립 스마트도시 광명’ &nbsp;&nbsp; 아시아투데이",
+      "source": "아시아투데이",
+      "sourceDomain": "asiatoday.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EVFlTZEVoMExGSm1zcDd3ZnpFcDlCNmN1cWZaWXR6eUIydDFCZVVsR3F0N0R3Sk9WaFk1ck5jM1ZhaWduQ1BkWlRHVE4tVGx1WDZrU3FYaWtFS3JMNjduQUozTkZwcU1rSGFDNTR3?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:53.691Z",
+      "searchText": "부산서 국내외 기후·환경 전문가 눈길 끈 ‘탄소중립 스마트도시 광명’ - 아시아투데이 부산서 국내외 기후·환경 전문가 눈길 끈 ‘탄소중립 스마트도시 광명’ &nbsp;&nbsp; 아시아투데이 부산서 국내외 기후·환경 전문가 눈길 끈 ‘탄소중립 스마트도시 광명’ &nbsp;&nbsp; 아시아투데이 아시아투데이 asiatoday.co.kr climate "
+    },
+    {
+      "id": "external:c948a76a4eac2716c7398d56",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-09-10",
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "title": "파주시, 대한민국 도시대상 5년 연속 수상…탄소중립 정책 인정 - 머니투데이 - mt.co.kr",
+      "summary": "파주시, 대한민국 도시대상 5년 연속 수상…탄소중립 정책 인정 - 머니투데이 &nbsp;&nbsp; mt.co.kr",
+      "detail": "파주시, 대한민국 도시대상 5년 연속 수상…탄소중립 정책 인정 - 머니투데이 &nbsp;&nbsp; mt.co.kr",
+      "source": "mt.co.kr",
+      "sourceDomain": "mt.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kc2w0OUFVVFhQT3VlcVpqc2dfS0lNMlhrZm4xc1JTOEdWWVZxa2paTERSR0xhWmFlVXYwRndiZVVJeEsyc0RZRWhnV0ROQmpEM3FNSDNydnhXbTQ4OEVGY1E5aWVkVFVyUWfSAW9BVV95cUxOUFlYNDJBSFVBekE2N2dLYTZwcGZveG1QcEVDOW00U280cnRlai1CWTQ3M0d6SDRSRXRKdjZNRktnMFlTTTBVbFU4ZTltc1NtSm9FSW1JV25NOFhxZkU0Rnppd0ZUVWJ6dEM5UWdoTjg?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:53.691Z",
+      "searchText": "파주시, 대한민국 도시대상 5년 연속 수상…탄소중립 정책 인정 - 머니투데이 - mt.co.kr 파주시, 대한민국 도시대상 5년 연속 수상…탄소중립 정책 인정 - 머니투데이 &nbsp;&nbsp; mt.co.kr 파주시, 대한민국 도시대상 5년 연속 수상…탄소중립 정책 인정 - 머니투데이 &nbsp;&nbsp; mt.co.kr mt.co.kr mt.co.kr climate "
+    },
+    {
+      "id": "external:481e399612bb40e53ecdbdf1",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-09-10",
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "title": "한수원, 기후위기 대응 위한 인공지능(AI) 기반 수력 기술 발전 제시 - 데일리대구경북뉴스",
+      "summary": "한수원, 기후위기 대응 위한 인공지능(AI) 기반 수력 기술 발전 제시 &nbsp;&nbsp; 데일리대구경북뉴스",
+      "detail": "한수원, 기후위기 대응 위한 인공지능(AI) 기반 수력 기술 발전 제시 &nbsp;&nbsp; 데일리대구경북뉴스",
+      "source": "데일리대구경북뉴스",
+      "sourceDomain": "dailydgnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBT2Z2eWxBekh3NGE2YmxOeHVLUjF4eTQyMmxxWHlJRDdnQjdqazF1SkhWYmYtOElmQXhrVURlRUpjd1owRF9Ya0llTDRNZTVBd0JTVnB3aU9mQ01lUlJQS0NOX0FTUQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:53.691Z",
+      "searchText": "한수원, 기후위기 대응 위한 인공지능(ai) 기반 수력 기술 발전 제시 - 데일리대구경북뉴스 한수원, 기후위기 대응 위한 인공지능(ai) 기반 수력 기술 발전 제시 &nbsp;&nbsp; 데일리대구경북뉴스 한수원, 기후위기 대응 위한 인공지능(ai) 기반 수력 기술 발전 제시 &nbsp;&nbsp; 데일리대구경북뉴스 데일리대구경북뉴스 dailydgnews.com climate "
+    },
+    {
+      "id": "external:5cdf20548b34439ca0260477",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-09-10",
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "title": "셀트리온, 유럽호흡기학회서 '옴리클로' 경쟁력 알렸다 - 히트뉴스",
+      "summary": "셀트리온, 유럽호흡기학회서 '옴리클로' 경쟁력 알렸다 &nbsp;&nbsp; 히트뉴스",
+      "detail": "셀트리온, 유럽호흡기학회서 '옴리클로' 경쟁력 알렸다 &nbsp;&nbsp; 히트뉴스",
+      "source": "히트뉴스",
+      "sourceDomain": "hitnews.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMX0NzVXlZZlRqby01R3FmNzZxNG5FYW55cFNTNE1Td3J1S1pZdEJxclI5Z2VzNFZlVEFvemFaRXRhY3lRdHN4MThuM1VqZm9LbkxFb3BHZGVxa0Y4aW15Q2NaSnZ2aUhyNU5N?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:53.141Z",
+      "searchText": "셀트리온, 유럽호흡기학회서 '옴리클로' 경쟁력 알렸다 - 히트뉴스 셀트리온, 유럽호흡기학회서 '옴리클로' 경쟁력 알렸다 &nbsp;&nbsp; 히트뉴스 셀트리온, 유럽호흡기학회서 '옴리클로' 경쟁력 알렸다 &nbsp;&nbsp; 히트뉴스 히트뉴스 hitnews.co.kr health "
+    },
+    {
+      "id": "external:a3f2c126c096bd0e9b59bf89",
+      "origin": "external",
+      "sourceId": "technology-google-news",
+      "date": "2026-09-10",
+      "category": "TECHNOLOGY",
+      "categoryLabel": "TECHNOLOGY",
+      "topic": "",
+      "title": "\"의대보다 반도체\"…SKY수시, 안정지원 경향 속 반도체 선호는 지속 - 아시아경제",
+      "summary": "\"의대보다 반도체\"…SKY수시, 안정지원 경향 속 반도체 선호는 지속 &nbsp;&nbsp; 아시아경제",
+      "detail": "\"의대보다 반도체\"…SKY수시, 안정지원 경향 속 반도체 선호는 지속 &nbsp;&nbsp; 아시아경제",
+      "source": "아시아경제",
+      "sourceDomain": "asiae.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1weEJpWnNWUnVmcnV4NTdBX3Btakw4enVsNmJDbkhnUVhvckU3cllESEtRMVZnZ2JYbnhuTWNPdGk1SjhZOG5tT3F6eVNLRHNSYXJiUlhLZHBKMlZwRmd6dA?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:52.172Z",
+      "searchText": "\"의대보다 반도체\"…sky수시, 안정지원 경향 속 반도체 선호는 지속 - 아시아경제 \"의대보다 반도체\"…sky수시, 안정지원 경향 속 반도체 선호는 지속 &nbsp;&nbsp; 아시아경제 \"의대보다 반도체\"…sky수시, 안정지원 경향 속 반도체 선호는 지속 &nbsp;&nbsp; 아시아경제 아시아경제 asiae.co.kr technology "
+    },
+    {
+      "id": "external:10aa727b8fe09fd4a7a9d019",
+      "origin": "external",
+      "sourceId": "technology-google-news",
+      "date": "2026-09-10",
+      "category": "TECHNOLOGY",
+      "categoryLabel": "TECHNOLOGY",
+      "topic": "",
+      "title": "기계연 K-공기청정 기술, 초고농도 미세먼지 해결 위해 인도 철도시장 간다 - 전기신문",
+      "summary": "기계연 K-공기청정 기술, 초고농도 미세먼지 해결 위해 인도 철도시장 간다 &nbsp;&nbsp; 전기신문",
+      "detail": "기계연 K-공기청정 기술, 초고농도 미세먼지 해결 위해 인도 철도시장 간다 &nbsp;&nbsp; 전기신문",
+      "source": "전기신문",
+      "sourceDomain": "electimes.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TZ3E0MVB3aEVSODcycFNtWl9mNEE4WE1hQ0JjTURLUExLejUzNUhUblJNSWdBUTlNMkFRekIwMzNtSFozeUNnZHN3ZFJjUE5pd2VNNlhPbWpEel9MQUltRHBUdl80OXBVLXRYR9IBcEFVX3lxTE5EeE9kOHVJaHBZMnRlMEJDUFdpSEVQTzA3UC1qNUVlbHpoZ0ZmeVA1VzNHUFdjYXZvUW1fdC1SVFNJbmVkd2VLcjZCVmpsUEtZUEZudElhWTJ0My00ZHA3OW1pNnpTbnJXdE93MGRZbzk?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:52.172Z",
+      "searchText": "기계연 k-공기청정 기술, 초고농도 미세먼지 해결 위해 인도 철도시장 간다 - 전기신문 기계연 k-공기청정 기술, 초고농도 미세먼지 해결 위해 인도 철도시장 간다 &nbsp;&nbsp; 전기신문 기계연 k-공기청정 기술, 초고농도 미세먼지 해결 위해 인도 철도시장 간다 &nbsp;&nbsp; 전기신문 전기신문 electimes.com technology "
+    },
+    {
+      "id": "external:31d0671300467b63a5931901",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-09-10",
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "title": "'7천선 재탈환' 코스피 상승세 이어갈까...오늘 증시는? - YTN",
+      "summary": "'7천선 재탈환' 코스피 상승세 이어갈까...오늘 증시는? &nbsp;&nbsp; YTN",
+      "detail": "'7천선 재탈환' 코스피 상승세 이어갈까...오늘 증시는? &nbsp;&nbsp; YTN",
+      "source": "YTN",
+      "sourceDomain": "ytn.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ESkthcF9ySU9TYlNJTDhnQkNOWWtVVjNscEJ5MUhRdVhQUWNOVWdha0pBMkY3SFVSMVFmQlNWby1nb0FybHBsVGJHSk5uVzdXU1dpazk1Q1RscHhSMXJiaUFuVmhUZzJPb3QyVmJQOA?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:51.671Z",
+      "searchText": "'7천선 재탈환' 코스피 상승세 이어갈까...오늘 증시는? - ytn '7천선 재탈환' 코스피 상승세 이어갈까...오늘 증시는? &nbsp;&nbsp; ytn '7천선 재탈환' 코스피 상승세 이어갈까...오늘 증시는? &nbsp;&nbsp; ytn ytn ytn.co.kr economy "
+    },
+    {
+      "id": "external:8cb0d32408ae3cd65a98c018",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-09-10",
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "title": "\"S&P500, 내년 1만 간다…美 경제 기존 관행 변했다\" - KB Think",
+      "summary": "\"S&P500, 내년 1만 간다…美 경제 기존 관행 변했다\" &nbsp;&nbsp; KB Think",
+      "detail": "\"S&P500, 내년 1만 간다…美 경제 기존 관행 변했다\" &nbsp;&nbsp; KB Think",
+      "source": "KB Think",
+      "sourceDomain": "kbthink.com",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1Y0U4V29pNUtURkdSbUtFSnJZa1l2Si1QRnM5cTF2SkZwcVhxQ0tvWXBMNWlsN3B3UnY2cmxya2ZJQ0Z0czBKQU5jX0cxZkFBdEZzeE9VZVo3cUJKVWs0RFFERmxWNU9LSjdmcWlTTjZJQQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:51.671Z",
+      "searchText": "\"s&p500, 내년 1만 간다…美 경제 기존 관행 변했다\" - kb think \"s&p500, 내년 1만 간다…美 경제 기존 관행 변했다\" &nbsp;&nbsp; kb think \"s&p500, 내년 1만 간다…美 경제 기존 관행 변했다\" &nbsp;&nbsp; kb think kb think kbthink.com economy "
+    },
+    {
+      "id": "external:dd172a9e1eda9160ad278e90",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-09-10",
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "title": "BNK금융, 'CET1 13%·ROE 10.5%' 밸류업 목표 달성까지 '험난' - news.einfomax.co.kr",
+      "summary": "BNK금융, 'CET1 13%·ROE 10.5%' 밸류업 목표 달성까지 '험난' &nbsp;&nbsp; news.einfomax.co.kr",
+      "detail": "BNK금융, 'CET1 13%·ROE 10.5%' 밸류업 목표 달성까지 '험난' &nbsp;&nbsp; news.einfomax.co.kr",
+      "source": "news.einfomax.co.kr",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tOXVFbnI1VXBqU2ZtaEV6Qy16ZzlEUHNKbUVOaFV6VEJSdnZrS0hxVmd0VmlIOTNTMWhnS0tJVk1JVHlmaVZTLTZBZE8zMHQyd3dRYXU0RlVJZWJ1LURGWERrZ3Q1cW9RRTNBTzEycmc?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:51.671Z",
+      "searchText": "bnk금융, 'cet1 13%·roe 10.5%' 밸류업 목표 달성까지 '험난' - news.einfomax.co.kr bnk금융, 'cet1 13%·roe 10.5%' 밸류업 목표 달성까지 '험난' &nbsp;&nbsp; news.einfomax.co.kr bnk금융, 'cet1 13%·roe 10.5%' 밸류업 목표 달성까지 '험난' &nbsp;&nbsp; news.einfomax.co.kr news.einfomax.co.kr news.einfomax.co.kr economy "
+    },
+    {
+      "id": "external:0b378b1925c090fd09cf3ace",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-09-10",
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "title": "[뉴욕 마켓 브리핑](10일) - news.einfomax.co.kr",
+      "summary": "[뉴욕 마켓 브리핑](10일) &nbsp;&nbsp; news.einfomax.co.kr",
+      "detail": "[뉴욕 마켓 브리핑](10일) &nbsp;&nbsp; news.einfomax.co.kr",
+      "source": "news.einfomax.co.kr",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UVVZpd1VEWEgzX2FWVHFYWURUSkJMdnBsUEsxVDRGeWJFd1NId2FPVWowYlliZjJ4SVBqYl9PQmhJV0pEeDVJb3BzZC1TN3lQVzA2c0U5dGNQY0lnVFEyZF9qMldPR0Y3dGhRVjR5MjXSAXRBVV95cUxPM0ZWS0RaeE00SUxUNDF6UWw3TkdzMWVnWVY0aXZqUEFsZkhGb2YwLVlIY0xHTFBnSWN4c3pjLVB2TkJOZWRKcFM3RHdfMl9uYkV3RWFwZlVvNmNQWmJ4WTFvYzc0R3lLQ1FmZEVfUkFCcFhlSA?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:51.155Z",
+      "searchText": "[뉴욕 마켓 브리핑](10일) - news.einfomax.co.kr [뉴욕 마켓 브리핑](10일) &nbsp;&nbsp; news.einfomax.co.kr [뉴욕 마켓 브리핑](10일) &nbsp;&nbsp; news.einfomax.co.kr news.einfomax.co.kr news.einfomax.co.kr world "
+    },
+    {
+      "id": "external:18af1f733aed2004b5db7c86",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-09-10",
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "title": "국제유가 급등에 달러·원 소폭 상승…1340원대 등락 - 뉴스1",
+      "summary": "국제유가 급등에 달러·원 소폭 상승…1340원대 등락 &nbsp;&nbsp; 뉴스1",
+      "detail": "국제유가 급등에 달러·원 소폭 상승…1340원대 등락 &nbsp;&nbsp; 뉴스1",
+      "source": "뉴스1",
+      "sourceDomain": "news1.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CSnl4ZFBZZWlmZ2tsM21mMWt5NXVva1NXWHVRdG9GSXZ6bnpSdzd4WHEza0QwdmxObVdvZmpEQThJZk5UQnBzNWN1cDhrYnVpWTJ5OWlzVWFXSmfSAWBBVV95cUxPUFpxYUVrVC1yZXFOTXBSMUdGaGVnZE55bEs4X0phVG5GdVdjSnRYT2hLZWJtMXMwZ05FZGZCelhsM0lFNWhYdk9WZ3NXcUhJNUcySFhKN0tOaHBMa1lsYWM?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:51.155Z",
+      "searchText": "국제유가 급등에 달러·원 소폭 상승…1340원대 등락 - 뉴스1 국제유가 급등에 달러·원 소폭 상승…1340원대 등락 &nbsp;&nbsp; 뉴스1 국제유가 급등에 달러·원 소폭 상승…1340원대 등락 &nbsp;&nbsp; 뉴스1 뉴스1 news1.kr world "
+    },
+    {
+      "id": "external:61df8d1476f4f5c016a48a2d",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-09-10",
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "title": "[특징주] 국제유가 100달러 돌파에 정유주 줄줄이 급등 - 연합뉴스",
+      "summary": "[특징주] 국제유가 100달러 돌파에 정유주 줄줄이 급등 &nbsp;&nbsp; 연합뉴스",
+      "detail": "[특징주] 국제유가 100달러 돌파에 정유주 줄줄이 급등 &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DT1pFNjQzWElSZ04yMGgtQ1U0dldBN2JYRDFfRTdaMDBsbnJhTTVVNUg1WWVqVDZBOFg2RW80bGE3U1EwUkFwb1ZKdEVXQk02c2JQQXV2ZTZlVTDSAWBBVV95cUxPZno0MHJqdjN2OWZjVk02Q3ZSaUR5cVRXbHdOLVY5aG82T2I2RzNnam9qckpkTm5FZ0lXWjM0d3NWZndyeGp4VG9IV0gtUEJ4bzZLaHNVdHc1ekFiTUNIaGQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:51.155Z",
+      "searchText": "[특징주] 국제유가 100달러 돌파에 정유주 줄줄이 급등 - 연합뉴스 [특징주] 국제유가 100달러 돌파에 정유주 줄줄이 급등 &nbsp;&nbsp; 연합뉴스 [특징주] 국제유가 100달러 돌파에 정유주 줄줄이 급등 &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr world "
+    },
     {
       "id": "external:bb614ace7da047085d75532b",
       "origin": "external",
@@ -569,6 +1001,132 @@
       "author": "",
       "collectedAt": "2026-09-10T00:12:32.875Z",
       "searchText": "nh아문디운용 \"fn k-반도체 etf, 연초 이후 수익률 181%로 1위\" - 연합뉴스 nh아문디운용 \"fn k-반도체 etf, 연초 이후 수익률 181%로 1위\" &nbsp;&nbsp; 연합뉴스 nh아문디운용 \"fn k-반도체 etf, 연초 이후 수익률 181%로 1위\" &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr technology "
+    },
+    {
+      "id": "external:3d738c740bc5fcb799a8a4ff",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-09",
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "title": "파주시 운정6동, 인공지능(AI)으로 복지사각지대 선제 발굴 나선다 - 경인신문",
+      "summary": "파주시 운정6동, 인공지능(AI)으로 복지사각지대 선제 발굴 나선다 &nbsp;&nbsp; 경인신문",
+      "detail": "파주시 운정6동, 인공지능(AI)으로 복지사각지대 선제 발굴 나선다 &nbsp;&nbsp; 경인신문",
+      "source": "경인신문",
+      "sourceDomain": "asn24.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qYlV0TVh5cGh0b3ZDc19wbHlZSE1TbXZ1MXBBZGVKMHdEYXNGa3hsYjY3LV9QM3ZWMWMwQ01odU15Z2pveVpCZUx3UWtLQ1F5a0hBVEpqWDZNQ2lDX3A2SlR3aElKWmM?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:55.636Z",
+      "searchText": "파주시 운정6동, 인공지능(ai)으로 복지사각지대 선제 발굴 나선다 - 경인신문 파주시 운정6동, 인공지능(ai)으로 복지사각지대 선제 발굴 나선다 &nbsp;&nbsp; 경인신문 파주시 운정6동, 인공지능(ai)으로 복지사각지대 선제 발굴 나선다 &nbsp;&nbsp; 경인신문 경인신문 asn24.com ai "
+    },
+    {
+      "id": "external:6fa15fb1323af85ec39ff7e9",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-09",
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "title": "구글 \"북한 해킹 조직, 인공지능으로 암호화폐 절취 자동화\" - voakorea.com",
+      "summary": "구글 \"북한 해킹 조직, 인공지능으로 암호화폐 절취 자동화\" &nbsp;&nbsp; voakorea.com",
+      "detail": "구글 \"북한 해킹 조직, 인공지능으로 암호화폐 절취 자동화\" &nbsp;&nbsp; voakorea.com",
+      "source": "voakorea.com",
+      "sourceDomain": "voakorea.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iRDAyOGdjcHFFOXRWMnNHMWVfc3hIUmpKNjBiMTZoNThSZnhrVEU1Z2JhVGVMNVotbm5aMTZiX2NhZk5wR04tQlRBbzhMVjZwdWRXN1RXVThCMkZVTFZjSlRxOU9qTEZYM2lBRnNSbmVSclM3NmxZctIBe0FVX3lxTE5DbWdBM2lFd1g1TExXUjFBSEpaX0RfZ09WbHcxS0Nkd1hfLS1BR0ZGNl9wX29tbmhVc2Z4LUFhQmdoQlNuNGRjejFQYVZMMDBrY3BkakVIaXNtTWJ4TS10X1dfdm0yc0tNMUNyazUxUlBSVlpCX2dUSlNDaw?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:55.636Z",
+      "searchText": "구글 \"북한 해킹 조직, 인공지능으로 암호화폐 절취 자동화\" - voakorea.com 구글 \"북한 해킹 조직, 인공지능으로 암호화폐 절취 자동화\" &nbsp;&nbsp; voakorea.com 구글 \"북한 해킹 조직, 인공지능으로 암호화폐 절취 자동화\" &nbsp;&nbsp; voakorea.com voakorea.com voakorea.com ai "
+    },
+    {
+      "id": "external:97d6a19312452d0834bc86a9",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-09",
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "title": "인공지능: 오픈AI, ‘90년간 수학 난제, 88시간 만에 풀어’ - bbc.com",
+      "summary": "인공지능: 오픈AI, ‘90년간 수학 난제, 88시간 만에 풀어’ &nbsp;&nbsp; bbc.com",
+      "detail": "인공지능: 오픈AI, ‘90년간 수학 난제, 88시간 만에 풀어’ &nbsp;&nbsp; bbc.com",
+      "source": "bbc.com",
+      "sourceDomain": "bbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBIcllwdExWOFpMQnRSblRRYjFKQWRuMmxCTURka1JiWXlKQnFyOG5ORkRCMkF1elpwcmF1aHc3dDZTMXFuZjFJRTA0Y3EwQ2d6N0dNUWRrVk1VcGhG0gFiQVVfeXFMTlFOaElEcHU3UzVGZzhtUG9scVp5NmpxR1U2LW4wczhvdXBQSU84S01MZmhqek5mcWN3YTVWc2FSV3ZOaGQ0UDlqaXVLWUIyaEJEdVozQ19xN2FGUmpXNzh1Mmc?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:55.635Z",
+      "searchText": "인공지능: 오픈ai, ‘90년간 수학 난제, 88시간 만에 풀어’ - bbc.com 인공지능: 오픈ai, ‘90년간 수학 난제, 88시간 만에 풀어’ &nbsp;&nbsp; bbc.com 인공지능: 오픈ai, ‘90년간 수학 난제, 88시간 만에 풀어’ &nbsp;&nbsp; bbc.com bbc.com bbc.com ai "
+    },
+    {
+      "id": "external:e47d67616b8f59590e83825f",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-09-09",
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "title": "“골대 비껴가도 빛난다”…K리그·스포츠토토 ‘슛포베러’ 13만 슈팅의 기적 - mksports.co.kr",
+      "summary": "“골대 비껴가도 빛난다”…K리그·스포츠토토 ‘슛포베러’ 13만 슈팅의 기적 &nbsp;&nbsp; mksports.co.kr",
+      "detail": "“골대 비껴가도 빛난다”…K리그·스포츠토토 ‘슛포베러’ 13만 슈팅의 기적 &nbsp;&nbsp; mksports.co.kr",
+      "source": "mksports.co.kr",
+      "sourceDomain": "mksports.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9veV9YSUpHRkVJa25udlh6RmNQUEtGRWEzN0ZuTzgxa3A1U2lmVGpnT2NoR041cU1SUXhRVzh1dlpod1d0NkZnT25SN2FsM1Q4X2RXOV9NcmpXUEMzQml3empmeVU?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:55.161Z",
+      "searchText": "“골대 비껴가도 빛난다”…k리그·스포츠토토 ‘슛포베러’ 13만 슈팅의 기적 - mksports.co.kr “골대 비껴가도 빛난다”…k리그·스포츠토토 ‘슛포베러’ 13만 슈팅의 기적 &nbsp;&nbsp; mksports.co.kr “골대 비껴가도 빛난다”…k리그·스포츠토토 ‘슛포베러’ 13만 슈팅의 기적 &nbsp;&nbsp; mksports.co.kr mksports.co.kr mksports.co.kr sports "
+    },
+    {
+      "id": "external:4bba88c590a6c3f43bc7a272",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-09-09",
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "title": "한국바이오협회, 바이오제약 QA 인재 키운다…250명 ‘GMP 실무’ 교육 - 약업신문",
+      "summary": "한국바이오협회, 바이오제약 QA 인재 키운다…250명 ‘GMP 실무’ 교육 &nbsp;&nbsp; 약업신문",
+      "detail": "한국바이오협회, 바이오제약 QA 인재 키운다…250명 ‘GMP 실무’ 교육 &nbsp;&nbsp; 약업신문",
+      "source": "약업신문",
+      "sourceDomain": "yakup.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfMl8xdnpZMHFNcW5sck5fX2hqekVEZjZBSG44dXBfUjZjU0p4clY5QkNWajNSVkd5THRjaERlWGR4S1FFNGNQWlBmWUdFTHZHVlFtTmFndTc3cWsya201X3BNWUNfMGNOSi1jM256aHVkQ1dyZmVubXFB?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:53.141Z",
+      "searchText": "한국바이오협회, 바이오제약 qa 인재 키운다…250명 ‘gmp 실무’ 교육 - 약업신문 한국바이오협회, 바이오제약 qa 인재 키운다…250명 ‘gmp 실무’ 교육 &nbsp;&nbsp; 약업신문 한국바이오협회, 바이오제약 qa 인재 키운다…250명 ‘gmp 실무’ 교육 &nbsp;&nbsp; 약업신문 약업신문 yakup.com health "
+    },
+    {
+      "id": "external:84cc7e6647bac82955c52738",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-09-09",
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "title": "국민건강보험공단, 대한민국을 대표하는 ‘AI기반 건강복지 플랫폼’으로 - kmpnews.co.kr",
+      "summary": "국민건강보험공단, 대한민국을 대표하는 ‘AI기반 건강복지 플랫폼’으로 &nbsp;&nbsp; kmpnews.co.kr",
+      "detail": "국민건강보험공단, 대한민국을 대표하는 ‘AI기반 건강복지 플랫폼’으로 &nbsp;&nbsp; kmpnews.co.kr",
+      "source": "kmpnews.co.kr",
+      "sourceDomain": "kmpnews.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3ZElqZ1VZX2k3UGotMVk5Wkpnd2ZLREpsemI4U1YyeTVjWVJIRC1Yd2hUcTZZdEtwRm1ZUURPa2ZmWWRUa1VfWV82cGpncTJYUk9ieVhkRDdzUUZ4S2xCV2tmYzBlV3ZMSmJz?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:53.141Z",
+      "searchText": "국민건강보험공단, 대한민국을 대표하는 ‘ai기반 건강복지 플랫폼’으로 - kmpnews.co.kr 국민건강보험공단, 대한민국을 대표하는 ‘ai기반 건강복지 플랫폼’으로 &nbsp;&nbsp; kmpnews.co.kr 국민건강보험공단, 대한민국을 대표하는 ‘ai기반 건강복지 플랫폼’으로 &nbsp;&nbsp; kmpnews.co.kr kmpnews.co.kr kmpnews.co.kr health "
+    },
+    {
+      "id": "external:c066435e79d01cb1da2ff735",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-09-09",
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "title": "한국증권금융, 3억달러 채권 데뷔전 성공…증권사 외화 안전판 역할 나선다 - news.einfomax.co.kr",
+      "summary": "한국증권금융, 3억달러 채권 데뷔전 성공…증권사 외화 안전판 역할 나선다 &nbsp;&nbsp; news.einfomax.co.kr",
+      "detail": "한국증권금융, 3억달러 채권 데뷔전 성공…증권사 외화 안전판 역할 나선다 &nbsp;&nbsp; news.einfomax.co.kr",
+      "source": "news.einfomax.co.kr",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaOUFncVh0MXdTVVo0cXJoQWVDV0hWZDVGeXdMTHRJQmNrN2tzYXMxMFl4VnJxd2I2a3J2N0t3YmpzbDZ1akk3WXBGWjNScjV1MVFkeHdmU1NLVXlyNXJidnY0TWR2THhwRmNnWDJLZjY?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:51.671Z",
+      "searchText": "한국증권금융, 3억달러 채권 데뷔전 성공…증권사 외화 안전판 역할 나선다 - news.einfomax.co.kr 한국증권금융, 3억달러 채권 데뷔전 성공…증권사 외화 안전판 역할 나선다 &nbsp;&nbsp; news.einfomax.co.kr 한국증권금융, 3억달러 채권 데뷔전 성공…증권사 외화 안전판 역할 나선다 &nbsp;&nbsp; news.einfomax.co.kr news.einfomax.co.kr news.einfomax.co.kr economy "
     },
     {
       "id": "external:ec7c72e9c357990fbcbb712b",
@@ -4133,6 +4691,24 @@
       "author": "",
       "collectedAt": "2026-09-09T22:40:24.788Z",
       "searchText": "생성형 ai: 작동 방식과 데이터, 컨텍스트, 제어가 중요한 이유 - snowflake 생성형 ai: 작동 방식과 데이터, 컨텍스트, 제어가 중요한 이유 &nbsp;&nbsp; snowflake 생성형 ai: 작동 방식과 데이터, 컨텍스트, 제어가 중요한 이유 &nbsp;&nbsp; snowflake ai · google news news.google.com ai "
+    },
+    {
+      "id": "external:cb971d45b7725f9b1336c0d8",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-09-05",
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "title": "\"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] - v.daum.net",
+      "summary": "\"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] &nbsp;&nbsp; v.daum.net",
+      "detail": "\"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] &nbsp;&nbsp; v.daum.net",
+      "source": "v.daum.net",
+      "sourceDomain": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5XWWROOWNCNzZZUnNwMFNvVk9Dd2gzODlsNEZjWkpiUmxCVWt3MndmUTEyekZuWU9zLXdic0RveU5HcC1vbmtmN0U5ZmJOWFE?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:45:53.691Z",
+      "searchText": "\"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] - v.daum.net \"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] &nbsp;&nbsp; v.daum.net \"지구가 경험한 적 없는 괴물이 온다\"…초대형 기후 재앙의 경고 [스프] &nbsp;&nbsp; v.daum.net v.daum.net v.daum.net climate "
     },
     {
       "id": "external:553c970f7db69760eb09cfc2",
