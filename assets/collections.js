@@ -260,6 +260,79 @@
     ].map(([v,l]) => `<div class="metric"><strong>${v}</strong><span>${l}</span></div>`).join('');
   }
 
+
+  function resolveGithubRepoContext() {
+    try {
+      const canonical = document.querySelector('link[rel="canonical"]')?.href || location.href;
+      const url = new URL(canonical, location.href);
+      if (!url.hostname.endsWith('.github.io')) return null;
+      const owner = url.hostname.replace(/\.github\.io$/i, '');
+      const repo = url.pathname.split('/').filter(Boolean)[0];
+      if (!owner || !repo) return null;
+      return { owner, repo, base: `https://github.com/${owner}/${repo}` };
+    } catch { return null; }
+  }
+
+  function openGuideDialog() {
+    const ctx = resolveGithubRepoContext();
+    const actionsLink = $('#actionsWorkflowLink');
+    const configLink = $('#sourcesConfigLink');
+    if (ctx) {
+      actionsLink.href = `${ctx.base}/actions/workflows/deploy.yml`;
+      configLink.href = `${ctx.base}/edit/main/config/sources.json`;
+      actionsLink.textContent = 'GitHub Actions에서 지금 수집';
+      configLink.textContent = 'sources.json 바로 편집';
+    } else {
+      actionsLink.href = 'https://github.com/';
+      configLink.href = 'https://github.com/';
+      actionsLink.textContent = 'GitHub에서 Actions 열기';
+      configLink.textContent = 'GitHub에서 sources.json 편집';
+    }
+    $('#guideDialog').showModal();
+  }
+
+  function renderStarterCards() {
+    const total = state.allItems.length;
+    const cards = [
+      {
+        icon: '01', action: 'guide',
+        title: total ? `카탈로그 ${total.toLocaleString()}건 확인` : '뉴스를 먼저 수집하기',
+        description: total ? '현재 자동 수집된 기사가 있습니다. 카드를 눌러 수집·갱신 방법을 확인합니다.' : 'Actions의 Run workflow를 누르면 10개 기본 분야를 즉시 수집합니다.',
+        footer: total ? '수집 구조 보기 →' : '가장 먼저 할 일 →'
+      },
+      { icon: '02', category: 'ECONOMY', title: '경제 · 시장 뉴스', description: '경제·금융·기업 관련 카탈로그만 바로 필터링합니다.', footer: 'ECONOMY 필터 →' },
+      { icon: '03', category: 'TECHNOLOGY', title: '기술 · 산업 뉴스', description: '기술·반도체·소프트웨어 관련 카탈로그를 탐색합니다.', footer: 'TECHNOLOGY 필터 →' },
+      { icon: '04', action: 'collection', title: '내 모음집 만들기', description: '카테고리·키워드·출처 조건을 저장하면 새 뉴스가 자동 정리됩니다.', footer: '자동 분류 규칙 만들기 →' },
+    ];
+    $('#starterGrid').innerHTML = cards.map(card => `<button class="starter-card" type="button" ${card.category ? `data-starter-category="${esc(card.category)}"` : ''} ${card.action ? `data-starter-action="${esc(card.action)}"` : ''}>
+      <span class="starter-icon">${esc(card.icon)}</span><strong>${esc(card.title)}</strong><span>${esc(card.description)}</span><em>${esc(card.footer)}</em>
+    </button>`).join('');
+  }
+
+  function openArticleDialog(itemId) {
+    const item = state.allItems.find(row => row.id === itemId);
+    if (!item) return;
+    const safeUrl = safeExternalHref(item.url);
+    const savedNames = savedCollectionNames(item.id);
+    const source = item.source || item.sourceDomain || '출처 미상';
+    const detail = item.detail || item.summary || '본문 요약이 제공되지 않았습니다. 원문에서 자세한 내용을 확인하세요.';
+    const origin = item.origin === 'custom' ? '직접 추가' : '자동 수집';
+    $('#articleDialogTitle').textContent = '뉴스 상세';
+    $('#articleDialogBody').innerHTML = `
+      <div class="article-kicker"><span class="cat-tag ${esc(item.category)}">${esc(item.category)}</span><span>${esc(fmtDate(item.date))}</span><span>${esc(origin)}</span></div>
+      <h3 class="article-title">${esc(item.title)}</h3>
+      ${item.summary ? `<p class="article-summary">${esc(item.summary)}</p>` : ''}
+      <div class="article-detail">${esc(detail)}</div>
+      <div class="article-source"><b>${esc(source)}</b>${item.author ? `<span>· ${esc(item.author)}</span>` : ''}${item.sourceDomain ? `<span>· ${esc(item.sourceDomain)}</span>` : ''}</div>
+      <div class="article-links">${safeUrl ? `<a class="btn soft" href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer">원문 새 탭에서 열기 ↗</a>` : ''}</div>
+      <div class="article-savebox">
+        <select id="articleCollectionSelect" aria-label="저장할 모음집">${state.collections.length ? state.collections.map(c => `<option value="${esc(c.id)}">${esc(c.name)}</option>`).join('') : '<option value="">모음집 없음</option>'}</select>
+        <button class="btn primary" type="button" data-article-save="${esc(item.id)}">모음집에 저장</button>
+      </div>
+      <div class="article-saved">${savedNames.length ? `현재 저장: ${esc(savedNames.join(', '))}` : '아직 모음집에 저장되지 않았습니다.'}</div>`;
+    $('#articleDialog').showModal();
+  }
+
   function renderFilters() {
     const categories = currentCategories();
     $('#categoryFilter').innerHTML = `<option value="">전체</option>${categories.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('')}`;
@@ -294,11 +367,11 @@
     const sourceLink = safeUrl ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer">${esc(item.source || item.sourceDomain || '원문')} ↗</a>` : '';
     const editionLink = '';
     const originLabel = item.origin === 'custom' ? '직접 추가' : '자동 수집';
-    return `<article class="result-row" data-item-id="${esc(item.id)}">
+    return `<article class="result-row" data-item-id="${esc(item.id)}" data-card-item="${esc(item.id)}">
       <input class="result-check" type="checkbox" aria-label="${esc(item.title)} 선택" data-select-item="${esc(item.id)}" ${state.selectedIds.has(item.id)?'checked':''}>
       <div class="result-main">
         <div class="result-meta"><span class="cat-tag ${esc(item.category)}">${esc(item.category)}</span><span>${esc(fmtDate(item.date))}</span>${item.topic?`<span>${esc(item.topic)}</span>`:''}<span>${originLabel}</span></div>
-        <h3>${esc(item.title)}</h3>
+        <h3><button class="result-title" type="button" data-open-item="${esc(item.id)}">${esc(item.title)}</button></h3>
         <p>${esc(item.summary || item.detail || '요약 없음')}</p>
         <div class="result-links">${sourceLink}${editionLink}</div>
       </div>
@@ -314,7 +387,7 @@
     const visible = rows.slice(0, state.visibleLimit);
     $('#resultCount').textContent = `${rows.length.toLocaleString()}개 자료`;
     $('#resultHint').textContent = state.filters.q || state.filters.category ? '현재 검색·필터 조건에 맞는 결과입니다.' : `전체 ${state.allItems.length.toLocaleString()}개 자료를 최신순으로 표시합니다.`;
-    $('#resultList').innerHTML = visible.length ? visible.map(resultRow).join('') : (state.allItems.length ? `<div class="empty"><strong>검색 결과가 없습니다.</strong>키워드나 카테고리 조건을 바꿔보세요.</div>` : `<div class="empty"><strong>아직 수집된 뉴스가 없습니다.</strong>GitHub에 배포하면 Actions가 설정된 분야의 뉴스를 수집합니다. 로컬에서는 <code>npm run update</code>로 바로 수집할 수 있습니다.</div>`);
+    $('#resultList').innerHTML = visible.length ? visible.map(resultRow).join('') : (state.allItems.length ? `<div class="empty"><strong>검색 결과가 없습니다.</strong>키워드나 카테고리 조건을 바꿔보세요.<div class="empty-actions"><button class="btn ghost" type="button" data-cat="">전체 자료 보기</button></div></div>` : `<div class="empty"><strong>아직 수집된 뉴스가 없습니다.</strong>저장소 생성은 완료됐지만 첫 수집이 아직 반영되지 않은 상태입니다. <b>GitHub Actions에서 Run workflow</b>를 실행하면 카탈로그를 바로 채울 수 있습니다.<div class="empty-actions"><button class="btn primary" type="button" data-open-guide>수집 방법 보기</button><button class="btn soft" type="button" data-starter-action="material">링크 직접 추가</button></div></div>`);
     $('#loadMoreBtn').hidden = visible.length >= rows.length;
     updateSelectionUI();
   }
@@ -361,8 +434,8 @@
       </div>
       <div class="detail-rule"><b>자동 정리 기준:</b> ${esc(ruleSummary(c))} · 키워드 판정 ${c.rules?.mode==='all'?'모두 포함':'하나라도 포함'} · 자동 동기화 ${c.autoSync?'사용':'사용 안 함'}</div>
       <div class="result-toolbar"><div><strong>${items.length.toLocaleString()}개 저장</strong><span>수동 저장과 규칙 기반 전이 결과가 함께 표시됩니다.</span></div></div>
-      <div class="result-list">${items.length ? items.map(({saved,item}) => `<article class="result-row">
-        <div></div><div class="result-main"><div class="result-meta"><span class="cat-tag ${esc(item.category)}">${esc(item.category)}</span><span>${esc(fmtDate(item.date))}</span><span>${saved.addedBy==='rule'?'자동 전이':'수동 저장'}</span></div><h3>${esc(item.title)}</h3><p>${esc(item.summary||item.detail||'')}</p><div class="result-links">${safeExternalHref(item.url)?`<a href="${esc(safeExternalHref(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.source||'원문')} ↗</a>`:''}${item.edition?`<a href="${esc(item.edition)}">해당 호 보기 →</a>`:''}</div></div><div class="result-actions"><button class="btn ghost" type="button" data-remove-saved="${esc(saved.id)}">이 모음집에서 제거</button></div>
+      <div class="result-list">${items.length ? items.map(({saved,item}) => `<article class="result-row" data-card-item="${esc(item.id)}">
+        <div></div><div class="result-main"><div class="result-meta"><span class="cat-tag ${esc(item.category)}">${esc(item.category)}</span><span>${esc(fmtDate(item.date))}</span><span>${saved.addedBy==='rule'?'자동 전이':'수동 저장'}</span></div><h3><button class="result-title" type="button" data-open-item="${esc(item.id)}">${esc(item.title)}</button></h3><p>${esc(item.summary||item.detail||'')}</p><div class="result-links">${safeExternalHref(item.url)?`<a href="${esc(safeExternalHref(item.url))}" target="_blank" rel="noopener noreferrer">${esc(item.source||'원문')} ↗</a>`:''}${item.edition?`<a href="${esc(item.edition)}">해당 호 보기 →</a>`:''}</div></div><div class="result-actions"><button class="btn ghost" type="button" data-remove-saved="${esc(saved.id)}">이 모음집에서 제거</button></div>
       </article>`).join('') : `<div class="empty"><strong>저장된 자료가 없습니다.</strong>탐색 화면에서 자료를 저장하거나 자동 정리 규칙을 적용하세요.</div>`}</div>`;
   }
 
@@ -378,6 +451,7 @@
   function renderAll() {
     renderSidebar();
     renderHeroMetrics();
+    renderStarterCards();
     renderFilters();
     renderResults();
     renderCollectionsGrid();
@@ -532,6 +606,21 @@
     $$('.tab').forEach(btn => btn.addEventListener('click', () => switchView(btn.dataset.view)));
     ['#createCollectionBtn','#sideCreateBtn'].forEach(sel => $(sel).addEventListener('click',()=>openCollectionDialog()));
     document.addEventListener('click', async (e) => {
+      const guide = e.target.closest('[data-open-guide]'); if (guide) { openGuideDialog(); return; }
+      const openItem = e.target.closest('[data-open-item]'); if (openItem) { openArticleDialog(openItem.dataset.openItem); return; }
+      const starterCategory = e.target.closest('[data-starter-category]'); if (starterCategory) { state.filters.category=starterCategory.dataset.starterCategory; $('#categoryFilter').value=state.filters.category; state.visibleLimit=PAGE_SIZE; renderFilters(); renderResults(); $('#resultList').scrollIntoView({behavior:'smooth',block:'start'}); return; }
+      const starterAction = e.target.closest('[data-starter-action]'); if (starterAction) {
+        if (starterAction.dataset.starterAction === 'guide') { openGuideDialog(); return; }
+        if (starterAction.dataset.starterAction === 'collection') { openCollectionDialog(); return; }
+        if (starterAction.dataset.starterAction === 'material') { $('#materialForm').reset(); $('#materialDate').value=today(); $('#materialDialog').showModal(); return; }
+      }
+      const articleSave = e.target.closest('[data-article-save]'); if (articleSave) {
+        const target = $('#articleCollectionSelect')?.value || state.collections[0]?.id;
+        if (!target) { $('#articleDialog').close(); openCollectionDialog(); return; }
+        const added = await saveItemsToCollection(target,[articleSave.dataset.articleSave],'manual'); renderAll(); openArticleDialog(articleSave.dataset.articleSave); toast(added?'자료를 저장했습니다.':'이미 저장된 자료입니다.', state.collections.find(c=>c.id===target)?.name || ''); return;
+      }
+      const card = e.target.closest('[data-card-item]');
+      if (card && !e.target.closest('button,a,input,select,label,textarea')) { openArticleDialog(card.dataset.cardItem); return; }
       const create = e.target.closest('[data-action="create-collection"]'); if (create) openCollectionDialog();
       const open = e.target.closest('[data-open-collection]'); if (open) switchView('collection-detail', open.dataset.openCollection);
       const edit = e.target.closest('[data-edit-collection]'); if (edit) openCollectionDialog(state.collections.find(c=>c.id===edit.dataset.editCollection));
@@ -547,6 +636,8 @@
         renderAll(); toast(added?'자료를 저장했습니다.':'이미 저장된 자료입니다.', state.collections.find(c=>c.id===target)?.name || '');
       }
     });
+    $('#guideBtn').addEventListener('click',openGuideDialog);
+    $$('.modal').forEach(dialog => dialog.addEventListener('click', e => { if (e.target === dialog) dialog.close(); }));
     $('#backCollectionsBtn').addEventListener('click',()=>switchView('collections'));
     $('#searchForm').addEventListener('submit', e => { e.preventDefault(); state.filters.q=$('#searchInput').value.trim();state.filters.category=$('#categoryFilter').value;state.filters.sort=$('#sortFilter').value;state.visibleLimit=PAGE_SIZE;renderFilters();renderResults(); });
     $('#searchInput').addEventListener('input', e => { state.filters.q=e.target.value.trim();state.visibleLimit=PAGE_SIZE;renderResults(); });

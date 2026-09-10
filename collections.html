@@ -36,6 +36,7 @@
     <button class="tab" type="button" data-view="activity">기록</button>
   </nav>
   <div class="top-actions">
+    <button class="btn ghost" type="button" id="guideBtn">수집 안내</button>
     <button class="btn ghost" type="button" id="addMaterialBtn">+ 자료 추가</button>
     <button class="btn primary" type="button" id="createCollectionBtn">+ 모음집</button>
   </div>
@@ -74,6 +75,14 @@
         </div>
         <div class="hero-metrics" id="heroMetrics"></div>
       </div>
+
+      <section class="starter-panel" id="starterPanel" aria-labelledby="starterTitle">
+        <div class="starter-head">
+          <div><span class="micro">QUICK START</span><h2 id="starterTitle">처음엔 이 카드부터 눌러보세요.</h2></div>
+          <button class="btn ghost" type="button" data-open-guide>카탈로그 수집 방법</button>
+        </div>
+        <div class="starter-grid" id="starterGrid"></div>
+      </section>
 
       <form class="search-panel" id="searchForm" role="search">
         <label class="search-box">
@@ -133,6 +142,33 @@
   </section>
 </main>
 
+<dialog class="modal article-modal" id="articleDialog">
+  <div class="modal-card article-sheet">
+    <div class="modal-head"><div><span class="micro">ARTICLE DETAIL</span><h2 id="articleDialogTitle">뉴스 상세</h2></div><button class="icon-btn" type="button" data-close-dialog="articleDialog" aria-label="닫기">×</button></div>
+    <div id="articleDialogBody"></div>
+  </div>
+</dialog>
+
+<dialog class="modal guide-modal" id="guideDialog">
+  <div class="modal-card guide-sheet">
+    <div class="modal-head"><div><span class="micro">CATALOG GUIDE</span><h2>뉴스 카탈로그를 채우는 방법</h2></div><button class="icon-btn" type="button" data-close-dialog="guideDialog" aria-label="닫기">×</button></div>
+    <p class="modal-copy">NewsWeave는 브라우저에서 직접 크롤링하지 않습니다. GitHub Actions가 RSS/Google News RSS를 수집해 정적 JSON으로 저장하고, 이 화면은 그 카탈로그를 읽습니다.</p>
+    <div class="guide-steps">
+      <article><b>1</b><div><strong>수집 분야 설정</strong><p><code>config/sources.json</code>에서 카테고리와 검색어를 추가·수정합니다. 기본으로 세계·경제·기술·과학·건강·기후·우주·문화·스포츠·AI가 켜져 있습니다.</p></div></article>
+      <article><b>2</b><div><strong>지금 바로 수집</strong><p>GitHub의 <b>Actions → Collect, Build and Deploy NewsWeave → Run workflow</b>를 누르면 기다리지 않고 즉시 수집합니다.</p></div></article>
+      <article><b>3</b><div><strong>수집 결과 저장</strong><p>기사는 <code>data/external/YYYY-MM-DD.json</code>에 날짜별로 누적되고, 빌드가 <code>data/catalog.json</code>을 다시 생성합니다.</p></div></article>
+      <article><b>4</b><div><strong>페이지 자동 갱신</strong><p>Actions가 수집 파일과 카탈로그를 커밋한 뒤 GitHub Pages를 다시 배포합니다. 보통 몇 분 안에 카드가 나타납니다.</p></div></article>
+    </div>
+    <div class="guide-code"><span>로컬에서 시험하려면</span><code>npm run collect
+npm run build
+npm run dev</code></div>
+    <div class="guide-actions">
+      <a class="btn primary" id="actionsWorkflowLink" href="#" target="_blank" rel="noopener noreferrer">GitHub Actions에서 지금 수집</a>
+      <a class="btn soft" id="sourcesConfigLink" href="#" target="_blank" rel="noopener noreferrer">sources.json 편집 위치 열기</a>
+    </div>
+  </div>
+</dialog>
+
 <dialog class="modal" id="collectionDialog">
   <form method="dialog" class="modal-card" id="collectionForm">
     <div class="modal-head"><div><span class="micro">COLLECTION RULE</span><h2 id="collectionDialogTitle">새 모음집</h2></div><button class="icon-btn" type="button" data-close-dialog="collectionDialog" aria-label="닫기">×</button></div>
@@ -186,6 +222,6 @@
 
 <div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="true"></div>
 <script src="assets/collections.js" defer></script>
-<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(()=>{}));}</script>
+<script>if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}));}</script>
 </body>
 </html>

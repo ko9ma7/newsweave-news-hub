@@ -22,7 +22,12 @@ ok((sources.sources||[]).some(s=>s.category==='AI') && (sources.sources||[]).som
 ok((collections.categories||[]).includes('WORLD') && (collections.categories||[]).includes('SPORTS'), 'collections support broad categories');
 ok(index.includes('NewsWeave') && !index.includes('45호'), 'landing page is NewsWeave, not legacy archive');
 ok(app.includes('NewsWeave') && app.includes('분야별로 자동 수집한 뉴스'), 'collections UI has NewsWeave multi-topic branding');
-ok(read('service-worker.js').includes('newsweave-v1.0.3'), 'service worker cache namespace is independent');
+ok(app.includes('articleDialog') && app.includes('guideDialog') && app.includes('starterGrid'), 'article overlay, collection guide, and starter cards are present');
+ok(read('assets/collections.js').includes('openArticleDialog') && read('assets/collections.js').includes('openGuideDialog'), 'card overlay and guide interactions are implemented');
+ok(read('tools/build-index.js').includes('sourceDialog') && read('tools/build-index.js').includes('Run workflow'), 'landing source cards provide overlay details and collection instructions');
+ok(fs.existsSync(path.join(ROOT,'CATALOG-GUIDE.md')), 'catalog collection guide exists');
+ok(read('service-worker.js').includes('newsweave-v1.1.3'), 'service worker cache namespace is independent');
+ok(read('assets/collections.css').includes('[hidden]{display:none!important}'), 'hidden loading and error states are actually hidden');
 ok(read('site.webmanifest').includes('NewsWeave'), 'manifest branding present');
 ok(fs.existsSync(path.join(ROOT,'.newsweave-project')), 'fresh project marker exists');
 ok(fs.existsSync(path.join(ROOT,'github-create-repo-only.cmd')), 'fallback repository create-and-push command exists');

@@ -5,13 +5,13 @@
 > Windows Bootstrap의 기본 저장소명은 `newsweave-news-hub`이며 `gh repo create`로 독립 저장소를 생성합니다.
 
 <!-- BOOTSTRAP_DEPLOY_URL_START -->
-**Deployment URL:** https://ko9ma7.github.io/newsweave-news-hub/
+**Deployment URL:** 아직 배포되지 않았습니다. `github-bootstrap.cmd` 실행 후 자동 갱신됩니다.
 <!-- BOOTSTRAP_DEPLOY_URL_END -->
 
 ## Preview
 
 - `index.html`: NewsWeave 소개, 활성 수집 분야와 자동화 파이프라인
-- `collections.html`: 수집된 뉴스 검색, 카테고리 필터, 다중 선택 저장, 규칙 기반 자동 모음집, 활동 기록, JSON 백업/복원
+- `collections.html`: 수집된 뉴스 검색, **카드 클릭 오버레이 상세 보기**, 카테고리 필터, 다중 선택 저장, 규칙 기반 자동 모음집, 활동 기록, JSON 백업/복원
 
 ## Features
 
@@ -20,6 +20,9 @@
 - 기본 분야: WORLD, ECONOMY, TECHNOLOGY, SCIENCE, HEALTH, CLIMATE, SPACE, CULTURE, SPORTS, AI
 - 중복 제거 및 공통 JSON 스키마 정규화
 - 정적 `data/catalog.json` 검색 인덱스
+- 뉴스 카드 클릭 시 상세 오버레이(요약·출처·원문·모음집 저장)
+- 카탈로그가 비어 있어도 표시되는 Quick Start 기본 카드
+- 앱 안의 “수집 안내” 오버레이와 GitHub Actions/`sources.json` 바로가기
 - 카테고리·키워드·출처 조건의 자동 모음집
 - IndexedDB local-first 저장
 - 외부 링크 직접 추가
@@ -92,6 +95,19 @@ npm run update
 ```bash
 npm run collect:test
 ```
+
+## 카탈로그에 뉴스를 실제로 올리는 방법
+
+배포 후 카드가 0건이면 저장소가 잘못된 것이 아니라 **첫 수집이 아직 실행되지 않았을 가능성**이 큽니다. 가장 빠른 방법은 GitHub에서 직접 Workflow를 실행하는 것입니다.
+
+1. 저장소의 **Actions** 탭을 엽니다.
+2. **Collect, Build and Deploy NewsWeave**를 선택합니다.
+3. **Run workflow** → `main` → **Run workflow**를 누릅니다.
+4. 성공하면 `data/external/YYYY-MM-DD.json`이 생성됩니다.
+5. 같은 실행에서 `data/catalog.json`과 GitHub Pages도 다시 만들어집니다.
+6. Pages를 새로고침하면 뉴스 카드가 나타납니다. 서비스워커 캐시가 남으면 `Ctrl+F5`를 사용하세요.
+
+전체 점검표와 소스 예시는 [`CATALOG-GUIDE.md`](CATALOG-GUIDE.md)에 정리되어 있습니다. 웹앱에서도 상단의 **수집 안내** 버튼을 누르면 같은 흐름을 오버레이로 볼 수 있습니다.
 
 ## 원하는 분야 추가하기
 
@@ -166,7 +182,7 @@ ZIP을 완전히 압축 해제한 뒤 **`newsweave` 폴더 안의 `github-bootst
 set "REPO_NAME=newsweave-news-hub"
 set "REPO_VISIBILITY=public"
 set "DEFAULT_BRANCH=main"
-set "INITIAL_TAG=v1.0.3"
+set "INITIAL_TAG=v1.1.3"
 ```
 
 자동 처리 항목:
@@ -186,7 +202,7 @@ set "INITIAL_TAG=v1.0.3"
 13. GitHub Pages `workflow` source 활성화
 14. Actions 실행 확인 및 `gh run watch --exit-status`
 15. 성공 시 배포 URL 표시
-16. `v1.0.3` tag / Release 생성
+16. `v1.1.3` tag / Release 생성
 
 기존 origin이 요청한 새 저장소와 다르면 force-push하지 않고 중단합니다. 복구 명령은 화면과 `github-bootstrap.log`에 기록됩니다.
 
@@ -198,7 +214,7 @@ set "INITIAL_TAG=v1.0.3"
 - Description: `Multi-topic news collector and rule-based personal news collections for GitHub Pages`
 - Visibility: public
 - Branch: main
-- Initial tag: v1.0.3
+- Initial tag: v1.1.3
 - Initial commit: `feat: launch NewsWeave multi-topic news collector`
 - Topics: `news`, `news-aggregator`, `rss`, `github-pages`, `indexeddb`, `knowledge-management`, `automation`, `static-site`, `vanilla-javascript`
 

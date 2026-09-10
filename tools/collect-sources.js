@@ -54,6 +54,8 @@ function parseFeed(xml) {
     summary: tag(block, 'description') || tag(block, 'summary') || tag(block, 'content') || tag(block, 'content:encoded'),
     publishedAt: tag(block, 'pubDate') || tag(block, 'published') || tag(block, 'updated') || tag(block, 'dc:date'),
     author: tag(block, 'author') || tag(block, 'dc:creator'),
+    publisher: tag(block, 'source'),
+    publisherUrl: (block.match(/<source\b[^>]*\burl=["']([^"']+)["'][^>]*>/i) || [])[1] || '',
   })).filter(x => x.title && x.url);
 }
 
@@ -87,9 +89,9 @@ function stableId(sourceId, url, title) {
 
 function normalizeEntry(entry, source) {
   let sourceDomain = '';
-  try { sourceDomain = new URL(entry.url).hostname.replace(/^www\./, ''); } catch (_) {}
+  try { sourceDomain = new URL(entry.publisherUrl || entry.url).hostname.replace(/^www\./, ''); } catch (_) {}
   const date = normalizeDate(entry.publishedAt);
-  const sourceName = source.name || source.id;
+  const sourceName = entry.publisher || source.name || source.id;
   const searchText = [entry.title, entry.summary, sourceName, sourceDomain, source.category].join(' ').toLocaleLowerCase('ko-KR');
   return {
     id: stableId(source.id, entry.url, entry.title),
@@ -181,12 +183,12 @@ async function collect() {
 }
 
 function selfTest() {
-  const sample = `<?xml version="1.0"?><rss><channel><item><title><![CDATA[Global science research expands]]></title><link>https://example.com/a</link><description><![CDATA[science technology health news]]></description><pubDate>Tue, 08 Sep 2026 01:00:00 GMT</pubDate></item></channel></rss>`;
+  const sample = `<?xml version="1.0"?><rss><channel><item><title><![CDATA[Global science research expands]]></title><link>https://news.example/a</link><description><![CDATA[science technology health news]]></description><pubDate>Tue, 08 Sep 2026 01:00:00 GMT</pubDate><source url="https://publisher.example/">Example News</source></item></channel></rss>`;
   const parsed = parseFeed(sample);
   if (parsed.length !== 1 || parsed[0].title !== 'Global science research expands') throw new Error('RSS parser self-test failed');
   if (!matchesTerms(`${parsed[0].title} ${parsed[0].summary}`, ['science'], [], 'any')) throw new Error('keyword self-test failed');
   const item = normalizeEntry(parsed[0], { id:'test', name:'Test', category:'SCIENCE' });
-  if (item.category !== 'SCIENCE' || !item.id.startsWith('external:')) throw new Error('normalize self-test failed');
+  if (item.category !== 'SCIENCE' || !item.id.startsWith('external:') || item.source !== 'Example News' || item.sourceDomain !== 'publisher.example') throw new Error('normalize self-test failed');
   console.log('collect-sources self-test passed.');
 }
 

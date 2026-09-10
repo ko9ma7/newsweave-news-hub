@@ -1,4 +1,4 @@
-const VERSION = 'newsweave-v1.0.3';
+const VERSION = 'newsweave-v1.1.3';
 const SHELL = ['./','./index.html','./collections.html','./404.html','./assets/collections.css','./assets/collections.js','./config/collections.json','./config/sources.json','./site.webmanifest','./favicon.svg','./favicon.ico','./icon-192.png','./icon-512.png'];
 self.addEventListener('install', event => event.waitUntil(caches.open(VERSION).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting())));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== VERSION).map(k => caches.delete(k)))).then(() => self.clients.claim())));
