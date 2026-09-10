@@ -1,53 +1,53 @@
 {
   "schemaVersion": 2,
   "product": "NewsWeave",
-  "generatedAt": "2026-09-10T00:12:36.652Z",
-  "contentVersion": "c0340c99a1cde8a0",
+  "generatedAt": "2026-09-10T00:27:39.671Z",
+  "contentVersion": "a8e270821f0e804e",
   "stats": {
-    "totalItems": 188,
-    "externalItems": 188,
+    "totalItems": 221,
+    "externalItems": 221,
     "configuredSources": 10,
     "enabledSources": 10,
     "categories": [
       {
         "name": "WORLD",
-        "count": 15
+        "count": 16
       },
       {
         "name": "ECONOMY",
-        "count": 20
+        "count": 25
       },
       {
         "name": "TECHNOLOGY",
-        "count": 21
+        "count": 24
       },
       {
         "name": "SCIENCE",
-        "count": 19
+        "count": 21
       },
       {
         "name": "HEALTH",
-        "count": 19
+        "count": 24
       },
       {
         "name": "CLIMATE",
-        "count": 17
+        "count": 20
       },
       {
         "name": "SPACE",
-        "count": 18
-      },
-      {
-        "name": "CULTURE",
         "count": 23
       },
       {
+        "name": "CULTURE",
+        "count": 28
+      },
+      {
         "name": "SPORTS",
-        "count": 19
+        "count": 20
       },
       {
         "name": "AI",
-        "count": 17
+        "count": 20
       }
     ],
     "sources": [
@@ -92,6 +92,14 @@
         "count": 12
       },
       {
+        "name": "v.daum.net",
+        "count": 6
+      },
+      {
+        "name": "연합인포맥스",
+        "count": 5
+      },
+      {
         "name": "아시아경제",
         "count": 4
       },
@@ -100,11 +108,7 @@
         "count": 4
       },
       {
-        "name": "v.daum.net",
-        "count": 4
-      },
-      {
-        "name": "연합인포맥스",
+        "name": "연합뉴스",
         "count": 3
       },
       {
@@ -116,7 +120,23 @@
         "count": 3
       },
       {
+        "name": "hankyung.com",
+        "count": 2
+      },
+      {
+        "name": "에너지데일리",
+        "count": 2
+      },
+      {
+        "name": "이투데이",
+        "count": 2
+      },
+      {
         "name": "한국경제",
+        "count": 2
+      },
+      {
+        "name": "신아일보",
         "count": 2
       },
       {
@@ -124,7 +144,19 @@
         "count": 2
       },
       {
-        "name": "연합뉴스",
+        "name": "Chosunbiz",
+        "count": 2
+      },
+      {
+        "name": "대한민국 정책브리핑",
+        "count": 2
+      },
+      {
+        "name": "히트뉴스",
+        "count": 2
+      },
+      {
+        "name": "kpanews.co.kr",
         "count": 2
       },
       {
@@ -138,42 +170,244 @@
       {
         "name": "채널A",
         "count": 2
-      },
-      {
-        "name": "약사공론",
-        "count": 2
-      },
-      {
-        "name": "biz.chosun.com",
-        "count": 2
-      },
-      {
-        "name": "haesanews.com",
-        "count": 2
-      },
-      {
-        "name": "데일리대구경북뉴스",
-        "count": 1
-      },
-      {
-        "name": "AI타임스",
-        "count": 1
-      },
-      {
-        "name": "신아일보",
-        "count": 1
-      },
-      {
-        "name": "서울교육소식",
-        "count": 1
-      },
-      {
-        "name": "m.mksports.co.kr",
-        "count": 1
       }
     ]
   },
   "items": [
+    {
+      "id": "external:bb614ace7da047085d75532b",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-10",
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "title": "인공지능 경쟁 수혜, GPU 관련주에서 전력 관련주로 옮긴다 [AI노스트라다무스⑥] - hankyung.com",
+      "summary": "인공지능 경쟁 수혜, GPU 관련주에서 전력 관련주로 옮긴다 [AI노스트라다무스⑥] &nbsp;&nbsp; hankyung.com",
+      "detail": "인공지능 경쟁 수혜, GPU 관련주에서 전력 관련주로 옮긴다 [AI노스트라다무스⑥] &nbsp;&nbsp; hankyung.com",
+      "source": "hankyung.com",
+      "sourceDomain": "hankyung.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NLXhfYUR0a0pVS2xueTh5TVIxUUxocFJVMFJwNHd5RHVDYWRoRHplY212WkQtcm5idFprbXFReHFJeTZXUDdvR2pLQ2VMVDFqSEwzVjVvTUpIZw?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:39.454Z",
+      "searchText": "인공지능 경쟁 수혜, gpu 관련주에서 전력 관련주로 옮긴다 [ai노스트라다무스⑥] - hankyung.com 인공지능 경쟁 수혜, gpu 관련주에서 전력 관련주로 옮긴다 [ai노스트라다무스⑥] &nbsp;&nbsp; hankyung.com 인공지능 경쟁 수혜, gpu 관련주에서 전력 관련주로 옮긴다 [ai노스트라다무스⑥] &nbsp;&nbsp; hankyung.com hankyung.com hankyung.com ai "
+    },
+    {
+      "id": "external:df85795a6dd3606b55875fa9",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-09-10",
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "title": "의성, 드론산업을 스포츠·관광으로…체류형 콘텐츠 실험 - kyongbuk.co.kr",
+      "summary": "의성, 드론산업을 스포츠·관광으로…체류형 콘텐츠 실험 &nbsp;&nbsp; kyongbuk.co.kr",
+      "detail": "의성, 드론산업을 스포츠·관광으로…체류형 콘텐츠 실험 &nbsp;&nbsp; kyongbuk.co.kr",
+      "source": "kyongbuk.co.kr",
+      "sourceDomain": "kyongbuk.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wU2x5bzllV0RBZzJqbFh5U2lCWWJWNTMyZkc5RTRVOUxtbG14bndSS0tRZmdmdEs3eG1vck1xUjRaVGdfdkxxcWR0ajdzYXIzNHJWSnhqczE3dFppeWphMFVWN3JhYjNrM3kycldhUQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:39.007Z",
+      "searchText": "의성, 드론산업을 스포츠·관광으로…체류형 콘텐츠 실험 - kyongbuk.co.kr 의성, 드론산업을 스포츠·관광으로…체류형 콘텐츠 실험 &nbsp;&nbsp; kyongbuk.co.kr 의성, 드론산업을 스포츠·관광으로…체류형 콘텐츠 실험 &nbsp;&nbsp; kyongbuk.co.kr kyongbuk.co.kr kyongbuk.co.kr sports "
+    },
+    {
+      "id": "external:34574f5e997a549fc7f03e9d",
+      "origin": "external",
+      "sourceId": "culture-google-news",
+      "date": "2026-09-10",
+      "category": "CULTURE",
+      "categoryLabel": "CULTURE",
+      "topic": "",
+      "title": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” - v.daum.net",
+      "summary": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; v.daum.net",
+      "detail": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; v.daum.net",
+      "source": "v.daum.net",
+      "sourceDomain": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1PMUpVYnA1WGdLQXp3Sm9uVkJ0YjNMYnZtUnNuTkpnUElDVGZIcGhvY01zdjNLcXVaTkF0SHJXUTBZMFMwQjJ2eWxWcU4xb00?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:38.465Z",
+      "searchText": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” - v.daum.net [영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; v.daum.net [영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; v.daum.net v.daum.net v.daum.net culture "
+    },
+    {
+      "id": "external:560d1914324950c5061141fd",
+      "origin": "external",
+      "sourceId": "culture-google-news",
+      "date": "2026-09-10",
+      "category": "CULTURE",
+      "categoryLabel": "CULTURE",
+      "topic": "",
+      "title": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” - news.kbs.co.kr",
+      "summary": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; news.kbs.co.kr",
+      "detail": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; news.kbs.co.kr",
+      "source": "news.kbs.co.kr",
+      "sourceDomain": "news.kbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TVElTM0lNVmJMMEg5Z2dwcXRzcVRuLUtEU0hTQ0VTUl83UUdsTWlDTllnaWZQUjdoc1ZucTZhOFhNamVEVmZrQmN4UmRzVnpLNGp6RE5fdE94XzQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:38.465Z",
+      "searchText": "[영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” - news.kbs.co.kr [영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; news.kbs.co.kr [영상] 추석 극장가 찾는 마지막 ‘타짜’…“쉬어갈 틈 없는 영화” &nbsp;&nbsp; news.kbs.co.kr news.kbs.co.kr news.kbs.co.kr culture "
+    },
+    {
+      "id": "external:2bdc95ace7b698c631982df5",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "[파워인터뷰 예고] 컨텍, GSaaS·AP위성·TX스페이스 삼각축...\"글로벌 성장 노린다\" - 팍스경제TV",
+      "summary": "[파워인터뷰 예고] 컨텍, GSaaS·AP위성·TX스페이스 삼각축...\"글로벌 성장 노린다\" &nbsp;&nbsp; 팍스경제TV",
+      "detail": "[파워인터뷰 예고] 컨텍, GSaaS·AP위성·TX스페이스 삼각축...\"글로벌 성장 노린다\" &nbsp;&nbsp; 팍스경제TV",
+      "source": "팍스경제TV",
+      "sourceDomain": "paxetv.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHV1YxeEtmVWlWdkljTWlXeXhXUmNiVnEtSXFrRGM5RzNhYWZpSDliNVlxa281ZGY4ZU1ZQWJpTjNWTWhPa3ZnME91ZkVZWlh5RmhHSFlsdUVkbzlaWjF2TjJ3c21Iak0?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:37.878Z",
+      "searchText": "[파워인터뷰 예고] 컨텍, gsaas·ap위성·tx스페이스 삼각축...\"글로벌 성장 노린다\" - 팍스경제tv [파워인터뷰 예고] 컨텍, gsaas·ap위성·tx스페이스 삼각축...\"글로벌 성장 노린다\" &nbsp;&nbsp; 팍스경제tv [파워인터뷰 예고] 컨텍, gsaas·ap위성·tx스페이스 삼각축...\"글로벌 성장 노린다\" &nbsp;&nbsp; 팍스경제tv 팍스경제tv paxetv.com space "
+    },
+    {
+      "id": "external:4c12f0fe062038a65858e89d",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "이란 남부 해안서 연쇄 폭발음…“적 발사체 타격” 보도 - 중앙일보",
+      "summary": "이란 남부 해안서 연쇄 폭발음…“적 발사체 타격” 보도 &nbsp;&nbsp; 중앙일보",
+      "detail": "이란 남부 해안서 연쇄 폭발음…“적 발사체 타격” 보도 &nbsp;&nbsp; 중앙일보",
+      "source": "중앙일보",
+      "sourceDomain": "joongang.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zbnNENEJpbl9sTmg2cG9nUDYyNHpoa2Q3Q2hXQktFaVR2anphS093RlFUb3I3SlRZQTJmakowaVhwRERjQTZWZllSOXh4Tzk1MmlOUDl3?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:37.878Z",
+      "searchText": "이란 남부 해안서 연쇄 폭발음…“적 발사체 타격” 보도 - 중앙일보 이란 남부 해안서 연쇄 폭발음…“적 발사체 타격” 보도 &nbsp;&nbsp; 중앙일보 이란 남부 해안서 연쇄 폭발음…“적 발사체 타격” 보도 &nbsp;&nbsp; 중앙일보 중앙일보 joongang.co.kr space "
+    },
+    {
+      "id": "external:e2565b7dd85da807308a0048",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "항공제조 인력난 뚫는다···사천 우주항공 일자리박람회 열려 - 뉴스사천",
+      "summary": "항공제조 인력난 뚫는다···사천 우주항공 일자리박람회 열려 &nbsp;&nbsp; 뉴스사천",
+      "detail": "항공제조 인력난 뚫는다···사천 우주항공 일자리박람회 열려 &nbsp;&nbsp; 뉴스사천",
+      "source": "뉴스사천",
+      "sourceDomain": "news4000.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VZmlIdzQ3YWVlRUR4VzBGdURValdpV2dlb2g1T2VyeW5IMV9qcmNrUnMwbk4wLVpDRGZ0SU4tOUZ6ZDJlVU5vQ0hCMEpjbGF5RkZiWlZCS1Ayb2w3cUV3MmFYOHN5cElF?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:37.878Z",
+      "searchText": "항공제조 인력난 뚫는다···사천 우주항공 일자리박람회 열려 - 뉴스사천 항공제조 인력난 뚫는다···사천 우주항공 일자리박람회 열려 &nbsp;&nbsp; 뉴스사천 항공제조 인력난 뚫는다···사천 우주항공 일자리박람회 열려 &nbsp;&nbsp; 뉴스사천 뉴스사천 news4000.com space "
+    },
+    {
+      "id": "external:26bebc5e2dd19bc0fe946fe1",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-10",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "한화시스템, ‘우주 AI’ 첫 공개…위성 영상 ‘정밀 분석’ - 아시아투데이",
+      "summary": "한화시스템, ‘우주 AI’ 첫 공개…위성 영상 ‘정밀 분석’ &nbsp;&nbsp; 아시아투데이",
+      "detail": "한화시스템, ‘우주 AI’ 첫 공개…위성 영상 ‘정밀 분석’ &nbsp;&nbsp; 아시아투데이",
+      "source": "아시아투데이",
+      "sourceDomain": "asiatoday.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95anU4N28wRXRhNTBvVWR4c19iemRaZ1VfZzF3N09MRGFYRjBEQUdocXlYQURhbEZXTGl3X053XzNZa3hjQzVMMVNoTjZVZmNjcmNEbnhlYVlGQjJwUkVDeFlpcV9mSU9UeThOYjhR?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:37.878Z",
+      "searchText": "한화시스템, ‘우주 ai’ 첫 공개…위성 영상 ‘정밀 분석’ - 아시아투데이 한화시스템, ‘우주 ai’ 첫 공개…위성 영상 ‘정밀 분석’ &nbsp;&nbsp; 아시아투데이 한화시스템, ‘우주 ai’ 첫 공개…위성 영상 ‘정밀 분석’ &nbsp;&nbsp; 아시아투데이 아시아투데이 asiatoday.co.kr space "
+    },
+    {
+      "id": "external:b0dc7f18dcaf029787d78794",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-09-10",
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "title": "중부발전, LS ELECTRIC과 재생에너지 '전주기' 협력한다 - 에너지데일리",
+      "summary": "중부발전, LS ELECTRIC과 재생에너지 '전주기' 협력한다 &nbsp;&nbsp; 에너지데일리",
+      "detail": "중부발전, LS ELECTRIC과 재생에너지 '전주기' 협력한다 &nbsp;&nbsp; 에너지데일리",
+      "source": "에너지데일리",
+      "sourceDomain": "energydaily.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qTVd0SkRieklMZVN2OFBscTRqMVNnVmM1SnJCX2xNZUZIbjFFTE9IUmZrYVlUTmhEMzRyeFU2b1N0YlhDeHB0VkxZMmZlSGx1UnBESGdoYnZid2V3NC0tTWNIc3M2U1BNbFdVMlFSVDN3UQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:37.374Z",
+      "searchText": "중부발전, ls electric과 재생에너지 '전주기' 협력한다 - 에너지데일리 중부발전, ls electric과 재생에너지 '전주기' 협력한다 &nbsp;&nbsp; 에너지데일리 중부발전, ls electric과 재생에너지 '전주기' 협력한다 &nbsp;&nbsp; 에너지데일리 에너지데일리 energydaily.co.kr climate "
+    },
+    {
+      "id": "external:5a13e509efe3d035eb399555",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-09-10",
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "title": "자생의료재단, 네팔 대홍수 피해 이재민·아동 위해 1000만 원 기부 - 이투데이",
+      "summary": "자생의료재단, 네팔 대홍수 피해 이재민·아동 위해 1000만 원 기부 &nbsp;&nbsp; 이투데이",
+      "detail": "자생의료재단, 네팔 대홍수 피해 이재민·아동 위해 1000만 원 기부 &nbsp;&nbsp; 이투데이",
+      "source": "이투데이",
+      "sourceDomain": "bravo.etoday.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKUmtCQ3JOVGNJT1JYTXYwLUlUOEdoWEtpM1dLYm91a0otTGVnVy0yQlJvR1V0czdzTWFWOUdyV1pVQzcyVnRsU3g0TE94RnNLT19RdHJrNWtFUQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:36.827Z",
+      "searchText": "자생의료재단, 네팔 대홍수 피해 이재민·아동 위해 1000만 원 기부 - 이투데이 자생의료재단, 네팔 대홍수 피해 이재민·아동 위해 1000만 원 기부 &nbsp;&nbsp; 이투데이 자생의료재단, 네팔 대홍수 피해 이재민·아동 위해 1000만 원 기부 &nbsp;&nbsp; 이투데이 이투데이 bravo.etoday.co.kr health "
+    },
+    {
+      "id": "external:5df9bdb64fb90b9e119b9104",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-09-10",
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "title": "\"S&P500, 내년 1만 간다…美 경제 기존 관행 변했다\" - kbthink.com",
+      "summary": "\"S&P500, 내년 1만 간다…美 경제 기존 관행 변했다\" &nbsp;&nbsp; kbthink.com",
+      "detail": "\"S&P500, 내년 1만 간다…美 경제 기존 관행 변했다\" &nbsp;&nbsp; kbthink.com",
+      "source": "kbthink.com",
+      "sourceDomain": "kbthink.com",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1Y0U4V29pNUtURkdSbUtFSnJZa1l2Si1QRnM5cTF2SkZwcVhxQ0tvWXBMNWlsN3B3UnY2cmxya2ZJQ0Z0czBKQU5jX0cxZkFBdEZzeE9VZVo3cUJKVWs0RFFERmxWNU9LSjdmcWlTTjZJQQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:35.207Z",
+      "searchText": "\"s&p500, 내년 1만 간다…美 경제 기존 관행 변했다\" - kbthink.com \"s&p500, 내년 1만 간다…美 경제 기존 관행 변했다\" &nbsp;&nbsp; kbthink.com \"s&p500, 내년 1만 간다…美 경제 기존 관행 변했다\" &nbsp;&nbsp; kbthink.com kbthink.com kbthink.com economy "
+    },
+    {
+      "id": "external:19e4536eb20a06453fe5fe72",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-09-10",
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "title": "BNK금융, 'CET1 13%·ROE 10.5%' 밸류업 목표 달성까지 '험난' - 연합인포맥스",
+      "summary": "BNK금융, 'CET1 13%·ROE 10.5%' 밸류업 목표 달성까지 '험난' &nbsp;&nbsp; 연합인포맥스",
+      "detail": "BNK금융, 'CET1 13%·ROE 10.5%' 밸류업 목표 달성까지 '험난' &nbsp;&nbsp; 연합인포맥스",
+      "source": "연합인포맥스",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tOXVFbnI1VXBqU2ZtaEV6Qy16ZzlEUHNKbUVOaFV6VEJSdnZrS0hxVmd0VmlIOTNTMWhnS0tJVk1JVHlmaVZTLTZBZE8zMHQyd3dRYXU0RlVJZWJ1LURGWERrZ3Q1cW9RRTNBTzEycmc?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:35.207Z",
+      "searchText": "bnk금융, 'cet1 13%·roe 10.5%' 밸류업 목표 달성까지 '험난' - 연합인포맥스 bnk금융, 'cet1 13%·roe 10.5%' 밸류업 목표 달성까지 '험난' &nbsp;&nbsp; 연합인포맥스 bnk금융, 'cet1 13%·roe 10.5%' 밸류업 목표 달성까지 '험난' &nbsp;&nbsp; 연합인포맥스 연합인포맥스 news.einfomax.co.kr economy "
+    },
+    {
+      "id": "external:4a030152223ea3ccf17b9a9b",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-09-10",
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "title": "[뉴욕 마켓 브리핑](10일) - 연합인포맥스",
+      "summary": "[뉴욕 마켓 브리핑](10일) &nbsp;&nbsp; 연합인포맥스",
+      "detail": "[뉴욕 마켓 브리핑](10일) &nbsp;&nbsp; 연합인포맥스",
+      "source": "연합인포맥스",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UVVZpd1VEWEgzX2FWVHFYWURUSkJMdnBsUEsxVDRGeWJFd1NId2FPVWowYlliZjJ4SVBqYl9PQmhJV0pEeDVJb3BzZC1TN3lQVzA2c0U5dGNQY0lnVFEyZF9qMldPR0Y3dGhRVjR5MjXSAXRBVV95cUxPM0ZWS0RaeE00SUxUNDF6UWw3TkdzMWVnWVY0aXZqUEFsZkhGb2YwLVlIY0xHTFBnSWN4c3pjLVB2TkJOZWRKcFM3RHdfMl9uYkV3RWFwZlVvNmNQWmJ4WTFvYzc0R3lLQ1FmZEVfUkFCcFhlSA?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:34.659Z",
+      "searchText": "[뉴욕 마켓 브리핑](10일) - 연합인포맥스 [뉴욕 마켓 브리핑](10일) &nbsp;&nbsp; 연합인포맥스 [뉴욕 마켓 브리핑](10일) &nbsp;&nbsp; 연합인포맥스 연합인포맥스 news.einfomax.co.kr world "
+    },
     {
       "id": "external:4db6f3641a336bec55dc1c29",
       "origin": "external",
@@ -335,6 +569,366 @@
       "author": "",
       "collectedAt": "2026-09-10T00:12:32.875Z",
       "searchText": "nh아문디운용 \"fn k-반도체 etf, 연초 이후 수익률 181%로 1위\" - 연합뉴스 nh아문디운용 \"fn k-반도체 etf, 연초 이후 수익률 181%로 1위\" &nbsp;&nbsp; 연합뉴스 nh아문디운용 \"fn k-반도체 etf, 연초 이후 수익률 181%로 1위\" &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr technology "
+    },
+    {
+      "id": "external:ec7c72e9c357990fbcbb712b",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-09",
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "title": "파주시 운정6동, 인공지능(AI)으로 복지사각지대 선제 발굴 나선다 - 경기평화신문",
+      "summary": "파주시 운정6동, 인공지능(AI)으로 복지사각지대 선제 발굴 나선다 &nbsp;&nbsp; 경기평화신문",
+      "detail": "파주시 운정6동, 인공지능(AI)으로 복지사각지대 선제 발굴 나선다 &nbsp;&nbsp; 경기평화신문",
+      "source": "경기평화신문",
+      "sourceDomain": "ggpyeonghwa.com",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8wZ2Z3Qk5wcmNtTHgyckhQNVRpcGtjbTlPVGh5RUhBRzU4UHJIWG1ELWYwLTZqSEhMaVJNZXY0V0RuWGs3MERRaE5R?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:39.454Z",
+      "searchText": "파주시 운정6동, 인공지능(ai)으로 복지사각지대 선제 발굴 나선다 - 경기평화신문 파주시 운정6동, 인공지능(ai)으로 복지사각지대 선제 발굴 나선다 &nbsp;&nbsp; 경기평화신문 파주시 운정6동, 인공지능(ai)으로 복지사각지대 선제 발굴 나선다 &nbsp;&nbsp; 경기평화신문 경기평화신문 ggpyeonghwa.com ai "
+    },
+    {
+      "id": "external:2d630ca2e11843db7ec4a4ff",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-09-09",
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "title": "아산시, 2026 월드 스마트시티 엑스포서 '인공지능(AI) 특화 시범도시 비전' 알려 - newschange.co.kr",
+      "summary": "아산시, 2026 월드 스마트시티 엑스포서 '인공지능(AI) 특화 시범도시 비전' 알려 &nbsp;&nbsp; newschange.co.kr",
+      "detail": "아산시, 2026 월드 스마트시티 엑스포서 '인공지능(AI) 특화 시범도시 비전' 알려 &nbsp;&nbsp; newschange.co.kr",
+      "source": "newschange.co.kr",
+      "sourceDomain": "newschange.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1NYkNkMXFZcnRick9NZmthSkxoODdPVWl0VnR2c05XLS1QU1dNZHd5STFJdlJrbkx1QW5VcTc5YkRqeDZ4ZnRpc3Uydw?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:39.454Z",
+      "searchText": "아산시, 2026 월드 스마트시티 엑스포서 '인공지능(ai) 특화 시범도시 비전' 알려 - newschange.co.kr 아산시, 2026 월드 스마트시티 엑스포서 '인공지능(ai) 특화 시범도시 비전' 알려 &nbsp;&nbsp; newschange.co.kr 아산시, 2026 월드 스마트시티 엑스포서 '인공지능(ai) 특화 시범도시 비전' 알려 &nbsp;&nbsp; newschange.co.kr newschange.co.kr newschange.co.kr ai "
+    },
+    {
+      "id": "external:08531ae1ad21e17e3681a077",
+      "origin": "external",
+      "sourceId": "culture-google-news",
+      "date": "2026-09-09",
+      "category": "CULTURE",
+      "categoryLabel": "CULTURE",
+      "topic": "",
+      "title": "스포티파이 아태 총괄 \"韓, 새로운 문화 중심지…투자·협업 계속\" - 연합뉴스",
+      "summary": "스포티파이 아태 총괄 \"韓, 새로운 문화 중심지…투자·협업 계속\" &nbsp;&nbsp; 연합뉴스",
+      "detail": "스포티파이 아태 총괄 \"韓, 새로운 문화 중심지…투자·협업 계속\" &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XVmJiLWtWOFdoTjhZX1ZaRGVUT1dpaTZ1bEtXV0FQR1czdkJLOUxqcktyNC1hcmsxRHRYWDYyQld0QTh6VjZVMmNzeFgzbDRGN1VnMXp5eEtrRGlMZkI1RNIBYEFVX3lxTE5XVmJiLWtWOFdoTjhZX1ZaRGVUT1dpaTZ1bEtXV0FQR1czdkJLOUxqcktyNC1hcmsxRHRYWDYyQld0QTh6VjZVMmNzeFgzbDRGN1VnMXp5eEtrRGlMZkI1RA?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:38.465Z",
+      "searchText": "스포티파이 아태 총괄 \"韓, 새로운 문화 중심지…투자·협업 계속\" - 연합뉴스 스포티파이 아태 총괄 \"韓, 새로운 문화 중심지…투자·협업 계속\" &nbsp;&nbsp; 연합뉴스 스포티파이 아태 총괄 \"韓, 새로운 문화 중심지…투자·협업 계속\" &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr culture "
+    },
+    {
+      "id": "external:f9de38f3456f97b2d2c8af82",
+      "origin": "external",
+      "sourceId": "culture-google-news",
+      "date": "2026-09-09",
+      "category": "CULTURE",
+      "categoryLabel": "CULTURE",
+      "topic": "",
+      "title": "무빈소 늘고 ‘3시간 추모공간’까지… 달라지는 장례문화 - 조선비즈 - Chosunbiz",
+      "summary": "무빈소 늘고 ‘3시간 추모공간’까지… 달라지는 장례문화 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+      "detail": "무빈소 늘고 ‘3시간 추모공간’까지… 달라지는 장례문화 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+      "source": "Chosunbiz",
+      "sourceDomain": "biz.chosun.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOXhvMUVlbWs0SXJFdnZ4N2JwYjJBWGJub3IyaFZIZ09mdi0tZ1NNdGpMZ25oYnpDTnZsVDZJMk9JSWVsM0J0UklJNExsOEJWWWFYLWk0Xy11VDYxV2xFb3RFWWNwSDVLak5BY0lUNE9vN0UwdlBUUVBDMGZiaThSX1FrRGJVUEFhcHfSAZ4BQVVfeXFMTU5rWFJ1SW05dk8yNlBBOEpyaE56djViZ3A4dDJXdXdScUp2Wk40dzFCSUFZdjNlNHY5ZHY3cUFiMTUxY1M2dWNkazJSWVR4Wmx1YzVtQkdJaFpGa2JPamloNnB0c2c1V09BSGxFYlBOVVhKZ0Exa29felk3VDE4djhCaHpNRXQ0d2dhVHNqM2FJS2RWUUh4ZVFyRU54U3c?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:38.465Z",
+      "searchText": "무빈소 늘고 ‘3시간 추모공간’까지… 달라지는 장례문화 - 조선비즈 - chosunbiz 무빈소 늘고 ‘3시간 추모공간’까지… 달라지는 장례문화 - 조선비즈 &nbsp;&nbsp; chosunbiz 무빈소 늘고 ‘3시간 추모공간’까지… 달라지는 장례문화 - 조선비즈 &nbsp;&nbsp; chosunbiz chosunbiz biz.chosun.com culture "
+    },
+    {
+      "id": "external:8b1e0c953d2fde89b4461b06",
+      "origin": "external",
+      "sourceId": "culture-google-news",
+      "date": "2026-09-09",
+      "category": "CULTURE",
+      "categoryLabel": "CULTURE",
+      "topic": "",
+      "title": "치악체육관, 대중음악 공연 거점으로 조성 - 원주신문",
+      "summary": "치악체육관, 대중음악 공연 거점으로 조성 &nbsp;&nbsp; 원주신문",
+      "detail": "치악체육관, 대중음악 공연 거점으로 조성 &nbsp;&nbsp; 원주신문",
+      "source": "원주신문",
+      "sourceDomain": "iwjnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yZUR2ZVNmYzhPaUhWcm9qSVJFRkhsRU1ScllTelNLaHFXZ1c2ZnYxQ181c1dnSlNER2ZiZG5lQjI3QVQxUDA2NmV0LWZFa0FWcGFEQmxDVUxJM29IbFhuUTlMZEdPcWc?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:38.465Z",
+      "searchText": "치악체육관, 대중음악 공연 거점으로 조성 - 원주신문 치악체육관, 대중음악 공연 거점으로 조성 &nbsp;&nbsp; 원주신문 치악체육관, 대중음악 공연 거점으로 조성 &nbsp;&nbsp; 원주신문 원주신문 iwjnews.com culture "
+    },
+    {
+      "id": "external:31a82c751896c756dce0decf",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-09",
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "title": "한화시스템, 위성영상 실시간 분석 '우주 AI 솔루션' 공개 - v.daum.net",
+      "summary": "한화시스템, 위성영상 실시간 분석 '우주 AI 솔루션' 공개 &nbsp;&nbsp; v.daum.net",
+      "detail": "한화시스템, 위성영상 실시간 분석 '우주 AI 솔루션' 공개 &nbsp;&nbsp; v.daum.net",
+      "source": "v.daum.net",
+      "sourceDomain": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rU295dnN3N19Qd0N4akh0ME1qSVZ4WVFaMVdLcDEzREdVZWNLdkNNekJfYk43OXo3cUQwMEFvOVRqcHZFbGlTVUQwa0MxRms?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:37.878Z",
+      "searchText": "한화시스템, 위성영상 실시간 분석 '우주 ai 솔루션' 공개 - v.daum.net 한화시스템, 위성영상 실시간 분석 '우주 ai 솔루션' 공개 &nbsp;&nbsp; v.daum.net 한화시스템, 위성영상 실시간 분석 '우주 ai 솔루션' 공개 &nbsp;&nbsp; v.daum.net v.daum.net v.daum.net space "
+    },
+    {
+      "id": "external:f71a505ecfe2a815224b5fe8",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-09-09",
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "title": "기후부, '1000만 기후시민 프로젝트' 가동…10일 통합누리집 개통 - 대한민국 정책브리핑",
+      "summary": "기후부, '1000만 기후시민 프로젝트' 가동…10일 통합누리집 개통 &nbsp;&nbsp; 대한민국 정책브리핑",
+      "detail": "기후부, '1000만 기후시민 프로젝트' 가동…10일 통합누리집 개통 &nbsp;&nbsp; 대한민국 정책브리핑",
+      "source": "대한민국 정책브리핑",
+      "sourceDomain": "korea.kr",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yd3ljZjg1cldOenIyMWM3MmxxcC05MW1TdGk0T2t6Mko2MjlqNnFTSHpOY3FXN2hBNDlwMXhHSHY2c21UbEFQSl9oamFjVG1wbzJpbFFLaGREVUc2ZzBsS25fMjNzSmx2TTNONw?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:37.374Z",
+      "searchText": "기후부, '1000만 기후시민 프로젝트' 가동…10일 통합누리집 개통 - 대한민국 정책브리핑 기후부, '1000만 기후시민 프로젝트' 가동…10일 통합누리집 개통 &nbsp;&nbsp; 대한민국 정책브리핑 기후부, '1000만 기후시민 프로젝트' 가동…10일 통합누리집 개통 &nbsp;&nbsp; 대한민국 정책브리핑 대한민국 정책브리핑 korea.kr climate "
+    },
+    {
+      "id": "external:ec691e0ace43f1e367a922e9",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-09-09",
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "title": "파주시, '대한민국 도시대상' 5년 연속 수상…탄소중립 정책 호평 - 신아일보",
+      "summary": "파주시, '대한민국 도시대상' 5년 연속 수상…탄소중립 정책 호평 &nbsp;&nbsp; 신아일보",
+      "detail": "파주시, '대한민국 도시대상' 5년 연속 수상…탄소중립 정책 호평 &nbsp;&nbsp; 신아일보",
+      "source": "신아일보",
+      "sourceDomain": "shinailbo.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81b1dfLWp4YTR0TVlKSkJ3NVozZUFYbkNnOGxOX3VvZG1rNEhwd2dLVENJcVRkdlpha1BiZlN5UDNYb2JFLUJIdVpuN3I3MUxVQ05EWlhLY01MWVlMeVZfaGtYZ0lBZHBtV1N2VFJTOTM?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:37.374Z",
+      "searchText": "파주시, '대한민국 도시대상' 5년 연속 수상…탄소중립 정책 호평 - 신아일보 파주시, '대한민국 도시대상' 5년 연속 수상…탄소중립 정책 호평 &nbsp;&nbsp; 신아일보 파주시, '대한민국 도시대상' 5년 연속 수상…탄소중립 정책 호평 &nbsp;&nbsp; 신아일보 신아일보 shinailbo.co.kr climate "
+    },
+    {
+      "id": "external:4f88ddfd02cc37260f079e78",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-09-09",
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "title": "건강보험 보장 속도전, 2단계 혁신방안 '내년 초' 발표 예고 - 의협신문",
+      "summary": "건강보험 보장 속도전, 2단계 혁신방안 '내년 초' 발표 예고 &nbsp;&nbsp; 의협신문",
+      "detail": "건강보험 보장 속도전, 2단계 혁신방안 '내년 초' 발표 예고 &nbsp;&nbsp; 의협신문",
+      "source": "의협신문",
+      "sourceDomain": "doctorsnews.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WRy1Fd0R4em1zc2VNTllfOTY2NWM5ZlRmZXUtNVlNZnowMmZTdmdvbFBTWGxMaDZTQzNTdWRRUlAzQlhFVjJISVl5NzVyX3BEZnpLNVVXc2F0WnJYY0ZKSmFJRzJkaXBNZWhsSGxXOEptZw?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:36.827Z",
+      "searchText": "건강보험 보장 속도전, 2단계 혁신방안 '내년 초' 발표 예고 - 의협신문 건강보험 보장 속도전, 2단계 혁신방안 '내년 초' 발표 예고 &nbsp;&nbsp; 의협신문 건강보험 보장 속도전, 2단계 혁신방안 '내년 초' 발표 예고 &nbsp;&nbsp; 의협신문 의협신문 doctorsnews.co.kr health "
+    },
+    {
+      "id": "external:3106aa4f21309e05eea51ea7",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-09-09",
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "title": "강청희 건보공단 이사장 \"재정누수 막고 건강복지플랫폼 구축\" - 히트뉴스",
+      "summary": "강청희 건보공단 이사장 \"재정누수 막고 건강복지플랫폼 구축\" &nbsp;&nbsp; 히트뉴스",
+      "detail": "강청희 건보공단 이사장 \"재정누수 막고 건강복지플랫폼 구축\" &nbsp;&nbsp; 히트뉴스",
+      "source": "히트뉴스",
+      "sourceDomain": "hitnews.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MVEhEdnVmNzc4UnBrZ29TLWx1cHN6bHh6WHZVQ3A5Ui1rbEtsd1czbC1Zam5QcmtTa2xRVzJPR3hLMThMdkVUNmtsSEZwTlo0NmR1dXhvajNNQjJObGtoWC03dFlyTDkyRUNN?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:36.827Z",
+      "searchText": "강청희 건보공단 이사장 \"재정누수 막고 건강복지플랫폼 구축\" - 히트뉴스 강청희 건보공단 이사장 \"재정누수 막고 건강복지플랫폼 구축\" &nbsp;&nbsp; 히트뉴스 강청희 건보공단 이사장 \"재정누수 막고 건강복지플랫폼 구축\" &nbsp;&nbsp; 히트뉴스 히트뉴스 hitnews.co.kr health "
+    },
+    {
+      "id": "external:9504beb2b6fc9864d9347499",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-09-09",
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "title": "원주세브란스기독병원, 노인 정신건강 정밀돌봄 개발 나선다 - 의학신문",
+      "summary": "원주세브란스기독병원, 노인 정신건강 정밀돌봄 개발 나선다 &nbsp;&nbsp; 의학신문",
+      "detail": "원주세브란스기독병원, 노인 정신건강 정밀돌봄 개발 나선다 &nbsp;&nbsp; 의학신문",
+      "source": "의학신문",
+      "sourceDomain": "bosa.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XM3ZSYlI2aDl0dGVCRzlScjN4b1NLWVJoc2l6VFUtZElDTmlYQjBlQVhrQzdIZDdIT0tCNmhOOTBGMm8zTUN3MDBIZFQ3empZMW9hZ0JlZTBoUE16S1pXN0lMM0t0bmh0bnc?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:36.827Z",
+      "searchText": "원주세브란스기독병원, 노인 정신건강 정밀돌봄 개발 나선다 - 의학신문 원주세브란스기독병원, 노인 정신건강 정밀돌봄 개발 나선다 &nbsp;&nbsp; 의학신문 원주세브란스기독병원, 노인 정신건강 정밀돌봄 개발 나선다 &nbsp;&nbsp; 의학신문 의학신문 bosa.co.kr health "
+    },
+    {
+      "id": "external:8b03f1e773a651ebf25e8ef2",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-09-09",
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "title": "'클린 성분' 앞세운 여성 건강 제품 확산…약국 진열 전략도 변화 - kpanews.co.kr",
+      "summary": "'클린 성분' 앞세운 여성 건강 제품 확산…약국 진열 전략도 변화 &nbsp;&nbsp; kpanews.co.kr",
+      "detail": "'클린 성분' 앞세운 여성 건강 제품 확산…약국 진열 전략도 변화 &nbsp;&nbsp; kpanews.co.kr",
+      "source": "kpanews.co.kr",
+      "sourceDomain": "kpanews.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JVGJnbllZWXRvUkxtbEEtTllqc2lsOFdIUVFmSmYwSDRuUExETUpHeXE1SnkzR25ZdGY4ZmdyajZTdFNFaXBOS3NaU2VtdVQzYk1iVXp4X0FvOUxZY1BIWnZiQS1Oc3FXY096NQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:36.827Z",
+      "searchText": "'클린 성분' 앞세운 여성 건강 제품 확산…약국 진열 전략도 변화 - kpanews.co.kr '클린 성분' 앞세운 여성 건강 제품 확산…약국 진열 전략도 변화 &nbsp;&nbsp; kpanews.co.kr '클린 성분' 앞세운 여성 건강 제품 확산…약국 진열 전략도 변화 &nbsp;&nbsp; kpanews.co.kr kpanews.co.kr kpanews.co.kr health "
+    },
+    {
+      "id": "external:04262a21fc2aa142ac181185",
+      "origin": "external",
+      "sourceId": "science-google-news",
+      "date": "2026-09-09",
+      "category": "SCIENCE",
+      "categoryLabel": "SCIENCE",
+      "topic": "",
+      "title": "\"GPCR 커플 동시 겨냥... CAR-T '부스터' 가능성을 발견했다\" - 히트뉴스",
+      "summary": "\"GPCR 커플 동시 겨냥... CAR-T '부스터' 가능성을 발견했다\" &nbsp;&nbsp; 히트뉴스",
+      "detail": "\"GPCR 커플 동시 겨냥... CAR-T '부스터' 가능성을 발견했다\" &nbsp;&nbsp; 히트뉴스",
+      "source": "히트뉴스",
+      "sourceDomain": "hitnews.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnaG9hNWxNTXpoWEVEMmtOdFdmUjVPeEdxMnFTMHhndmFpcnNGZjkzbVlRU0lvWHRWUkJIRmpvNXotbHRSMXhyZVJOREpQbjZBaHktbEZNTzhyeXpUdkNEd2EwTER1a2QyRjZn?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:36.252Z",
+      "searchText": "\"gpcr 커플 동시 겨냥... car-t '부스터' 가능성을 발견했다\" - 히트뉴스 \"gpcr 커플 동시 겨냥... car-t '부스터' 가능성을 발견했다\" &nbsp;&nbsp; 히트뉴스 \"gpcr 커플 동시 겨냥... car-t '부스터' 가능성을 발견했다\" &nbsp;&nbsp; 히트뉴스 히트뉴스 hitnews.co.kr science "
+    },
+    {
+      "id": "external:79c26404fb2f7fe0a385b9c8",
+      "origin": "external",
+      "sourceId": "science-google-news",
+      "date": "2026-09-09",
+      "category": "SCIENCE",
+      "categoryLabel": "SCIENCE",
+      "topic": "",
+      "title": "DGIST, 신진연구인재 양성 이끌 '이노코어' 가동…과기원 선도형·출연연 연계형 등 4개 조직 공식 출범 - 전자신문",
+      "summary": "DGIST, 신진연구인재 양성 이끌 '이노코어' 가동…과기원 선도형·출연연 연계형 등 4개 조직 공식 출범 &nbsp;&nbsp; 전자신문",
+      "detail": "DGIST, 신진연구인재 양성 이끌 '이노코어' 가동…과기원 선도형·출연연 연계형 등 4개 조직 공식 출범 &nbsp;&nbsp; 전자신문",
+      "source": "전자신문",
+      "sourceDomain": "etnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZeDNtUGUtTWJMWGg5NDVhT095OVhZa3hEbFlWVTM5ekdwYXdMQnBnOTBBMVdhYnFocWxZR2ZPenVjSXBXcGtDVWNPVHZkQQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:36.252Z",
+      "searchText": "dgist, 신진연구인재 양성 이끌 '이노코어' 가동…과기원 선도형·출연연 연계형 등 4개 조직 공식 출범 - 전자신문 dgist, 신진연구인재 양성 이끌 '이노코어' 가동…과기원 선도형·출연연 연계형 등 4개 조직 공식 출범 &nbsp;&nbsp; 전자신문 dgist, 신진연구인재 양성 이끌 '이노코어' 가동…과기원 선도형·출연연 연계형 등 4개 조직 공식 출범 &nbsp;&nbsp; 전자신문 전자신문 etnews.com science "
+    },
+    {
+      "id": "external:65043bc2174033fed7d9ff36",
+      "origin": "external",
+      "sourceId": "technology-google-news",
+      "date": "2026-09-09",
+      "category": "TECHNOLOGY",
+      "categoryLabel": "TECHNOLOGY",
+      "topic": "",
+      "title": "\"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지 - hankyung.com",
+      "summary": "\"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지 &nbsp;&nbsp; hankyung.com",
+      "detail": "\"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지 &nbsp;&nbsp; hankyung.com",
+      "source": "hankyung.com",
+      "sourceDomain": "hankyung.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Z1c2VWJYcVJJanhlTFdvbmJ4MjFmeW1aSEUyZllDdVJOMFNKNVljV1FqQzZpT0VaZGtmbW4waEliVEVqdkwzNEYxY29xX1N1NWtta0JCZG01dw?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:35.738Z",
+      "searchText": "\"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지 - hankyung.com \"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지 &nbsp;&nbsp; hankyung.com \"반도체 매출 2012조원\" 파격 전망…메모리가 '왕좌' 차지 &nbsp;&nbsp; hankyung.com hankyung.com hankyung.com technology "
+    },
+    {
+      "id": "external:1edbf908a0e83b42762de62b",
+      "origin": "external",
+      "sourceId": "technology-google-news",
+      "date": "2026-09-09",
+      "category": "TECHNOLOGY",
+      "categoryLabel": "TECHNOLOGY",
+      "topic": "",
+      "title": "AGI 시대 성큼…'아스트라'가 바꾼 반도체 수요 공식 - 딜사이트",
+      "summary": "AGI 시대 성큼…'아스트라'가 바꾼 반도체 수요 공식 &nbsp;&nbsp; 딜사이트",
+      "detail": "AGI 시대 성큼…'아스트라'가 바꾼 반도체 수요 공식 &nbsp;&nbsp; 딜사이트",
+      "source": "딜사이트",
+      "sourceDomain": "dealsite.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tZE9VTXVXZWZ1SU1UUGRWM0IyZU16OHhPSkhFc3NLV00xdDdPYkprMGxNMkcwS0N2c2lTdGU4YzB1YlYtdGVMUVBOUVA4LTA?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:35.738Z",
+      "searchText": "agi 시대 성큼…'아스트라'가 바꾼 반도체 수요 공식 - 딜사이트 agi 시대 성큼…'아스트라'가 바꾼 반도체 수요 공식 &nbsp;&nbsp; 딜사이트 agi 시대 성큼…'아스트라'가 바꾼 반도체 수요 공식 &nbsp;&nbsp; 딜사이트 딜사이트 dealsite.co.kr technology "
+    },
+    {
+      "id": "external:d0f6e658440bcb0ec09827b2",
+      "origin": "external",
+      "sourceId": "technology-google-news",
+      "date": "2026-09-09",
+      "category": "TECHNOLOGY",
+      "categoryLabel": "TECHNOLOGY",
+      "topic": "",
+      "title": "약대 제친 '반도체 계약학과'... 굳건했던 '의치한약수' 흔들 - kpanews.co.kr",
+      "summary": "약대 제친 '반도체 계약학과'... 굳건했던 '의치한약수' 흔들 &nbsp;&nbsp; kpanews.co.kr",
+      "detail": "약대 제친 '반도체 계약학과'... 굳건했던 '의치한약수' 흔들 &nbsp;&nbsp; kpanews.co.kr",
+      "source": "kpanews.co.kr",
+      "sourceDomain": "kpanews.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tSWFOYTFxMy1JdUxmUmRreTJ4TVhUZ0hvU1ZNTWd0eTBoOUhTRDlJUlZ2VXBPWWd3Skc1eXBtTXJ3a2dxMzhMVVpMVjRBelU0bnZkd3owYzdTQVZDTll0Z3c2YUNpQTNHbkpmVw?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:35.737Z",
+      "searchText": "약대 제친 '반도체 계약학과'... 굳건했던 '의치한약수' 흔들 - kpanews.co.kr 약대 제친 '반도체 계약학과'... 굳건했던 '의치한약수' 흔들 &nbsp;&nbsp; kpanews.co.kr 약대 제친 '반도체 계약학과'... 굳건했던 '의치한약수' 흔들 &nbsp;&nbsp; kpanews.co.kr kpanews.co.kr kpanews.co.kr technology "
+    },
+    {
+      "id": "external:e8f10b1195efa21cf0522008",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-09-09",
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "title": "증권사 2분기 순이익 5조 넘어... 증시 불장에 사상 최대 실적 - 조선비즈 - Chosunbiz",
+      "summary": "증권사 2분기 순이익 5조 넘어... 증시 불장에 사상 최대 실적 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+      "detail": "증권사 2분기 순이익 5조 넘어... 증시 불장에 사상 최대 실적 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+      "source": "Chosunbiz",
+      "sourceDomain": "biz.chosun.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMURaY2VXZHBlLW5obTJnN3QwTDRQQk9uQ0dteFBnNGtpai1PMUg4WWtLel9wZ1owOGNmU3I4bXkxN3R3d05FaGVrM3RGVGJ5N2Jwd1FERVY2amlCRzktUXkxMi1jQjg5TVZoM0R6Zm1HWFJ0WDZIei1CZnM5Rl91MkIxLTdyZnl10gGcAUFVX3lxTFA3ZHFkZ0JtYk5DbFJzRzc1YzA1UE9hSll6N2d6WmRpRlFLQ29oSDFpY2hkbUx0NGlIOWM0cUpGLWNja2ppU2FlaXZSNjdVN0ZiRy10VzNHdTRuWFhOT29qcERVZXpVZ0NjY054ZzN1TDZRc1VmMmE3cDZaVDBCMXVDTTFra2wwblJBVFd0a2tMTmlVZEZ6NFVLRmNiNQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:35.207Z",
+      "searchText": "증권사 2분기 순이익 5조 넘어... 증시 불장에 사상 최대 실적 - 조선비즈 - chosunbiz 증권사 2분기 순이익 5조 넘어... 증시 불장에 사상 최대 실적 - 조선비즈 &nbsp;&nbsp; chosunbiz 증권사 2분기 순이익 5조 넘어... 증시 불장에 사상 최대 실적 - 조선비즈 &nbsp;&nbsp; chosunbiz chosunbiz biz.chosun.com economy "
+    },
+    {
+      "id": "external:94b0e509b2fa74db6bf9dd0f",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-09-09",
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "title": "한국해양대-베트남 호치민경제대, 해양·물류 국제협력 확대 - 해사신문",
+      "summary": "한국해양대-베트남 호치민경제대, 해양·물류 국제협력 확대 &nbsp;&nbsp; 해사신문",
+      "detail": "한국해양대-베트남 호치민경제대, 해양·물류 국제협력 확대 &nbsp;&nbsp; 해사신문",
+      "source": "해사신문",
+      "sourceDomain": "haesanews.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVZi11UUs1azVJNG5WekhNd3NNbHZ2ZlNEb1pBUzdPSllhQkRCNFBYQlg5VGF6UjZtcXgxdmpycmtENWRKanF5NkxESU1IcUpDdzNTNEJaVVgwZHRVTjVjb0xyaWNJTW5JT0F3?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:35.207Z",
+      "searchText": "한국해양대-베트남 호치민경제대, 해양·물류 국제협력 확대 - 해사신문 한국해양대-베트남 호치민경제대, 해양·물류 국제협력 확대 &nbsp;&nbsp; 해사신문 한국해양대-베트남 호치민경제대, 해양·물류 국제협력 확대 &nbsp;&nbsp; 해사신문 해사신문 haesanews.com economy "
+    },
+    {
+      "id": "external:2d438f056ebbcc7611f94c35",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-09-09",
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "title": "중소·중견기업 무역금융 공급 확대…올해 120조·2027년 140조 원 - 대한민국 정책브리핑",
+      "summary": "중소·중견기업 무역금융 공급 확대…올해 120조·2027년 140조 원 &nbsp;&nbsp; 대한민국 정책브리핑",
+      "detail": "중소·중견기업 무역금융 공급 확대…올해 120조·2027년 140조 원 &nbsp;&nbsp; 대한민국 정책브리핑",
+      "source": "대한민국 정책브리핑",
+      "sourceDomain": "korea.kr",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPckxlenpKb2oxMV9DZmRUWmtEcWJqUkJBUHp4eDFJeTZDRFRmaHdRSG02QWVJU0JDWnJISjdpWFBEZkZsVmMxcUxJRmJocWpQWDFMV19jQy13VkdhdTJjR2V4Q2lyZlRGNmxwM2tyd21tTGJ2ODRYUEJpLXFlcmsyZ21JTzlKTW94OEE?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-10T00:27:35.207Z",
+      "searchText": "중소·중견기업 무역금융 공급 확대…올해 120조·2027년 140조 원 - 대한민국 정책브리핑 중소·중견기업 무역금융 공급 확대…올해 120조·2027년 140조 원 &nbsp;&nbsp; 대한민국 정책브리핑 중소·중견기업 무역금융 공급 확대…올해 120조·2027년 140조 원 &nbsp;&nbsp; 대한민국 정책브리핑 대한민국 정책브리핑 korea.kr economy "
     },
     {
       "id": "external:bd1763917da926d7b950c6c7",
