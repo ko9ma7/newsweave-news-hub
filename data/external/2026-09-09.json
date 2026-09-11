@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-09",
-  "updatedAt": "2026-09-10T00:45:55.645Z",
+  "updatedAt": "2026-09-11T00:47:36.158Z",
   "items": [
+    {
+      "id": "external:1e78ce5340b04484df2374f0",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-09",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "catClass": "",
+      "title": "\"우주 가속팽창은 틀렸다\" 노벨상 수상자와 맞짱 뜬 한국 천문학자 - chosun.com",
+      "summary": "\"우주 가속팽창은 틀렸다\" 노벨상 수상자와 맞짱 뜬 한국 천문학자 &nbsp;&nbsp; chosun.com",
+      "detail": "\"우주 가속팽창은 틀렸다\" 노벨상 수상자와 맞짱 뜬 한국 천문학자 &nbsp;&nbsp; chosun.com",
+      "source": "chosun.com",
+      "sourceDomain": "chosun.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTFAtNGlzSXd6X1Z3ajNDOWVUZjJmOWxjM2dXQkFhRUQtNFhJbFRpcHlpRzdjMHVxenZxWTdqT01iUHpjM0VRVkpPbHRmVVNiTzVfelBudWVNcG9uUjZuWnBqa1JqNnBOU0l5bHY0TVJYVnNyU1AzS0xPbl9tOGJQVkpVaw?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-11T00:47:34.568Z",
+      "searchText": "\"우주 가속팽창은 틀렸다\" 노벨상 수상자와 맞짱 뜬 한국 천문학자 - chosun.com \"우주 가속팽창은 틀렸다\" 노벨상 수상자와 맞짱 뜬 한국 천문학자 &nbsp;&nbsp; chosun.com chosun.com chosun.com space"
+    },
     {
       "id": "external:3d738c740bc5fcb799a8a4ff",
       "origin": "external",
