@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-13",
-  "updatedAt": "2026-09-14T00:37:53.614Z",
+  "updatedAt": "2026-09-15T01:08:14.790Z",
   "items": [
+    {
+      "id": "external:62c75fad6f9398cfeed27913",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-09-13",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "중국 투자자, 한국 정부 상대 국제투자분쟁 소송 '패소' - 연합뉴스",
+      "summary": "중국 투자자, 한국 정부 상대 국제투자분쟁 소송 '패소' &nbsp;&nbsp; 연합뉴스",
+      "detail": "중국 투자자, 한국 정부 상대 국제투자분쟁 소송 '패소' &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QQUd1QzNwYkxkNFhUcXN2cUtMWjYydm9NNndRV2lta0tSV1p4dVBiZHVfbWw1N2F2aUU2eXpRM1ZydkpaclVuUWl3TVhQQzlxNEhkN0YzbU5UclFmS2d4eNIBYEFVX3lxTE1QQUd1QzNwYkxkNFhUcXN2cUtMWjYydm9NNndRV2lta0tSV1p4dVBiZHVfbWw1N2F2aUU2eXpRM1ZydkpaclVuUWl3TVhQQzlxNEhkN0YzbU5UclFmS2d4eA?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-15T01:08:09.697Z",
+      "searchText": "중국 투자자, 한국 정부 상대 국제투자분쟁 소송 '패소' - 연합뉴스 중국 투자자, 한국 정부 상대 국제투자분쟁 소송 '패소' &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr world"
+    },
     {
       "id": "external:5d0c1927ee6ea43cf7815afa",
       "origin": "external",
