@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-15",
-  "updatedAt": "2026-09-16T00:59:49.794Z",
+  "updatedAt": "2026-09-17T01:02:50.315Z",
   "items": [
+    {
+      "id": "external:34dbd8bd8882253b4c971b09",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-15",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "catClass": "",
+      "title": "미 \"우주 궤도에 무기 운용 중\"…첫 공식 인정 - 조선일보",
+      "summary": "미 \"우주 궤도에 무기 운용 중\"…첫 공식 인정 &nbsp;&nbsp; 조선일보",
+      "detail": "미 \"우주 궤도에 무기 운용 중\"…첫 공식 인정 &nbsp;&nbsp; 조선일보",
+      "source": "조선일보",
+      "sourceDomain": "chosun.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS3QyVE1ZTUR3MWRhQkdmVi1mcFBmNTc3NHExeWk3VnJ3Q1pqUnhUbzZNOEhKMkVNRU5oMDJNZjlBT202NzJjR1ZXOHVTamkxNk5kOWRTdHh0MUx1Xzdodm1uaG9aVUE5WTV4RDFtZEo2eHJ0NkFvenowWG1yV2RKak8tVQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-17T01:02:49.020Z",
+      "searchText": "미 \"우주 궤도에 무기 운용 중\"…첫 공식 인정 - 조선일보 미 \"우주 궤도에 무기 운용 중\"…첫 공식 인정 &nbsp;&nbsp; 조선일보 조선일보 chosun.com space"
+    },
     {
       "id": "external:8fb57e66efebe8cc5e4d140d",
       "origin": "external",
