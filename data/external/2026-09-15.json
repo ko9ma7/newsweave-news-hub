@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-15",
-  "updatedAt": "2026-09-17T01:02:50.315Z",
+  "updatedAt": "2026-09-18T00:57:56.642Z",
   "items": [
+    {
+      "id": "external:542dadd719fa2fe63518f9d1",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-09-15",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "catClass": "",
+      "title": "[나고야 NOW] \"日 축구 8-0 대승인데 관중 고작 1202명\" AG 시작부터 썰렁…\"홈인데 심각\" - v.daum.net",
+      "summary": "[나고야 NOW] \"日 축구 8-0 대승인데 관중 고작 1202명\" AG 시작부터 썰렁…\"홈인데 심각\" &nbsp;&nbsp; v.daum.net",
+      "detail": "[나고야 NOW] \"日 축구 8-0 대승인데 관중 고작 1202명\" AG 시작부터 썰렁…\"홈인데 심각\" &nbsp;&nbsp; v.daum.net",
+      "source": "v.daum.net",
+      "sourceDomain": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LMzZCTWFvUXV5c1gtSVFBeGdRbGJucGpPUkZUYzBQX3RVZWsweVRzSy1PZlRZQlRJeTJOUUhTbjBfOGt0bVZxZ3JHVmtMU1E?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-18T00:57:56.142Z",
+      "searchText": "[나고야 now] \"日 축구 8-0 대승인데 관중 고작 1202명\" ag 시작부터 썰렁…\"홈인데 심각\" - v.daum.net [나고야 now] \"日 축구 8-0 대승인데 관중 고작 1202명\" ag 시작부터 썰렁…\"홈인데 심각\" &nbsp;&nbsp; v.daum.net v.daum.net v.daum.net sports"
+    },
     {
       "id": "external:34dbd8bd8882253b4c971b09",
       "origin": "external",
