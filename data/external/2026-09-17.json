@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-17",
-  "updatedAt": "2026-09-18T00:57:56.638Z",
+  "updatedAt": "2026-09-19T00:54:25.205Z",
   "items": [
+    {
+      "id": "external:f46e55260d2457049cd48c2c",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-09-17",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "트럼프·시진핑 넉달 만에 재회…이번엔 AI 놓고 담판 - jnilbo.com",
+      "summary": "트럼프·시진핑 넉달 만에 재회…이번엔 AI 놓고 담판 &nbsp;&nbsp; jnilbo.com",
+      "detail": "트럼프·시진핑 넉달 만에 재회…이번엔 AI 놓고 담판 &nbsp;&nbsp; jnilbo.com",
+      "source": "jnilbo.com",
+      "sourceDomain": "jnilbo.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WdS1JWFFha044RHI2X3NSbUI3STUtZEdmREtXeE5WSnYwcEhfVXlROG05NzNBR1NlV0ZBcXZjVEhTU05IQ29ibk1ZTGN2UUFzTy1ONnNpakdLc05mRGxTSm1TZ3JfejJXVzNMdm0tOA?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-19T00:54:20.887Z",
+      "searchText": "트럼프·시진핑 넉달 만에 재회…이번엔 ai 놓고 담판 - jnilbo.com 트럼프·시진핑 넉달 만에 재회…이번엔 ai 놓고 담판 &nbsp;&nbsp; jnilbo.com jnilbo.com jnilbo.com world"
+    },
     {
       "id": "external:b2fd886ffd69edfcb43b857e",
       "origin": "external",
