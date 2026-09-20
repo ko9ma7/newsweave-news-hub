@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-16",
-  "updatedAt": "2026-09-18T00:57:56.640Z",
+  "updatedAt": "2026-09-20T00:35:04.795Z",
   "items": [
+    {
+      "id": "external:a9aaf9723198f5fa2411a920",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-09-16",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "catClass": "",
+      "title": "미국은 어떤 무기를 우주에 배치했을까? - BBC",
+      "summary": "미국은 어떤 무기를 우주에 배치했을까? &nbsp;&nbsp; BBC",
+      "detail": "미국은 어떤 무기를 우주에 배치했을까? &nbsp;&nbsp; BBC",
+      "source": "BBC",
+      "sourceDomain": "bbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QXzlrZ1FJcmN1MW9tdmJKMjQzWUl0bVBVd1ZCUzBUV242RzNaeVdsRkkyVm41V2g4ZDljLThGY1h3SnBfdzU0d3MwMG9WQ1hTOWYzS2RKNVIzTFhuOHc?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-20T00:35:03.167Z",
+      "searchText": "미국은 어떤 무기를 우주에 배치했을까? - bbc 미국은 어떤 무기를 우주에 배치했을까? &nbsp;&nbsp; bbc bbc bbc.com space"
+    },
     {
       "id": "external:affcb3155533457dfb9a297d",
       "origin": "external",

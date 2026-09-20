@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-17",
-  "updatedAt": "2026-09-19T00:54:25.205Z",
+  "updatedAt": "2026-09-20T00:35:04.792Z",
   "items": [
+    {
+      "id": "external:b3691112feb310da47e2a367",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-09-17",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "사우디 원유 우회공급 타진에 국제유가 하락 - 연합뉴스",
+      "summary": "사우디 원유 우회공급 타진에 국제유가 하락 &nbsp;&nbsp; 연합뉴스",
+      "detail": "사우디 원유 우회공급 타진에 국제유가 하락 &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wVUhPWEZEQnplZmFjdWtjTWtvbFdxTXNUMDlBeGlad1huVWVUb2V6Sl9yX1V6dzdmLUV1ekJIZW9TcTQ1VmczNjhUcEJ3bXY1SFJMbmZYU0xlRjJoYXI2N9IBYEFVX3lxTE0wVUhPWEZEQnplZmFjdWtjTWtvbFdxTXNUMDlBeGlad1huVWVUb2V6Sl9yX1V6dzdmLUV1ekJIZW9TcTQ1VmczNjhUcEJ3bXY1SFJMbmZYU0xlRjJoYXI2Nw?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-20T00:35:00.067Z",
+      "searchText": "사우디 원유 우회공급 타진에 국제유가 하락 - 연합뉴스 사우디 원유 우회공급 타진에 국제유가 하락 &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr world"
+    },
     {
       "id": "external:f46e55260d2457049cd48c2c",
       "origin": "external",
