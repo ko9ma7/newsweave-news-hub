@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-20",
-  "updatedAt": "2026-09-21T00:46:50.677Z",
+  "updatedAt": "2026-09-22T01:23:34.570Z",
   "items": [
+    {
+      "id": "external:33026e5520def4f168278f9d",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-09-20",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "catClass": "",
+      "title": "[아시안게임] 남자농구 결승 한일전 앞두고…대표팀 훈련용 버스 '황당 노쇼' - 연합뉴스",
+      "summary": "[아시안게임] 남자농구 결승 한일전 앞두고…대표팀 훈련용 버스 '황당 노쇼' &nbsp;&nbsp; 연합뉴스",
+      "detail": "[아시안게임] 남자농구 결승 한일전 앞두고…대표팀 훈련용 버스 '황당 노쇼' &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90Z1EwUXJrNnc5a2h3MXhTUnU3TVlhZEFhUXFubUU5dXhDa2NvSVlORllva2JLQTNyZ3dUZ04yaHlwbXFnT0lqQXllVmtJNzQ2Y2FySzFfT3dGejDSAWBBVV95cUxPX2NkVlpRcmxxbThuaGVjZDJDWXIwbS02WjhkNWJKdi10SFRVNWFIcS1SUW9MTGUxRFJpeUVrRjVCWGdFNFhLdlFqYnl6Rlo1MWZUUXN4WWUwT3k1aWpUa1M?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-22T01:23:34.094Z",
+      "searchText": "[아시안게임] 남자농구 결승 한일전 앞두고…대표팀 훈련용 버스 '황당 노쇼' - 연합뉴스 [아시안게임] 남자농구 결승 한일전 앞두고…대표팀 훈련용 버스 '황당 노쇼' &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr sports"
+    },
     {
       "id": "external:a404cd84466664a9ae37dc1a",
       "origin": "external",
