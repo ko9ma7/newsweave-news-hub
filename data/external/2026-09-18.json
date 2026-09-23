@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-18",
-  "updatedAt": "2026-09-20T00:35:04.788Z",
+  "updatedAt": "2026-09-23T01:10:57.311Z",
   "items": [
+    {
+      "id": "external:9debc12dcb570f0c5626ff08",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-09-18",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "catClass": "",
+      "title": "[아시안게임]남자 농구, 12년 만에 결승…첫 한일전 성사 - KBC광주방송",
+      "summary": "[아시안게임]남자 농구, 12년 만에 결승…첫 한일전 성사 &nbsp;&nbsp; KBC광주방송",
+      "detail": "[아시안게임]남자 농구, 12년 만에 결승…첫 한일전 성사 &nbsp;&nbsp; KBC광주방송",
+      "source": "KBC광주방송",
+      "sourceDomain": "ikbc.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5JQUpfX2xBbkx2Tkx3Ui1tS2hWN2ZGUGRPUV9Fcnh0Nkc2X2liRGJTZkl6cU85MFZucEpiZGJVZ0t3LWE4M2xHa3lLazc5M19GSXJVS0NPYXQ2b254bTdibQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-23T01:10:56.831Z",
+      "searchText": "[아시안게임]남자 농구, 12년 만에 결승…첫 한일전 성사 - kbc광주방송 [아시안게임]남자 농구, 12년 만에 결승…첫 한일전 성사 &nbsp;&nbsp; kbc광주방송 kbc광주방송 ikbc.co.kr sports"
+    },
     {
       "id": "external:5a6ac8a3b7c6964efbefa55f",
       "origin": "external",
