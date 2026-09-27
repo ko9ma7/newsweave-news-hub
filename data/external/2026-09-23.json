@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-23",
-  "updatedAt": "2026-09-25T01:06:28.665Z",
+  "updatedAt": "2026-09-27T01:03:35.647Z",
   "items": [
+    {
+      "id": "external:52daeb01ff603cca75993b4a",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-09-23",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "[뉴스특보] \"국제무대서 북한 존중…'건설적 기여국 연대' 제안\" 이재명 대통령 유엔총회 기조연설 풀영상 - v.daum.net",
+      "summary": "[뉴스특보] \"국제무대서 북한 존중…'건설적 기여국 연대' 제안\" 이재명 대통령 유엔총회 기조연설 풀영상 &nbsp;&nbsp; v.daum.net",
+      "detail": "[뉴스특보] \"국제무대서 북한 존중…'건설적 기여국 연대' 제안\" 이재명 대통령 유엔총회 기조연설 풀영상 &nbsp;&nbsp; v.daum.net",
+      "source": "v.daum.net",
+      "sourceDomain": "v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PV0VCVDdqODNjc2hkalhwX1IyVi1URVllVWNIazMySjBjU1ZpNVRiaFNkR3RyY3lhVWk2TllYWnBDSHE2c2hhT2RkRQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-27T01:03:30.941Z",
+      "searchText": "[뉴스특보] \"국제무대서 북한 존중…'건설적 기여국 연대' 제안\" 이재명 대통령 유엔총회 기조연설 풀영상 - v.daum.net [뉴스특보] \"국제무대서 북한 존중…'건설적 기여국 연대' 제안\" 이재명 대통령 유엔총회 기조연설 풀영상 &nbsp;&nbsp; v.daum.net v.daum.net v.daum.net world"
+    },
     {
       "id": "external:5bfa89c925b529aeb1b3e2b2",
       "origin": "external",
