@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-27",
-  "updatedAt": "2026-09-28T01:21:18.499Z",
+  "updatedAt": "2026-09-29T02:27:45.788Z",
   "items": [
+    {
+      "id": "external:b49f5d1f7d154864cb930ab0",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-09-27",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "catClass": "",
+      "title": "한국야구, 일본에 진땀승 우여곡절 금메달 - news.kbs.co.kr",
+      "summary": "한국야구, 일본에 진땀승 우여곡절 금메달 &nbsp;&nbsp; news.kbs.co.kr",
+      "detail": "한국야구, 일본에 진땀승 우여곡절 금메달 &nbsp;&nbsp; news.kbs.co.kr",
+      "source": "news.kbs.co.kr",
+      "sourceDomain": "news.kbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94b3JmVkxFUExtNmtRZHo5Y0hQMEFzcnk3dHhzQ2JRSFM3cjNDUTNYdU5ULWdDY1V6RWFzeXpEYlREQU41Qjk0N205TjBZS19CVnU5SDZWZGJxN2M?oc=5",
+      "author": "",
+      "collectedAt": "2026-09-29T02:27:45.337Z",
+      "searchText": "한국야구, 일본에 진땀승 우여곡절 금메달 - news.kbs.co.kr 한국야구, 일본에 진땀승 우여곡절 금메달 &nbsp;&nbsp; news.kbs.co.kr news.kbs.co.kr news.kbs.co.kr sports"
+    },
     {
       "id": "external:a621e344ff270dbf0038cfb8",
       "origin": "external",
