@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-09-30",
-  "updatedAt": "2026-10-02T01:56:32.561Z",
+  "updatedAt": "2026-10-03T01:40:09.609Z",
   "items": [
+    {
+      "id": "external:641e288b99c064f8840efd22",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-09-30",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "[중국증시-마감] 부양책 실망 속 혼조 - 연합인포맥스",
+      "summary": "[중국증시-마감] 부양책 실망 속 혼조 &nbsp;&nbsp; 연합인포맥스",
+      "detail": "[중국증시-마감] 부양책 실망 속 혼조 &nbsp;&nbsp; 연합인포맥스",
+      "source": "연합인포맥스",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oeE92WEcwZ3dSMl9JWEs5RFpycC1hVlpRcGczZnlmV28waUc4MFl2anlfaVQybXVfWFJHNXZMTW5TSm9iSjZfeDlaYm5VNG81ckFMTUNKYmdVd2FsUHpuSDdodUJBTDBGckw1ck90cFo?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-03T01:40:05.193Z",
+      "searchText": "[중국증시-마감] 부양책 실망 속 혼조 - 연합인포맥스 [중국증시-마감] 부양책 실망 속 혼조 &nbsp;&nbsp; 연합인포맥스 연합인포맥스 news.einfomax.co.kr world"
+    },
     {
       "id": "external:ed5934c2aa4f7da7cb50eb5e",
       "origin": "external",
