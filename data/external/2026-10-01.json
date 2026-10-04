@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-01",
-  "updatedAt": "2026-10-03T01:40:09.612Z",
+  "updatedAt": "2026-10-04T02:20:33.313Z",
   "items": [
+    {
+      "id": "external:fa7c5de5e48b7c8b35c2748d",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-01",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "2026 일본군 위안부 문제 국제 컨퍼런스 - yna.co.kr",
+      "summary": "2026 일본군 위안부 문제 국제 컨퍼런스 &nbsp;&nbsp; yna.co.kr",
+      "detail": "2026 일본군 위안부 문제 국제 컨퍼런스 &nbsp;&nbsp; yna.co.kr",
+      "source": "yna.co.kr",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40OUdxcHB5X2RzYXRXN2JEazl5d0c3ZFVROFVpdzhTRVB2V2lmYWpzaHFhMDZsWGdvRVREVG1QR1ZUcE84andEWDZ3ZTFlWUlINEFOUHBnSlpTd2djTWZEdNIBYEFVX3lxTE40OUdxcHB5X2RzYXRXN2JEazl5d0c3ZFVROFVpdzhTRVB2V2lmYWpzaHFhMDZsWGdvRVREVG1QR1ZUcE84andEWDZ3ZTFlWUlINEFOUHBnSlpTd2djTWZEdA?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-04T02:20:28.753Z",
+      "searchText": "2026 일본군 위안부 문제 국제 컨퍼런스 - yna.co.kr 2026 일본군 위안부 문제 국제 컨퍼런스 &nbsp;&nbsp; yna.co.kr yna.co.kr yna.co.kr world"
+    },
     {
       "id": "external:7f4d87d2db558f5cdba3d3c3",
       "origin": "external",
