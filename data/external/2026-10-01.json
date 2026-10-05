@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-01",
-  "updatedAt": "2026-10-04T02:20:33.313Z",
+  "updatedAt": "2026-10-05T01:30:47.277Z",
   "items": [
+    {
+      "id": "external:3606ba0c9f81eb6452e8c246",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-01",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "부산국제영화제 6일 개막…247편 상영 - KBS 뉴스",
+      "summary": "부산국제영화제 6일 개막…247편 상영 &nbsp;&nbsp; KBS 뉴스",
+      "detail": "부산국제영화제 6일 개막…247편 상영 &nbsp;&nbsp; KBS 뉴스",
+      "source": "KBS 뉴스",
+      "sourceDomain": "news.kbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tUm56WnBNX3NZNWdqVUFRSjdJLVhpQ3VRZ0RXdjk2WWV3QUlmMDdWNWUzQmJvYXB3UkdaT3FOQ0JjR0h4MloxMmRXam43ZmpISHVMX3ZsZzd5bHlfQ042cS1oSnJVQQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-05T01:30:43.080Z",
+      "searchText": "부산국제영화제 6일 개막…247편 상영 - kbs 뉴스 부산국제영화제 6일 개막…247편 상영 &nbsp;&nbsp; kbs 뉴스 kbs 뉴스 news.kbs.co.kr world"
+    },
     {
       "id": "external:fa7c5de5e48b7c8b35c2748d",
       "origin": "external",
