@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-03",
-  "updatedAt": "2026-10-05T01:30:47.275Z",
+  "updatedAt": "2026-10-06T02:39:06.225Z",
   "items": [
+    {
+      "id": "external:00db38ee4a4e8fc23815cb67",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-10-03",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "catClass": "",
+      "title": "한국 남자축구, 결승에서 일본 눌러…아시안게임 4연패 - weekly.khan.co.kr",
+      "summary": "한국 남자축구, 결승에서 일본 눌러…아시안게임 4연패 &nbsp;&nbsp; weekly.khan.co.kr",
+      "detail": "한국 남자축구, 결승에서 일본 눌러…아시안게임 4연패 &nbsp;&nbsp; weekly.khan.co.kr",
+      "source": "weekly.khan.co.kr",
+      "sourceDomain": "weekly.khan.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UaGNENm4yTTVtUFRyd3VYOTZBZ0Z4bUNhNUtTYVk2dmtyYWxtSE1xa2JabmZ6S1NTTG1IUVhpemF4dWFpYmtPUWlPNUdxMlEyWGEyX2xaLTlXTzRQdlE?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-06T02:39:05.812Z",
+      "searchText": "한국 남자축구, 결승에서 일본 눌러…아시안게임 4연패 - weekly.khan.co.kr 한국 남자축구, 결승에서 일본 눌러…아시안게임 4연패 &nbsp;&nbsp; weekly.khan.co.kr weekly.khan.co.kr weekly.khan.co.kr sports"
+    },
     {
       "id": "external:e8973659df4789de5043eeb0",
       "origin": "external",

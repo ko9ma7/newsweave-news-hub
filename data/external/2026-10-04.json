@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-04",
-  "updatedAt": "2026-10-05T01:30:47.271Z",
+  "updatedAt": "2026-10-06T02:39:06.228Z",
   "items": [
+    {
+      "id": "external:209bb686242cbb537fc483df",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-10-04",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "catClass": "",
+      "title": "[아시안게임] \"군대 안 갑니다\"…금메달 축구 대표팀, 병역 관련 언행 논란 - 연합뉴스",
+      "summary": "[아시안게임] \"군대 안 갑니다\"…금메달 축구 대표팀, 병역 관련 언행 논란 &nbsp;&nbsp; 연합뉴스",
+      "detail": "[아시안게임] \"군대 안 갑니다\"…금메달 축구 대표팀, 병역 관련 언행 논란 &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kbHRmWGZYaTBnM0FBU29fLXJyb3RHTnB2cm1sOWdTTzdFZnYwOGh1RWk5QkczV3dVYWlueGNWV2ZMd1Nzczg4S3dJNmhnVTVXY2VzSk5fMVlBVlXSAWBBVV95cUxPcmF3S2FkRy1lY09FV0p0ejZldU5aTDNYMGdVYWphVzJJMVJSdFA5TjFQNURDVTgzei1NdHhUclFPWE9keVZveDVGSDlGLXZNZm5vOUFBNWJmMmh2VUdVRnQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-06T02:39:05.812Z",
+      "searchText": "[아시안게임] \"군대 안 갑니다\"…금메달 축구 대표팀, 병역 관련 언행 논란 - 연합뉴스 [아시안게임] \"군대 안 갑니다\"…금메달 축구 대표팀, 병역 관련 언행 논란 &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr sports"
+    },
     {
       "id": "external:42e6131e7f987c38f3d8cf40",
       "origin": "external",
