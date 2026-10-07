@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-03",
-  "updatedAt": "2026-10-06T02:39:06.225Z",
+  "updatedAt": "2026-10-07T01:59:45.364Z",
   "items": [
+    {
+      "id": "external:31eadecefddf139a6a9730bb",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-10-03",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "catClass": "",
+      "title": "최악의 아시안게임...축구 금메달에도 일장기 아래 태극기 - 머니투데이 - 머니투데이",
+      "summary": "최악의 아시안게임...축구 금메달에도 일장기 아래 태극기 - 머니투데이 &nbsp;&nbsp; 머니투데이",
+      "detail": "최악의 아시안게임...축구 금메달에도 일장기 아래 태극기 - 머니투데이 &nbsp;&nbsp; 머니투데이",
+      "source": "머니투데이",
+      "sourceDomain": "mt.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pVlBpaU1jSnBIZXhsZi1jMWVxRWVUQVF3bFJONTJSWHpLdllZQTVVeGVNWS1pX1prMGxnUlRKYk4tWlBhNTlhc2hfMnZUdnFfT01nTVlBRHc0QVlTWk1aWnhUbi1SUTQt0gFuQVVfeXFMT3k2LXVWUF9aVHFrdTJaQ2RlRHFOb1RFSTdTbEN1WWthNWktSmtVTVQ2MlBKRDdVRUo4bFZjck9NMnI3WUlUTFB5amV5aTE2Z3ZXaTBlOTdWbWo3a2h6WHNkQ0ktaE5WZkdLUnZDVEE?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-07T01:59:44.872Z",
+      "searchText": "최악의 아시안게임...축구 금메달에도 일장기 아래 태극기 - 머니투데이 - 머니투데이 최악의 아시안게임...축구 금메달에도 일장기 아래 태극기 - 머니투데이 &nbsp;&nbsp; 머니투데이 머니투데이 mt.co.kr sports"
+    },
     {
       "id": "external:00db38ee4a4e8fc23815cb67",
       "origin": "external",
