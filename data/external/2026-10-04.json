@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-04",
-  "updatedAt": "2026-10-06T02:39:06.228Z",
+  "updatedAt": "2026-10-09T02:42:05.697Z",
   "items": [
+    {
+      "id": "external:ec8406544db879f37ac13c57",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-10-04",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "catClass": "",
+      "title": "AG 남자 축구 ‘병역 특례 발언’ 파문···금메달 박수 못 받고 고개부터 숙였다 - 경향신문",
+      "summary": "AG 남자 축구 ‘병역 특례 발언’ 파문···금메달 박수 못 받고 고개부터 숙였다 &nbsp;&nbsp; 경향신문",
+      "detail": "AG 남자 축구 ‘병역 특례 발언’ 파문···금메달 박수 못 받고 고개부터 숙였다 &nbsp;&nbsp; 경향신문",
+      "source": "경향신문",
+      "sourceDomain": "khan.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OOHQ5c1Q0b1BiUzMyQVVWSkV3OU1mT3EtVWVieTU2dWl6aHJ0RWUwbWN2OHhVYWlETS1xWFE2R1RiRWdreUhWaHJrS2pId3FudlJIeHZFMkx4UdIBX0FVX3lxTE9QaXBsY2JNWk5ScmlKNHBOeTJCN3V6UzBlRGRtSE4xSFN4VDhrMDcyVlhVbWFuZ0xuRXhpUjB5bElzSm8xekwxSko5T3lyMVhhS2hVeFB0VUVlTF80V3VV?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-09T02:42:05.138Z",
+      "searchText": "ag 남자 축구 ‘병역 특례 발언’ 파문···금메달 박수 못 받고 고개부터 숙였다 - 경향신문 ag 남자 축구 ‘병역 특례 발언’ 파문···금메달 박수 못 받고 고개부터 숙였다 &nbsp;&nbsp; 경향신문 경향신문 khan.co.kr sports"
+    },
     {
       "id": "external:209bb686242cbb537fc483df",
       "origin": "external",
