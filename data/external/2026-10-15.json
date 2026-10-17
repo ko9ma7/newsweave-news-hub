@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-15",
-  "updatedAt": "2026-10-16T00:58:14.665Z",
+  "updatedAt": "2026-10-17T00:58:55.122Z",
   "items": [
+    {
+      "id": "external:221c44cbbd65e0c28bf53bd5",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-10-15",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "catClass": "",
+      "title": "보도자료 - 우주항공청 누리집",
+      "summary": "보도자료 &nbsp;&nbsp; 우주항공청 누리집",
+      "detail": "보도자료 &nbsp;&nbsp; 우주항공청 누리집",
+      "source": "우주항공청 누리집",
+      "sourceDomain": "kasa.go.kr",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYWZKNTBVZXRoWEQ5clUxOEZfUTJpakJaUFVWdlZuV1I3bjE0RFJqNEE4UklwYzNXZ1Y5Z25hbTM0eWF1Sm5Vc1ppRDRmckEtbU5iWHhsR1RrWHdkcG41cXlXOGdrMXNHLVdvS29iTFRjR011ZWZVb0plcjYzRXJwcV9HZ2w5dWp3VTA5S3o5RlZEbGpJNFdSWUhrV2laOURDdEFRMGl6VDNVSFU3ZnZ1U3Y0VnFLM1REdUFjdTdUVzRoTmkzdk0wT25Hb0l1SngySUpsa1owdmV4QQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-17T00:58:53.776Z",
+      "searchText": "보도자료 - 우주항공청 누리집 보도자료 &nbsp;&nbsp; 우주항공청 누리집 우주항공청 누리집 kasa.go.kr space"
+    },
     {
       "id": "external:137d0ff80987119f338bba50",
       "origin": "external",

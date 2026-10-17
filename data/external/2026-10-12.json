@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-12",
-  "updatedAt": "2026-10-13T03:19:25.110Z",
+  "updatedAt": "2026-10-17T00:58:55.123Z",
   "items": [
+    {
+      "id": "external:3d071cb839f30d58245ac8ce",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-12",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "中 '부채 이자 비중' 美 넘었다…AI 대결서 부담 - 연합인포맥스",
+      "summary": "中 '부채 이자 비중' 美 넘었다…AI 대결서 부담 &nbsp;&nbsp; 연합인포맥스",
+      "detail": "中 '부채 이자 비중' 美 넘었다…AI 대결서 부담 &nbsp;&nbsp; 연합인포맥스",
+      "source": "연합인포맥스",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIeEZQc2gwYURPdkNwZUVlNTA3aHNqM3pQb09VaWRfaVc1SklFUU95Q3RNYzctUVlWRlRNZjRxZFZjQWpjbkwzRjV4eHpoc19xckQ2YVZqeF9XX3g5TTNGeVBEYVp4cTk0X1dIYThMUlI?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-17T00:58:50.995Z",
+      "searchText": "中 '부채 이자 비중' 美 넘었다…ai 대결서 부담 - 연합인포맥스 中 '부채 이자 비중' 美 넘었다…ai 대결서 부담 &nbsp;&nbsp; 연합인포맥스 연합인포맥스 news.einfomax.co.kr world"
+    },
     {
       "id": "external:8c5e6b776b2e38e9c72e4a18",
       "origin": "external",
