@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-14",
-  "updatedAt": "2026-10-15T01:10:47.161Z",
+  "updatedAt": "2026-10-18T00:34:19.749Z",
   "items": [
+    {
+      "id": "external:00cd87f78fc3822476c5cbed",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-14",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승 - 연합뉴스",
+      "summary": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승 &nbsp;&nbsp; 연합뉴스",
+      "detail": "국제유가, 사우디 아람코 피격·IEA 공급 경고에 상승 &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjR1dpT1YwdEhMMVVZMldoSWtQV0ZaSlBoTVhvWGdfNlFmTzZQa3ZNN3l1M3pucktwUTFsWW1MVGNWMl9YeVZVVmx0clNYWFZyWDRGNTBPS3dYRmfSAWBBVV95cUxPaGVMWkFwejNvUXlxMkw0MDlNazdDTXBUcHZhdVhxQ2ctRzQyYS1CRExXWm9sVVdhdGtqSzAwQmt3cDlOS3lWR2pMOW1Oc055emZfTVJ4Rkw2b0tDR0w5Nks?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-18T00:34:15.165Z",
+      "searchText": "국제유가, 사우디 아람코 피격·iea 공급 경고에 상승 - 연합뉴스 국제유가, 사우디 아람코 피격·iea 공급 경고에 상승 &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr world"
+    },
     {
       "id": "external:db6d7299cc9d71d3d073251e",
       "origin": "external",

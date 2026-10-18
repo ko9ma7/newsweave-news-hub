@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-15",
-  "updatedAt": "2026-10-17T00:58:55.122Z",
+  "updatedAt": "2026-10-18T00:34:19.743Z",
   "items": [
+    {
+      "id": "external:e66ecc21293b84dc1b6ad40d",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-15",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "'2026 하노이 국제 베이비&키즈페어' - 연합뉴스",
+      "summary": "'2026 하노이 국제 베이비&키즈페어' &nbsp;&nbsp; 연합뉴스",
+      "detail": "'2026 하노이 국제 베이비&키즈페어' &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuMGhuaEI4Z2lFSkxFOE93aW5kUng2a3hCcTJ6Z3FSU0Fsampzal9aNEV2djVqM3JZbXA2UTJHR3dScDNTanotLWk2N3VCTFg4ZjZuR0ZtcWQ4aUV0cGljQtIBYEFVX3lxTFBuMGhuaEI4Z2lFSkxFOE93aW5kUng2a3hCcTJ6Z3FSU0Fsampzal9aNEV2djVqM3JZbXA2UTJHR3dScDNTanotLWk2N3VCTFg4ZjZuR0ZtcWQ4aUV0cGljQg?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-18T00:34:15.165Z",
+      "searchText": "'2026 하노이 국제 베이비&키즈페어' - 연합뉴스 '2026 하노이 국제 베이비&키즈페어' &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr world"
+    },
     {
       "id": "external:221c44cbbd65e0c28bf53bd5",
       "origin": "external",

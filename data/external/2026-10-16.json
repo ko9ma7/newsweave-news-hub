@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-16",
-  "updatedAt": "2026-10-17T00:58:55.121Z",
+  "updatedAt": "2026-10-18T00:34:19.746Z",
   "items": [
+    {
+      "id": "external:0dc239a2b654b6cabef45b9c",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-16",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "[테크스냅] LGU+, 국제 전시서 차세대 WIFI 기술 공개 - 연합뉴스",
+      "summary": "[테크스냅] LGU+, 국제 전시서 차세대 WIFI 기술 공개 &nbsp;&nbsp; 연합뉴스",
+      "detail": "[테크스냅] LGU+, 국제 전시서 차세대 WIFI 기술 공개 &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hUFhxYzloT2FQVmx5TWthdlFzcVllU2hGaTlhSVF4dXZYODQxZWFNdTlEZmluZnNiSWl4UlYzYlpubmtwQVpVcVl0X3lsYkhHWVR6bFg2a0xIOTNteG9medIBYEFVX3lxTE1hUFhxYzloT2FQVmx5TWthdlFzcVllU2hGaTlhSVF4dXZYODQxZWFNdTlEZmluZnNiSWl4UlYzYlpubmtwQVpVcVl0X3lsYkhHWVR6bFg2a0xIOTNteG9meQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-18T00:34:15.165Z",
+      "searchText": "[테크스냅] lgu+, 국제 전시서 차세대 wifi 기술 공개 - 연합뉴스 [테크스냅] lgu+, 국제 전시서 차세대 wifi 기술 공개 &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr world"
+    },
     {
       "id": "external:eee635d0d4974ead7ede57fd",
       "origin": "external",
