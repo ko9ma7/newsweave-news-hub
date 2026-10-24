@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-22",
-  "updatedAt": "2026-10-23T01:08:56.227Z",
+  "updatedAt": "2026-10-24T01:19:50.046Z",
   "items": [
+    {
+      "id": "external:3a0018b857e03b475f454803",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-22",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고 - 연합뉴스",
+      "summary": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고 &nbsp;&nbsp; 연합뉴스",
+      "detail": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고 &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZWkFkSVFZQ0ltaFRtZVF0VGtwVHRJYzU3alRDNXJZZ1BIYXBVbUw4dXhFTk0zV0FXZlJiLVFZR2c3akpxbVgxWHYzWnNOaVNsQjBCVEdzZnI1NGvSAWBBVV95cUxQbEwzb3VIaUY5TmJpaGNpMUFCV2NVSnNCVmlpUllyYktnVVdLZktpOGstR2lvVHZ0d3p0X253dmNESE56ZUlCWUZTVEZPNFBaMFpyYW5vWGRaQjFmZHUxYW8?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-24T01:19:45.924Z",
+      "searchText": "국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고 - 연합뉴스 국제유가, 후티의 사우디 공격에 급등…브렌트유 5개월만에 최고 &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr world"
+    },
     {
       "id": "external:f72d5e247759fdaa0e91ad80",
       "origin": "external",

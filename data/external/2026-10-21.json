@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-21",
-  "updatedAt": "2026-10-22T01:09:15.680Z",
+  "updatedAt": "2026-10-24T01:19:50.048Z",
   "items": [
+    {
+      "id": "external:9d91fc94bdf168e85bd1dca8",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-21",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "[여기는 진주] ‘국제 우주산업 콘퍼런스’ 진주서 열려 외 - KBS 뉴스",
+      "summary": "[여기는 진주] ‘국제 우주산업 콘퍼런스’ 진주서 열려 외 &nbsp;&nbsp; KBS 뉴스",
+      "detail": "[여기는 진주] ‘국제 우주산업 콘퍼런스’ 진주서 열려 외 &nbsp;&nbsp; KBS 뉴스",
+      "source": "KBS 뉴스",
+      "sourceDomain": "news.kbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkd2R6QUZMYUhKaDZzb1BBMnVhVGtFQmQyREp6WUJxVmhiV0FaWTdTRmtiYTBxRjVBaHE3VHB5MWpRR3gzMVJERkxHNFY2QU1JaXp4NGhNcHUxcUkwMDFpVlJsNTdpQQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-24T01:19:45.924Z",
+      "searchText": "[여기는 진주] ‘국제 우주산업 콘퍼런스’ 진주서 열려 외 - kbs 뉴스 [여기는 진주] ‘국제 우주산업 콘퍼런스’ 진주서 열려 외 &nbsp;&nbsp; kbs 뉴스 kbs 뉴스 news.kbs.co.kr world"
+    },
     {
       "id": "external:50e02334ce398f711d1dc139",
       "origin": "external",
