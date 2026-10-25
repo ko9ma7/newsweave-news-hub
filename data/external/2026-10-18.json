@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-18",
-  "updatedAt": "2026-10-24T01:19:50.050Z",
+  "updatedAt": "2026-10-25T00:44:56.904Z",
   "items": [
+    {
+      "id": "external:980780093a3e6dacab5bf12f",
+      "origin": "external",
+      "sourceId": "technology-google-news",
+      "date": "2026-10-18",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "TECHNOLOGY",
+      "categoryLabel": "TECHNOLOGY",
+      "topic": "",
+      "catClass": "",
+      "title": "[정책 인사이트] 삼성·SK 가진 한국, 국방 반도체 99% 해외 의존… 자체 기술개발 이제 첫 걸음 - 조선비즈 - Chosunbiz",
+      "summary": "[정책 인사이트] 삼성·SK 가진 한국, 국방 반도체 99% 해외 의존… 자체 기술개발 이제 첫 걸음 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+      "detail": "[정책 인사이트] 삼성·SK 가진 한국, 국방 반도체 99% 해외 의존… 자체 기술개발 이제 첫 걸음 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+      "source": "Chosunbiz",
+      "sourceDomain": "biz.chosun.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdjY4UFdvMWV1RlFUMEVPM2tJTnNfSGwzOHY3WF9uXzQxMHBFZUhnNGE2dE5pdG5kLVMzdi00Vk9lU19JLWJ4ZmxYUk8yb2JPdWJGekxnVmV5WS1IbHNOMWdYOW5hMFhvMmU2RlQwbmk4b05SMkN6YkdrUjlFNHlILUxOajNQZ9IBmgFBVV95cUxNbDFrYkhQX3ZjbVQ5dTRndjhrZWdYandnS2staW1hYUd5VElmLW5NYi1pZUYxY3BWdXRXMkN2WFdUNm0yREJXejVfUkVxQ1lWRE1xTFd5OVFUOWNmZzBPRV9HU1FtUXNaLURjOXlZUnlFUjlRWHkyMmFtX1ZzSVptZDlJVWFmLTNra29LVS1TX0lSMm1JalpJVVBB?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-25T00:44:53.547Z",
+      "searchText": "[정책 인사이트] 삼성·sk 가진 한국, 국방 반도체 99% 해외 의존… 자체 기술개발 이제 첫 걸음 - 조선비즈 - chosunbiz [정책 인사이트] 삼성·sk 가진 한국, 국방 반도체 99% 해외 의존… 자체 기술개발 이제 첫 걸음 - 조선비즈 &nbsp;&nbsp; chosunbiz chosunbiz biz.chosun.com technology"
+    },
     {
       "id": "external:b09a46beb8357ee507ac74f8",
       "origin": "external",
