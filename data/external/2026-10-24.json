@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-24",
-  "updatedAt": "2026-10-25T00:44:56.862Z",
+  "updatedAt": "2026-10-26T00:57:11.148Z",
   "items": [
+    {
+      "id": "external:2182b1acc353ebcd8f559916",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-24",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "美 중간선거 민주당 우세…트럼프 ‘레임덕’ 위기 - 진일보 | 전남일보",
+      "summary": "美 중간선거 민주당 우세…트럼프 ‘레임덕’ 위기 &nbsp;&nbsp; 진일보 | 전남일보",
+      "detail": "美 중간선거 민주당 우세…트럼프 ‘레임덕’ 위기 &nbsp;&nbsp; 진일보 | 전남일보",
+      "source": "진일보 | 전남일보",
+      "sourceDomain": "jnilbo.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5PQzREeVdWRm1OcHZIUW83QmZyc3hiLWVER0JoWEFHSUR3Vjk1ZmFxOHpBYThtQXQ0ajlNcWdTS0dCTnV1TXQ3blBtQzVLdXUzQmJJUzc1MWpKX0R6VUJNNDhaTG1oSUlzMEpIcWY1Yw?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-26T00:57:07.320Z",
+      "searchText": "美 중간선거 민주당 우세…트럼프 ‘레임덕’ 위기 - 진일보 | 전남일보 美 중간선거 민주당 우세…트럼프 ‘레임덕’ 위기 &nbsp;&nbsp; 진일보 | 전남일보 진일보 | 전남일보 jnilbo.com world"
+    },
     {
       "id": "external:7a0d09492cd0a00115116b3d",
       "origin": "external",
