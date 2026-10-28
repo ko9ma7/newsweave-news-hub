@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-24",
-  "updatedAt": "2026-10-26T00:57:11.148Z",
+  "updatedAt": "2026-10-28T01:59:06.928Z",
   "items": [
+    {
+      "id": "external:1c50606e4f7b8ce0d33ceb08",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-10-24",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "catClass": "",
+      "title": "손영래 실장 \"인구 감소가 의료 공백으로 이어지는 역설…지역에 환자 없으면 의사도 없다\" - MEDI:GATE NEWS",
+      "summary": "손영래 실장 \"인구 감소가 의료 공백으로 이어지는 역설…지역에 환자 없으면 의사도 없다\" &nbsp;&nbsp; MEDI:GATE NEWS",
+      "detail": "손영래 실장 \"인구 감소가 의료 공백으로 이어지는 역설…지역에 환자 없으면 의사도 없다\" &nbsp;&nbsp; MEDI:GATE NEWS",
+      "source": "MEDI:GATE NEWS",
+      "sourceDomain": "m.medigatenews.com",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZM0N1eWlDMm9oX1lad3dsbk41UDZyMTZ4UzBJcE9IdWwzdVN3ei1rRTFiTnByYVpqUnpWd29oN2JXQ0c1WlJpNEVsU2VXS0xtMGxMbQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-28T01:59:04.611Z",
+      "searchText": "손영래 실장 \"인구 감소가 의료 공백으로 이어지는 역설…지역에 환자 없으면 의사도 없다\" - medi:gate news 손영래 실장 \"인구 감소가 의료 공백으로 이어지는 역설…지역에 환자 없으면 의사도 없다\" &nbsp;&nbsp; medi:gate news medi:gate news m.medigatenews.com health"
+    },
     {
       "id": "external:2182b1acc353ebcd8f559916",
       "origin": "external",
