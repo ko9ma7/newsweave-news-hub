@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-24",
-  "updatedAt": "2026-10-28T01:59:06.928Z",
+  "updatedAt": "2026-10-29T02:03:38.743Z",
   "items": [
+    {
+      "id": "external:404b70963580577d16791967",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-10-24",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "catClass": "",
+      "title": "금값 4000달러선 붕괴 … 중동 긴장에 뉴욕증시 동반 하락 - 뉴데일리",
+      "summary": "금값 4000달러선 붕괴 … 중동 긴장에 뉴욕증시 동반 하락 &nbsp;&nbsp; 뉴데일리",
+      "detail": "금값 4000달러선 붕괴 … 중동 긴장에 뉴욕증시 동반 하락 &nbsp;&nbsp; 뉴데일리",
+      "source": "뉴데일리",
+      "sourceDomain": "biz.newdaily.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OWjRjYWxEZ0w4S0xzemk4dVRiSW1TOFNCU1RJZ016NXpLSHRnaGdabDhUbVpNZGVHNEVzQmNCcFdodlNIM2JIQklwLUFHQ3NhbjBSUUVjcTQyR3YzR0pzMjBhTHZMN0Nna29IclJadG1JRDhxWExPRURhTdIBgAFBVV95cUxPYVRZZ3lETElqVWtoelB4X1BpYXc3SENiTDI0eklzOTA3bElZQUxzNzJjLUg5bzFVcVNSRWtqN1ZtN0lXMjBFbXNhYlFENHVOemoyUmY2MndBUWZ1a2plTVVIWUhvOTd1YTFKRXBxdWxXTWxEaDhQNl9UWEJYY3RoUQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-29T02:03:35.075Z",
+      "searchText": "금값 4000달러선 붕괴 … 중동 긴장에 뉴욕증시 동반 하락 - 뉴데일리 금값 4000달러선 붕괴 … 중동 긴장에 뉴욕증시 동반 하락 &nbsp;&nbsp; 뉴데일리 뉴데일리 biz.newdaily.co.kr economy"
+    },
     {
       "id": "external:1c50606e4f7b8ce0d33ceb08",
       "origin": "external",
