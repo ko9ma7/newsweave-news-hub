@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-25",
-  "updatedAt": "2026-10-26T00:57:11.145Z",
+  "updatedAt": "2026-10-31T01:57:37.963Z",
   "items": [
+    {
+      "id": "external:5bca83f2fd6a0b61789f8740",
+      "origin": "external",
+      "sourceId": "climate-google-news",
+      "date": "2026-10-25",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "CLIMATE",
+      "categoryLabel": "CLIMATE",
+      "topic": "",
+      "catClass": "",
+      "title": "빅테크, 재생에너지 '싹쓸이'‥한국 기업에도 '무탄소' 압박 - MBC 뉴스",
+      "summary": "빅테크, 재생에너지 '싹쓸이'‥한국 기업에도 '무탄소' 압박 &nbsp;&nbsp; MBC 뉴스",
+      "detail": "빅테크, 재생에너지 '싹쓸이'‥한국 기업에도 '무탄소' 압박 &nbsp;&nbsp; MBC 뉴스",
+      "source": "MBC 뉴스",
+      "sourceDomain": "imnews.imbc.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvcWJfbkcyQlJUT0NoMFZfZHU5eTBEN0xBblF6emRIRzh1ZHhRZGNmWEstTktseXlqYjh0T2NCMjlYel96RElzaVVCRFpvbTFlSEQyS3A1Vm16TVVTM2c4RFV4M2ZheDJ4Wm5XV0oySEVIRDlCVk9waNIBeEFVX3lxTE1RXzNCbVo1TWRnNEZ4MUx4MDdoZVVHVEVwZExQWUxSeUI2bXNvTk10TlUyZWZxcVJZU04xOEtkbWRrTFBualdLN0Z1X0pvc19BWDEweEoxR2FaOWFad3psWXA2V01hRk9XaV9OWXhQRnhjSHE2aGVJUQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-10-31T01:57:35.993Z",
+      "searchText": "빅테크, 재생에너지 '싹쓸이'‥한국 기업에도 '무탄소' 압박 - mbc 뉴스 빅테크, 재생에너지 '싹쓸이'‥한국 기업에도 '무탄소' 압박 &nbsp;&nbsp; mbc 뉴스 mbc 뉴스 imnews.imbc.com climate"
+    },
     {
       "id": "external:7a0d09492cd0a00115116b3d",
       "origin": "external",
