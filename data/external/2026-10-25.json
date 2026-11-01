@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-25",
-  "updatedAt": "2026-10-31T01:57:37.963Z",
+  "updatedAt": "2026-11-01T01:47:29.894Z",
   "items": [
+    {
+      "id": "external:805a2c758b9f2c3569068527",
+      "origin": "external",
+      "sourceId": "sports-google-news",
+      "date": "2026-10-25",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPORTS",
+      "categoryLabel": "SPORTS",
+      "topic": "",
+      "catClass": "",
+      "title": "[아침을 열며]화합은 사라지고 분열만 남은 한국 축구 - 경향신문",
+      "summary": "[아침을 열며]화합은 사라지고 분열만 남은 한국 축구 &nbsp;&nbsp; 경향신문",
+      "detail": "[아침을 열며]화합은 사라지고 분열만 남은 한국 축구 &nbsp;&nbsp; 경향신문",
+      "source": "경향신문",
+      "sourceDomain": "khan.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xWTUyaDB6MmtMbFRYNmF6T24teXg1VDdJdUlHZm9XWWNCTVA0UmxqTU5VaFg0T3BpRlJQNV9hcUxXRDVFb2M1NXZBcnZXTXRhN1lpQnlxYzYtZ9IBX0FVX3lxTE5neTU3bTFVYmhQOFFmYlphSmdZOVhQQ2ZFQkFyUGVkSjVBZEpFMDBuVDFRMVRqdHVGZVZ0OVJJWGgxUUljNTQwbU9tWlJaUGFMd0dFcWd5V1Y4TzRuMnhj?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-01T01:47:29.477Z",
+      "searchText": "[아침을 열며]화합은 사라지고 분열만 남은 한국 축구 - 경향신문 [아침을 열며]화합은 사라지고 분열만 남은 한국 축구 &nbsp;&nbsp; 경향신문 경향신문 khan.co.kr sports"
+    },
     {
       "id": "external:5bca83f2fd6a0b61789f8740",
       "origin": "external",

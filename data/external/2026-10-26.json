@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-26",
-  "updatedAt": "2026-10-31T01:57:37.962Z",
+  "updatedAt": "2026-11-01T01:47:29.891Z",
   "items": [
+    {
+      "id": "external:8ef9d0365686883b5d1e3713",
+      "origin": "external",
+      "sourceId": "economy-google-news",
+      "date": "2026-10-26",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "ECONOMY",
+      "categoryLabel": "ECONOMY",
+      "topic": "",
+      "catClass": "",
+      "title": "반도체 수출 호조에 3분기 한국 경제 1.0% '깜짝 성장' - 연합뉴스",
+      "summary": "반도체 수출 호조에 3분기 한국 경제 1.0% '깜짝 성장' &nbsp;&nbsp; 연합뉴스",
+      "detail": "반도체 수출 호조에 3분기 한국 경제 1.0% '깜짝 성장' &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqSDRJeW1UQ3hjQmdlaHZjdUczTFhLWDNnVThSTXNvRDNybXB4em9nUnJGc2JfaUhIZ0pKMGtlYTZ3MC1QNk5IU2pqcXdEaEFmcVIwSlNZVXROQ03SAWBBVV95cUxNTmlyUVlkbjZiZlpwektESng4bnpNRGo4eTJ0RjZwOEk4cHc5ZGlnUVN3Z180NFJGdjJnVWFJMkxuUkNiLVRXN0QzZ1QxUThzcVdfNjNSUWdtTVFrMzN6S0s?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-01T01:47:26.770Z",
+      "searchText": "반도체 수출 호조에 3분기 한국 경제 1.0% '깜짝 성장' - 연합뉴스 반도체 수출 호조에 3분기 한국 경제 1.0% '깜짝 성장' &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr economy"
+    },
     {
       "id": "external:68748ed74ef712d19fc47cb1",
       "origin": "external",

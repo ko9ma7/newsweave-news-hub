@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-30",
-  "updatedAt": "2026-10-31T01:57:37.959Z",
+  "updatedAt": "2026-11-01T01:47:29.890Z",
   "items": [
+    {
+      "id": "external:995b991d94054ab6515d76d9",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-10-30",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "[뉴욕 마켓 브리핑](30일) - 연합인포맥스",
+      "summary": "[뉴욕 마켓 브리핑](30일) &nbsp;&nbsp; 연합인포맥스",
+      "detail": "[뉴욕 마켓 브리핑](30일) &nbsp;&nbsp; 연합인포맥스",
+      "source": "연합인포맥스",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlUy1BNENuVzJvUHBjQTJPM0d2bnhPdHpiTERBWUM0RHl0VklWRkFCZmJUaTBVQmZzOW1VVTR0SXF2V1ZkQ2d5Y1RQYzM3NnpvU0NMNjdnckpVVmpUbnQxZGZld2VSTlk3U2pXVGpQSkc?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-01T01:47:26.305Z",
+      "searchText": "[뉴욕 마켓 브리핑](30일) - 연합인포맥스 [뉴욕 마켓 브리핑](30일) &nbsp;&nbsp; 연합인포맥스 연합인포맥스 news.einfomax.co.kr world"
+    },
     {
       "id": "external:e0e3cc91dc280c064568eb14",
       "origin": "external",
