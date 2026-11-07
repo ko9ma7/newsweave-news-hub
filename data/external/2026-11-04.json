@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-04",
-  "updatedAt": "2026-11-05T03:03:19.384Z",
+  "updatedAt": "2026-11-07T02:30:16.473Z",
   "items": [
+    {
+      "id": "external:3e12bd22aa32e13f0c7eb70a",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-11-04",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "[속보] 美 민주당 압승에 국제유가 8% 넘게 급락 - 연합뉴스",
+      "summary": "[속보] 美 민주당 압승에 국제유가 8% 넘게 급락 &nbsp;&nbsp; 연합뉴스",
+      "detail": "[속보] 美 민주당 압승에 국제유가 8% 넘게 급락 &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Cb2JNNjBIRk1DQzBOdW5KTm5DMUhSSHpBZ29BWUFXVjJCNjAxNHR3TzI1STlNanJOOXV1eVd1LTBQS1FybjN4VWNWNHROTHNhOXR6aWZRaGZ6TDjSAWBBVV95cUxQbHpTaUtrTzhHVmRMNEd3X0JDWnAydWhOaUhYS1UzZmV1aUtYQTRpODVqQjB1UnRzVkpGUGY5bzg1a18yc2d5d2xpc3c0RjVhVU51c3B6WVBTdEFrYXF6ejY?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-07T02:30:12.584Z",
+      "searchText": "[속보] 美 민주당 압승에 국제유가 8% 넘게 급락 - 연합뉴스 [속보] 美 민주당 압승에 국제유가 8% 넘게 급락 &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr world"
+    },
     {
       "id": "external:c05a3bfa019aae46a4741cd9",
       "origin": "external",
