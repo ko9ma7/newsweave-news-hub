@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-06",
-  "updatedAt": "2026-11-07T02:30:16.470Z",
+  "updatedAt": "2026-11-08T01:59:47.933Z",
   "items": [
+    {
+      "id": "external:52de6b6cd33b839e6d2d5c4c",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-11-06",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "[뉴스 동서남북] 북한 김성남 중국 방문…북중 관계 개선과 북미 대화 주목 - VOA 한국어 홈페이지",
+      "summary": "[뉴스 동서남북] 북한 김성남 중국 방문…북중 관계 개선과 북미 대화 주목 &nbsp;&nbsp; VOA 한국어 홈페이지",
+      "detail": "[뉴스 동서남북] 북한 김성남 중국 방문…북중 관계 개선과 북미 대화 주목 &nbsp;&nbsp; VOA 한국어 홈페이지",
+      "source": "VOA 한국어 홈페이지",
+      "sourceDomain": "voakorea.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FeW5MUjRMR2Ixc00yYzB5VVZOU2Nad0xLV1MyMkVDNlZKUGFmaEZCZVpnTnZhUkVCM3VjNTN2WXdKNnhINVlUZnBUbkVtcWh3d0ppNzBua0xnZFh6MWxxZDhvS1BVaDdLYmfSAWxBVV95cUxOMTZVLVdfTm1iYnBieU0xeE0tYnFuUGJoT3gtcm1UODF1OEpnYWhqWENFZkphVUNodXJDRWJvaTlUVEk2YkhKakRIOER6MmRvY2Q2NEc4V0lOM2d6cTMzcW9mTUJEOUh2LWVfRVI?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-08T01:59:44.049Z",
+      "searchText": "[뉴스 동서남북] 북한 김성남 중국 방문…북중 관계 개선과 북미 대화 주목 - voa 한국어 홈페이지 [뉴스 동서남북] 북한 김성남 중국 방문…북중 관계 개선과 북미 대화 주목 &nbsp;&nbsp; voa 한국어 홈페이지 voa 한국어 홈페이지 voakorea.com world"
+    },
     {
       "id": "external:75fa1c9bc58e7bc4ca493fdc",
       "origin": "external",
