@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-07",
-  "updatedAt": "2026-11-08T01:59:47.930Z",
+  "updatedAt": "2026-11-09T02:19:23.944Z",
   "items": [
+    {
+      "id": "external:16c29b8818c44fcaf88df025",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-11-07",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "'논문공장' 의혹에 국제 학계 발칵…국내 연구자도 연루됐나 - 연합뉴스",
+      "summary": "'논문공장' 의혹에 국제 학계 발칵…국내 연구자도 연루됐나 &nbsp;&nbsp; 연합뉴스",
+      "detail": "'논문공장' 의혹에 국제 학계 발칵…국내 연구자도 연루됐나 &nbsp;&nbsp; 연합뉴스",
+      "source": "연합뉴스",
+      "sourceDomain": "yna.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4elpTMlZFd3pFSGtPel81TVkxTmZ2MXljbnVoc3d2WXpYNzVISFNWbk10aWotd2h0SFlQeWdxdnFVWS1wYzZqXzIxeENQQ1hqQVA4MV9JaGtyOTjSAWBBVV95cUxPSTVic1FUYjdNTzE4ZHRJbmF6c1pMNjFlQzRuaTJMdGVNNnNUQlBHNFRod0QwcE5MN3dVSGhIRzdTNl9zVWl4RjkzY2M1bWk5Ui1hR3hrZjBKNEhGRTM3Q3M?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-09T02:19:20.226Z",
+      "searchText": "'논문공장' 의혹에 국제 학계 발칵…국내 연구자도 연루됐나 - 연합뉴스 '논문공장' 의혹에 국제 학계 발칵…국내 연구자도 연루됐나 &nbsp;&nbsp; 연합뉴스 연합뉴스 yna.co.kr world"
+    },
     {
       "id": "external:b11011ac1834d996f462eced",
       "origin": "external",
