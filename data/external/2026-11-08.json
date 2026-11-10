@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-08",
-  "updatedAt": "2026-11-09T02:19:23.940Z",
+  "updatedAt": "2026-11-10T04:28:11.332Z",
   "items": [
+    {
+      "id": "external:5701084c8b460aa3d2447845",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-11-08",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "현대차 정몽구 재단 장학생 이주언·박해림, 윤이상국제음악콩쿠르 동반 입상 | 뉴스 | 현대자동차그룹 - Hyundai Motor Group",
+      "summary": "현대차 정몽구 재단 장학생 이주언·박해림, 윤이상국제음악콩쿠르 동반 입상 | 뉴스 | 현대자동차그룹 &nbsp;&nbsp; Hyundai Motor Group",
+      "detail": "현대차 정몽구 재단 장학생 이주언·박해림, 윤이상국제음악콩쿠르 동반 입상 | 뉴스 | 현대자동차그룹 &nbsp;&nbsp; Hyundai Motor Group",
+      "source": "Hyundai Motor Group",
+      "sourceDomain": "hyundaimotorgroup.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaS1JaDNoVVZvV1NFZ3ZTd0JfVS1hR0FRUXVmczRLTTR1V3M3QnE0WkJKMXBjZW9naWdJZWppSVNNaWhOblJoaHlIOG5hWVV0WV90OG5oT2h2eFd5cWZ5Z0ZRWW9IYUU3NzVwbmZiT3ktblo2LTI4b0FLWnB2cEdiNzZRcUxGS1Z2b1hMQmJIbVc1VmtIN1haM3ptWUFNYmxPbG1Ha3o0UQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-10T04:28:07.618Z",
+      "searchText": "현대차 정몽구 재단 장학생 이주언·박해림, 윤이상국제음악콩쿠르 동반 입상 | 뉴스 | 현대자동차그룹 - hyundai motor group 현대차 정몽구 재단 장학생 이주언·박해림, 윤이상국제음악콩쿠르 동반 입상 | 뉴스 | 현대자동차그룹 &nbsp;&nbsp; hyundai motor group hyundai motor group hyundaimotorgroup.com world"
+    },
     {
       "id": "external:898ad771f228ac351f44af21",
       "origin": "external",
