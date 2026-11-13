@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-11",
-  "updatedAt": "2026-11-12T03:33:27.276Z",
+  "updatedAt": "2026-11-13T03:06:20.270Z",
   "items": [
+    {
+      "id": "external:1f4858946f0eed920f310e65",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-11-11",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "catClass": "",
+      "title": "제주 해역서 우주발사체 시험발사 준비하던 스쿠버다이버 사망 - 한겨레",
+      "summary": "제주 해역서 우주발사체 시험발사 준비하던 스쿠버다이버 사망 &nbsp;&nbsp; 한겨레",
+      "detail": "제주 해역서 우주발사체 시험발사 준비하던 스쿠버다이버 사망 &nbsp;&nbsp; 한겨레",
+      "source": "한겨레",
+      "sourceDomain": "hani.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5TFNkQ3poRjl4RWFkT0p0WjVFX3NkVjE2RUFjUEZWT3ViQmd3MUIzSnNPZUxnSERyZ1pBdDdEclp4d195QVdPRXFBV1Rob1hqNEFSMThFQmlDTE5WMVFB?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-13T03:06:19.167Z",
+      "searchText": "제주 해역서 우주발사체 시험발사 준비하던 스쿠버다이버 사망 - 한겨레 제주 해역서 우주발사체 시험발사 준비하던 스쿠버다이버 사망 &nbsp;&nbsp; 한겨레 한겨레 hani.co.kr space"
+    },
     {
       "id": "external:c7920830176641606500b6a9",
       "origin": "external",
