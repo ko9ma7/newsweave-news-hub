@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-12",
-  "updatedAt": "2026-11-13T03:06:20.268Z",
+  "updatedAt": "2026-11-15T02:20:00.383Z",
   "items": [
+    {
+      "id": "external:6538ec6a44b15b0a9ee43a00",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-11-12",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "젠슨 황 불륜, 또 터졌다…엔비디아 수장 리더십 ‘최대 위기’ - 재외동포신문",
+      "summary": "젠슨 황 불륜, 또 터졌다…엔비디아 수장 리더십 ‘최대 위기’ &nbsp;&nbsp; 재외동포신문",
+      "detail": "젠슨 황 불륜, 또 터졌다…엔비디아 수장 리더십 ‘최대 위기’ &nbsp;&nbsp; 재외동포신문",
+      "source": "재외동포신문",
+      "sourceDomain": "dongponews.net",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aYzN1TUw0TTdrR2h5cm95OTR1SnlscllxNlEwZnRVZl9XektpT0ZqSmY5aHpfaWxzS0lsT2NFdXhwdTVmOGRoZzZTa0Zyc2QwUlJRRVZuSUU5LXJ3dmdIMW9ZUDg3QjVGN1JXYQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-15T02:19:56.778Z",
+      "searchText": "젠슨 황 불륜, 또 터졌다…엔비디아 수장 리더십 ‘최대 위기’ - 재외동포신문 젠슨 황 불륜, 또 터졌다…엔비디아 수장 리더십 ‘최대 위기’ &nbsp;&nbsp; 재외동포신문 재외동포신문 dongponews.net world"
+    },
     {
       "id": "external:d8495a51cfb85901e9136d51",
       "origin": "external",

@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-13",
-  "updatedAt": "2026-11-14T02:52:33.018Z",
+  "updatedAt": "2026-11-15T02:20:00.385Z",
   "items": [
+    {
+      "id": "external:165d0bbf0475e248982d1905",
+      "origin": "external",
+      "sourceId": "health-google-news",
+      "date": "2026-11-13",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "HEALTH",
+      "categoryLabel": "HEALTH",
+      "topic": "",
+      "catClass": "",
+      "title": "삼천당제약 R&D 투자 3배 확대, 경구용 치료제 승부수 - 의약뉴스",
+      "summary": "삼천당제약 R&D 투자 3배 확대, 경구용 치료제 승부수 &nbsp;&nbsp; 의약뉴스",
+      "detail": "삼천당제약 R&D 투자 3배 확대, 경구용 치료제 승부수 &nbsp;&nbsp; 의약뉴스",
+      "source": "의약뉴스",
+      "sourceDomain": "newsmp.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yNGVJdG1ETWQxb1dkR1Z0S0xjRE5EOXAxNWZkSTFhX2RrUU1vTTZOWkJGRG9nWk5yUEo0OEhkNVRqd1hYZC1OdC1hRXF5X3AzRGVCTTVBRXFVcm5mRG9VM0lPbHhGSEh0?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-15T02:19:58.316Z",
+      "searchText": "삼천당제약 r&d 투자 3배 확대, 경구용 치료제 승부수 - 의약뉴스 삼천당제약 r&d 투자 3배 확대, 경구용 치료제 승부수 &nbsp;&nbsp; 의약뉴스 의약뉴스 newsmp.com health"
+    },
     {
       "id": "external:b48739efbb1da8358e57303a",
       "origin": "external",
