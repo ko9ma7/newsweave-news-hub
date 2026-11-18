@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-16",
-  "updatedAt": "2026-11-17T04:55:31.328Z",
+  "updatedAt": "2026-11-18T03:59:55.834Z",
   "items": [
+    {
+      "id": "external:41e5920c19292c70b58c5b05",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-11-16",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "catClass": "",
+      "title": "아마존 우주통신 위성 40기 ‘미아’ 됐다…스타링크 추격 차질 - 경향신문",
+      "summary": "아마존 우주통신 위성 40기 ‘미아’ 됐다…스타링크 추격 차질 &nbsp;&nbsp; 경향신문",
+      "detail": "아마존 우주통신 위성 40기 ‘미아’ 됐다…스타링크 추격 차질 &nbsp;&nbsp; 경향신문",
+      "source": "경향신문",
+      "sourceDomain": "khan.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aVE9wVExmMmZCY3ZoeUFWY3lhbzdtQmdjY3hONXpPVDd4RFI3NVhvd0NpV2hjS3BFaV9VcERodFU1NGpyUEFzWVZGMjFsTmFfTjFnemVxRTJwQdIBX0FVX3lxTE5xMVhYdk03ZXdqcjRPS3U0SGh3dTdlRkE4QXNnRGd1d3N2RDhmR0p5bEk5b292OGZRamg5ODJVT0JobVhCUGdlZzB2Ty0tSEwxSzVoOFI3QlJpbGdZQ2Rn?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-18T03:59:51.525Z",
+      "searchText": "아마존 우주통신 위성 40기 ‘미아’ 됐다…스타링크 추격 차질 - 경향신문 아마존 우주통신 위성 40기 ‘미아’ 됐다…스타링크 추격 차질 &nbsp;&nbsp; 경향신문 경향신문 khan.co.kr space"
+    },
     {
       "id": "external:ac018af2bf592feba12c3a8f",
       "origin": "external",
