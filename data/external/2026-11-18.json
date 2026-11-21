@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-18",
-  "updatedAt": "2026-11-19T03:57:02.992Z",
+  "updatedAt": "2026-11-21T03:43:03.196Z",
   "items": [
+    {
+      "id": "external:1b5947d05641bab752cb406e",
+      "origin": "external",
+      "sourceId": "world-google-news",
+      "date": "2026-11-18",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "WORLD",
+      "categoryLabel": "WORLD",
+      "topic": "",
+      "catClass": "",
+      "title": "시진핑 \"아태지역 공동 번영 위해 평화·안정 유지해야\" - 연합인포맥스",
+      "summary": "시진핑 \"아태지역 공동 번영 위해 평화·안정 유지해야\" &nbsp;&nbsp; 연합인포맥스",
+      "detail": "시진핑 \"아태지역 공동 번영 위해 평화·안정 유지해야\" &nbsp;&nbsp; 연합인포맥스",
+      "source": "연합인포맥스",
+      "sourceDomain": "news.einfomax.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YanZPSjluYlBuWV8zSU5IUWIxMG9QSjNacWF5Z193X3pJZmk2bm8tOVlCSEJGS1dZWDNNekZaRDdOeVFtaEpHRzhFamxlZVJ4djViWjNId1VkUW56X200UWIxcU1TSEFUd1RTT05SR2U?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-21T03:42:59.361Z",
+      "searchText": "시진핑 \"아태지역 공동 번영 위해 평화·안정 유지해야\" - 연합인포맥스 시진핑 \"아태지역 공동 번영 위해 평화·안정 유지해야\" &nbsp;&nbsp; 연합인포맥스 연합인포맥스 news.einfomax.co.kr world"
+    },
     {
       "id": "external:3e28afc499b9f84ab7faffae",
       "origin": "external",

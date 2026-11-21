@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-19",
-  "updatedAt": "2026-11-20T03:50:26.011Z",
+  "updatedAt": "2026-11-21T03:43:03.195Z",
   "items": [
+    {
+      "id": "external:f5d3ee727c44aa0c62f0c208",
+      "origin": "external",
+      "sourceId": "ai-google-news",
+      "date": "2026-11-19",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "AI",
+      "categoryLabel": "AI",
+      "topic": "",
+      "catClass": "",
+      "title": "경기도서관, 30일까지 인공지능(AI) 관련 문화행사 펼쳐 - 경기도뉴스포털",
+      "summary": "경기도서관, 30일까지 인공지능(AI) 관련 문화행사 펼쳐 &nbsp;&nbsp; 경기도뉴스포털",
+      "detail": "경기도서관, 30일까지 인공지능(AI) 관련 문화행사 펼쳐 &nbsp;&nbsp; 경기도뉴스포털",
+      "source": "경기도뉴스포털",
+      "sourceDomain": "gnews.gg.go.kr",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUkhIaGgwQzhXYloyUmhEZ2JvNGdkdVh5TmdsNlpQdjFOLV8xcVkxcVNHbDlwQWJMRkdidTVWQzZTZ3V0SnFlOV9ETkxia3l6ajl1TkFGejFOaHozMWhxSUtsT2lNTkpPSkg0MjN4NlpoOHZ5VkxjcDZrR2dlZHAzcUxZMUM?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-21T03:43:03.183Z",
+      "searchText": "경기도서관, 30일까지 인공지능(ai) 관련 문화행사 펼쳐 - 경기도뉴스포털 경기도서관, 30일까지 인공지능(ai) 관련 문화행사 펼쳐 &nbsp;&nbsp; 경기도뉴스포털 경기도뉴스포털 gnews.gg.go.kr ai"
+    },
     {
       "id": "external:c1cea2a65144e8d85d57df9c",
       "origin": "external",
