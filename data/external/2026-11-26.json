@@ -1,8 +1,31 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-26",
-  "updatedAt": "2026-11-27T04:43:31.663Z",
+  "updatedAt": "2026-11-28T04:28:28.810Z",
   "items": [
+    {
+      "id": "external:80479a5b564a3a9fd3a8c8b3",
+      "origin": "external",
+      "sourceId": "space-google-news",
+      "date": "2026-11-26",
+      "weekday": "",
+      "edition": "",
+      "kind": "external",
+      "rank": 99,
+      "category": "SPACE",
+      "categoryLabel": "SPACE",
+      "topic": "",
+      "catClass": "",
+      "title": "우주항공청 누리집 국가상징 국무회의 알아보기 - 우주항공청 누리집",
+      "summary": "우주항공청 누리집 국가상징 국무회의 알아보기 &nbsp;&nbsp; 우주항공청 누리집",
+      "detail": "우주항공청 누리집 국가상징 국무회의 알아보기 &nbsp;&nbsp; 우주항공청 누리집",
+      "source": "우주항공청 누리집",
+      "sourceDomain": "kasa.go.kr",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSlNQXzV6TlZGMVBlcWZmRVpDLV93N3pRNFpreHEyNG1LbVM0VjJSYzJDX1ZILVBteUdweUxveVoycTJrRHg0QXByalBaQXJYaGVkVW9NZGw4TFF5alQyVEhwUWRPdkJfTWlrb2Z4YnI4dUJpckxxZVk0bG9hLVVVMkN3QTNqaHFxaDBZVHlmYkp4dnE2Z2FjVGhkS3k5dWI2cWt6d1V3SGZEVmNhSkhjRC1MM3A4LUx3SG81bWpyTzhaWE05S3V3NVRNUi1fazd2dWZnM1dBbUpDQQ?oc=5",
+      "author": "",
+      "collectedAt": "2026-11-28T04:28:27.516Z",
+      "searchText": "우주항공청 누리집 국가상징 국무회의 알아보기 - 우주항공청 누리집 우주항공청 누리집 국가상징 국무회의 알아보기 &nbsp;&nbsp; 우주항공청 누리집 우주항공청 누리집 kasa.go.kr space"
+    },
     {
       "id": "external:734911ea76eaf0916b71449a",
       "origin": "external",
